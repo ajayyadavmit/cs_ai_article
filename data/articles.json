@@ -98,6 +98,26 @@
     "summarised_at": "2026-11-14T06:32:23.626122+00:00"
   },
   {
+    "title": "Elementary school students are guided in systematic and proactive AI practice. - Vietnam.vn",
+    "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxQRnI0MTkyeHpKRmJMNGo1LUtxUmpMNjM2Y0p4aTByZWlkSUZMcWtsQWZNdElBT1JHZ3hTTHJySVBXRElWRTl4OUJyNDVPOEpQWm5uUUUwQ3laUHFxYnVZVExqS1lFNnlJVEp4Um1FT1ZQSHZkUzFUUVZaT3lUMnZFa3U4c1ZHenFGYUY4TmRXOElHOFQyeUI2V0J3NUVoUQ?oc=5&hl=en-US&gl=US&ceid=US%3Aen",
+    "rss_url": "https://news.google.com/rss/articles/CBMingFBVV95cUxQRnI0MTkyeHpKRmJMNGo1LUtxUmpMNjM2Y0p4aTByZWlkSUZMcWtsQWZNdElBT1JHZ3hTTHJySVBXRElWRTl4OUJyNDVPOEpQWm5uUUUwQ3laUHFxYnVZVExqS1lFNnlJVEp4Um1FT1ZQSHZkUzFUUVZaT3lUMnZFa3U4c1ZHenFGYUY4TmRXOElHOFQyeUI2V0J3NUVoUQ?oc=5",
+    "publisher": "Vietnam.vn",
+    "author": "Not listed",
+    "published": "2026-11-10",
+    "year": "2026",
+    "description": "Elementary school students are guided in systematic and proactive AI practice. Vietnam.vn",
+    "score": 10,
+    "categories": [
+      "Student Activities and Assessment"
+    ],
+    "article_text": "",
+    "summary": "Main idea: Elementary school students in Vietnam are guided in systematic and proactive artificial intelligence practice.\n\nClassroom use: Elementary school teachers and young learners can potentially implement or engage with structured, proactive AI practice methods based on this general approach, though specific tools or lesson plans are not detailed in the text.\n\nWhy it is useful: It highlights an international initiative for introducing artificial intelligence early at the elementary level, offering a conceptual reference point for educators interested in establishing systematic AI learning habits for young students.",
+    "summary_status": "ok",
+    "first_seen": "2026-11-15",
+    "summary_error": "",
+    "summarised_at": "2026-11-15T06:41:04.670231+00:00"
+  },
+  {
     "title": "Chicago Public Schools blocks generative AI on student account as Google threatens to block search access - CBS News",
     "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOVk54R2J0eGdnYTk4U2I0aVk3V2RPYy00Y1kxYU54b2FlcWFET0NQUTRFUF90LXNtTDNzSDVhdVJFYmNqc1ZFcC0wSE9YUVVaaExxRW9iNTZ2ZEFyN0hsNWVYSUdrQUE3WTg4ZlB2VS1TWW5raFQtd2w1ZmczRGVGTUxpT1pMaE4ydTh5U2dhVU45WmJHRFVodFFMbE9rYm5ORE5wOQ",
     "rss_url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOVk54R2J0eGdnYTk4U2I0aVk3V2RPYy00Y1kxYU54b2FlcWFET0NQUTRFUF90LXNtTDNzSDVhdVJFYmNqc1ZFcC0wSE9YUVVaaExxRW9iNTZ2ZEFyN0hsNWVYSUdrQUE3WTg4ZlB2VS1TWW5raFQtd2w1ZmczRGVGTUxpT1pMaE4ydTh5U2dhVU45WmJHRFVodFFMbE9rYm5ORE5wOQ?oc=5",
@@ -138,7 +158,7 @@
     "year": "2026",
     "summary_status": "error",
     "summary_error": "ValueError: Not enough article text or RSS description was accessible to create a reliable gist.",
-    "summarised_at": "2026-11-14T06:33:06.168830+00:00"
+    "summarised_at": "2026-11-15T06:41:47.278286+00:00"
   },
   {
     "title": "MIT professor talks AI in computer science education, research - The Daily Cardinal",
@@ -215,11 +235,11 @@
       "Teaching and Learning Analytics"
     ],
     "article_text": "",
-    "summary": "Main idea: A Kings Research text discussing how EdTech reshapes student assessment through AI-based evaluation and continuous learning analytics.\n\nClassroom use: The source text is too brief to provide specific classroom activities, tools, models, or quizzes for Computer Science and AI teachers or learners.\n\nWhy it is useful: Its practical value is extremely limited because the supplied source only provides a title and publisher, lacking any concrete research findings, teacher resources, or methodological details.",
+    "summary": "Main idea: A market research overview by Kings Research discussing how EdTech reshapes student assessment through AI-based evaluation and continuous learning analytics.\n\nClassroom use: The source text is a high-level title only and does not provide specific tools, lesson plans, models, or classroom activities for computer science or AI teachers and learners.\n\nWhy it is useful: Its practical value is extremely limited because the provided text contains only a title, lacking any empirical data, actionable frameworks, or implementation details regarding school-level AI education.",
     "summary_status": "ok",
-    "first_seen": "2026-11-13",
+    "first_seen": "2026-11-14",
     "summary_error": "",
-    "summarised_at": "2026-11-13T12:38:08.540574+00:00"
+    "summarised_at": "2026-11-14T06:33:09.315675+00:00"
   },
   {
     "title": "How Is EdTech Reshaping Student Assessment Through AI-Based Evaluation and Continuous Learning Analytics? - Kings Research",
@@ -236,11 +256,11 @@
       "Teaching and Learning Analytics"
     ],
     "article_text": "",
-    "summary": "Main idea: A market research overview by Kings Research discussing how EdTech reshapes student assessment through AI-based evaluation and continuous learning analytics.\n\nClassroom use: The source text is a high-level title only and does not provide specific tools, lesson plans, models, or classroom activities for computer science or AI teachers and learners.\n\nWhy it is useful: Its practical value is extremely limited because the provided text contains only a title, lacking any empirical data, actionable frameworks, or implementation details regarding school-level AI education.",
+    "summary": "Main idea: This text from Kings Research introduces the topic of how educational technology is reshaping student assessment through artificial intelligence-based evaluation and continuous learning analytics.\n\nClassroom use: Because the provided text is only a short descriptive snippet and lacks specific tools, models, quizzes, or instructional activities, teachers and students cannot directly apply any concrete classroom methods from it.\n\nWhy it is useful: It has limited practical or research value for school-level Computer Science and AI education because the source text only mentions the broader theme without providing actual findings, features, or actionable educational guidance.",
     "summary_status": "ok",
-    "first_seen": "2026-11-14",
+    "first_seen": "2026-11-15",
     "summary_error": "",
-    "summarised_at": "2026-11-14T06:33:09.315675+00:00"
+    "summarised_at": "2026-11-15T06:41:55.500017+00:00"
   },
   {
     "title": "New Framework Maps How to Teach AI Literacy to Four-to-Six-Year-Olds - Bioengineer.org",
@@ -278,9 +298,9 @@
     "article_text": "",
     "summary": "",
     "summary_status": "error",
-    "first_seen": "2026-11-13",
+    "first_seen": "2026-11-14",
     "summary_error": "ValueError: Not enough article text or RSS description was accessible to create a reliable gist.",
-    "summarised_at": "2026-11-14T06:33:23.490532+00:00"
+    "summarised_at": "2026-11-15T06:42:09.687582+00:00"
   },
   {
     "title": "20 Best Generative AI Tools | Top Picks and Benefits - Simplilearn.com",
@@ -298,9 +318,9 @@
     "article_text": "",
     "summary": "",
     "summary_status": "error",
-    "first_seen": "2026-11-14",
+    "first_seen": "2026-11-15",
     "summary_error": "ValueError: Not enough article text or RSS description was accessible to create a reliable gist.",
-    "summarised_at": "2026-11-14T06:33:37.676112+00:00"
+    "summarised_at": "2026-11-15T06:42:23.912331+00:00"
   },
   {
     "title": "In Dewan Rakyat today: AI literacy, Brics role and AI Bill on the agenda - Malay Mail",
@@ -400,9 +420,9 @@
     "article_text": "",
     "summary": "",
     "summary_status": "error",
-    "first_seen": "2026-11-13",
+    "first_seen": "2026-11-14",
     "summary_error": "ValueError: Not enough article text or RSS description was accessible to create a reliable gist.",
-    "summarised_at": "2026-11-14T06:32:37.806016+00:00"
+    "summarised_at": "2026-11-15T06:41:18.857192+00:00"
   },
   {
     "title": "NCERT Launches New AI & CT Module For High School Students - Rediff",
@@ -420,9 +440,9 @@
     "article_text": "",
     "summary": "",
     "summary_status": "error",
-    "first_seen": "2026-11-14",
+    "first_seen": "2026-11-15",
     "summary_error": "ValueError: Not enough article text or RSS description was accessible to create a reliable gist.",
-    "summarised_at": "2026-11-14T06:32:51.987521+00:00"
+    "summarised_at": "2026-11-15T06:41:33.066695+00:00"
   },
   {
     "title": "NCERT Introduces AI And Computational Thinking Module For Classes 9–12 - BW Education",
@@ -543,7 +563,7 @@
     "year": "2026",
     "summary_status": "error",
     "summary_error": "ValueError: Not enough article text or RSS description was accessible to create a reliable gist.",
-    "summarised_at": "2026-11-14T06:33:51.864528+00:00"
+    "summarised_at": "2026-11-15T06:42:38.096363+00:00"
   },
   {
     "title": "AI Literacy in the Language Classroom: Navigating Opportunity and Risk - Cambridge University Press & Assessment",
@@ -587,7 +607,7 @@
     "year": "2026",
     "summary_status": "error",
     "summary_error": "ValueError: Not enough article text or RSS description was accessible to create a reliable gist.",
-    "summarised_at": "2026-11-14T06:34:06.039222+00:00"
+    "summarised_at": "2026-11-15T06:42:52.275923+00:00"
   },
   {
     "title": "EdgeConneX Expands Hello World Partnership to Bring AI Literacy and STEM Curriculum to More Than 100,000 Students by Early 2027 - Business Wire",
@@ -635,7 +655,7 @@
   },
   {
     "title": "PISA 2029: Media and AI Literacy – key concepts, curriculum links and competences - Teacher Magazine",
-    "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQbzdZUEZwQ3BzV05Yby0yM3pTbkMxSUNfeXhJNGprdHNfS0trUnpxVkRrUTBGb05uZ1EtUXpWVENBb0RzbWptekN5NzZHQ0RUZzF1cl9CWWVvZG9NTFA3WEtzRTFFMUdVUm5ock5waHFPSjlKM0s3VnR2WDZ1TmJxYzlwX2l1bUE5T0dwa1d4OU1ZTFN3NGRpV25Sdk9zYUxiZEdSbHVYT24zU1ZaTkltWVdYbU52MEl5YVZaUlNXVGs0UQ",
+    "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQbzdZUEZwQ3BzV05Yby0yM3pTbkMxSUNfeXhJNGprdHNfS0trUnpxVkRrUTBGb05uZ1EtUXpWVENBb0RzbWptekN5NzZHQ0RUZzF1cl9CWWVvZG9NTFA3WEtzRTFFMUdVUm5ock5waHFPSjlKM0s3VnR2WDZ1TmJxYzlwX2l1bUE5T0dwa1d4OU1ZTFN3NGRpV25Sdk9zYUxiZEdSbHVYT24zU1ZaTkltWVdYbU52MEl5YVZaUlNXVGs0UQ?oc=5&hl=en-US&gl=US&ceid=US%3Aen",
     "rss_url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQbzdZUEZwQ3BzV05Yby0yM3pTbkMxSUNfeXhJNGprdHNfS0trUnpxVkRrUTBGb05uZ1EtUXpWVENBb0RzbWptekN5NzZHQ0RUZzF1cl9CWWVvZG9NTFA3WEtzRTFFMUdVUm5ock5waHFPSjlKM0s3VnR2WDZ1TmJxYzlwX2l1bUE5T0dwa1d4OU1ZTFN3NGRpV25Sdk9zYUxiZEdSbHVYT24zU1ZaTkltWVdYbU52MEl5YVZaUlNXVGs0UQ?oc=5",
     "description": "PISA 2029: Media and AI Literacy – key concepts, curriculum links and competences Teacher Magazine",
     "published": "2026-04-29",
@@ -646,12 +666,14 @@
     "source": "",
     "article_text": "",
     "first_seen": "2026-11-13",
-    "summary": "",
+    "summary": "Main idea: This text is a Teacher Magazine article about PISA 2029 focusing on Media and AI Literacy, outlining key concepts, curriculum links, and competences.\n\nClassroom use: The source text does not provide specific details on how a teacher or learner could use it in the classroom.\n\nWhy it is useful: The text indicates relevance to future PISA 2029 assessments regarding Media and AI Literacy, though the provided source is only a short descriptive title without further details.",
     "summary_basis": "",
     "author": "Not listed",
     "publisher": "Publisher not listed",
     "year": "2026",
-    "summary_status": "pending"
+    "summary_status": "ok",
+    "summary_error": "",
+    "summarised_at": "2026-11-15T06:43:02.776610+00:00"
   },
   {
     "title": "Boston to become first major U.S. city public school district to launch AI literacy curriculum - Boston Herald",
