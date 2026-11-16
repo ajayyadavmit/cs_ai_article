@@ -91,11 +91,11 @@
       "Student Activities and Assessment"
     ],
     "article_text": "",
-    "summary": "Main idea: Elementary school students are guided in systematic and proactive AI practice in Vietnam.\n\nClassroom use: Teachers or learners could potentially apply systematic and proactive AI practice approaches at the elementary school level, though specific lesson plans or tools are not detailed in the source text.\n\nWhy it is useful: It indicates that structured AI practice is being introduced to young learners in elementary education, offering a general reference point for early-stage AI pedagogy, though the lack of specific details limits its immediate practical application.",
+    "summary": "Main idea: Elementary school students in Vietnam are guided in systematic and proactive artificial intelligence practice.\n\nClassroom use: Elementary school teachers and young learners can potentially implement or engage with structured, proactive AI practice methods based on this general approach, though specific tools or lesson plans are not detailed in the text.\n\nWhy it is useful: It highlights an international initiative for introducing artificial intelligence early at the elementary level, offering a conceptual reference point for educators interested in establishing systematic AI learning habits for young students.",
     "summary_status": "ok",
-    "first_seen": "2026-11-14",
+    "first_seen": "2026-11-15",
     "summary_error": "",
-    "summarised_at": "2026-11-14T06:32:23.626122+00:00"
+    "summarised_at": "2026-11-15T06:41:04.670231+00:00"
   },
   {
     "title": "Elementary school students are guided in systematic and proactive AI practice. - Vietnam.vn",
@@ -111,11 +111,11 @@
       "Student Activities and Assessment"
     ],
     "article_text": "",
-    "summary": "Main idea: Elementary school students in Vietnam are guided in systematic and proactive artificial intelligence practice.\n\nClassroom use: Elementary school teachers and young learners can potentially implement or engage with structured, proactive AI practice methods based on this general approach, though specific tools or lesson plans are not detailed in the text.\n\nWhy it is useful: It highlights an international initiative for introducing artificial intelligence early at the elementary level, offering a conceptual reference point for educators interested in establishing systematic AI learning habits for young students.",
+    "summary": "Main idea: A report from Vietnam.vn indicating that elementary school students are guided in systematic and proactive AI practice.\n\nClassroom use: Elementary school teachers and learners could potentially apply systematic and proactive AI practice approaches, though the specific activities or tools are not detailed in the source text.\n\nWhy it is useful: It highlights an initiative for early AI education in elementary schools, offering a reference point for structured AI learning practices, though limited by the lack of specific curricular details in the provided source.",
     "summary_status": "ok",
-    "first_seen": "2026-11-15",
+    "first_seen": "2026-11-16",
     "summary_error": "",
-    "summarised_at": "2026-11-15T06:41:04.670231+00:00"
+    "summarised_at": "2026-11-16T06:37:46.795557+00:00"
   },
   {
     "title": "Chicago Public Schools blocks generative AI on student account as Google threatens to block search access - CBS News",
@@ -158,7 +158,7 @@
     "year": "2026",
     "summary_status": "error",
     "summary_error": "ValueError: Not enough article text or RSS description was accessible to create a reliable gist.",
-    "summarised_at": "2026-11-15T06:41:47.278286+00:00"
+    "summarised_at": "2026-11-16T06:38:29.339685+00:00"
   },
   {
     "title": "MIT professor talks AI in computer science education, research - The Daily Cardinal",
@@ -235,11 +235,11 @@
       "Teaching and Learning Analytics"
     ],
     "article_text": "",
-    "summary": "Main idea: A market research overview by Kings Research discussing how EdTech reshapes student assessment through AI-based evaluation and continuous learning analytics.\n\nClassroom use: The source text is a high-level title only and does not provide specific tools, lesson plans, models, or classroom activities for computer science or AI teachers and learners.\n\nWhy it is useful: Its practical value is extremely limited because the provided text contains only a title, lacking any empirical data, actionable frameworks, or implementation details regarding school-level AI education.",
+    "summary": "Main idea: This text from Kings Research introduces the topic of how educational technology is reshaping student assessment through artificial intelligence-based evaluation and continuous learning analytics.\n\nClassroom use: Because the provided text is only a short descriptive snippet and lacks specific tools, models, quizzes, or instructional activities, teachers and students cannot directly apply any concrete classroom methods from it.\n\nWhy it is useful: It has limited practical or research value for school-level Computer Science and AI education because the source text only mentions the broader theme without providing actual findings, features, or actionable educational guidance.",
     "summary_status": "ok",
-    "first_seen": "2026-11-14",
+    "first_seen": "2026-11-15",
     "summary_error": "",
-    "summarised_at": "2026-11-14T06:33:09.315675+00:00"
+    "summarised_at": "2026-11-15T06:41:55.500017+00:00"
   },
   {
     "title": "How Is EdTech Reshaping Student Assessment Through AI-Based Evaluation and Continuous Learning Analytics? - Kings Research",
@@ -256,11 +256,11 @@
       "Teaching and Learning Analytics"
     ],
     "article_text": "",
-    "summary": "Main idea: This text from Kings Research introduces the topic of how educational technology is reshaping student assessment through artificial intelligence-based evaluation and continuous learning analytics.\n\nClassroom use: Because the provided text is only a short descriptive snippet and lacks specific tools, models, quizzes, or instructional activities, teachers and students cannot directly apply any concrete classroom methods from it.\n\nWhy it is useful: It has limited practical or research value for school-level Computer Science and AI education because the source text only mentions the broader theme without providing actual findings, features, or actionable educational guidance.",
+    "summary": "Main idea: A market research overview from Kings Research discussing how EdTech reshapes student assessment through artificial intelligence-based evaluation and continuous learning analytics.\n\nClassroom use: Computer Science and AI educators can review the provided text to understand industry trends regarding AI-based evaluation and learning analytics in educational technology.\n\nWhy it is useful: It offers broad contextual insight into how automated evaluation and continuous analytics are discussed within the EdTech sector, though the source text is very limited and contains no specific tools, models, or classroom activities.",
     "summary_status": "ok",
-    "first_seen": "2026-11-15",
+    "first_seen": "2026-11-16",
     "summary_error": "",
-    "summarised_at": "2026-11-15T06:41:55.500017+00:00"
+    "summarised_at": "2026-11-16T06:38:32.348765+00:00"
   },
   {
     "title": "New Framework Maps How to Teach AI Literacy to Four-to-Six-Year-Olds - Bioengineer.org",
@@ -298,9 +298,9 @@
     "article_text": "",
     "summary": "",
     "summary_status": "error",
-    "first_seen": "2026-11-14",
+    "first_seen": "2026-11-15",
     "summary_error": "ValueError: Not enough article text or RSS description was accessible to create a reliable gist.",
-    "summarised_at": "2026-11-15T06:42:09.687582+00:00"
+    "summarised_at": "2026-11-16T06:38:46.513080+00:00"
   },
   {
     "title": "20 Best Generative AI Tools | Top Picks and Benefits - Simplilearn.com",
@@ -318,9 +318,9 @@
     "article_text": "",
     "summary": "",
     "summary_status": "error",
-    "first_seen": "2026-11-15",
+    "first_seen": "2026-11-16",
     "summary_error": "ValueError: Not enough article text or RSS description was accessible to create a reliable gist.",
-    "summarised_at": "2026-11-15T06:42:23.912331+00:00"
+    "summarised_at": "2026-11-16T06:39:00.693632+00:00"
   },
   {
     "title": "In Dewan Rakyat today: AI literacy, Brics role and AI Bill on the agenda - Malay Mail",
@@ -420,9 +420,9 @@
     "article_text": "",
     "summary": "",
     "summary_status": "error",
-    "first_seen": "2026-11-14",
+    "first_seen": "2026-11-15",
     "summary_error": "ValueError: Not enough article text or RSS description was accessible to create a reliable gist.",
-    "summarised_at": "2026-11-15T06:41:18.857192+00:00"
+    "summarised_at": "2026-11-16T06:38:00.965046+00:00"
   },
   {
     "title": "NCERT Launches New AI & CT Module For High School Students - Rediff",
@@ -440,9 +440,9 @@
     "article_text": "",
     "summary": "",
     "summary_status": "error",
-    "first_seen": "2026-11-15",
+    "first_seen": "2026-11-16",
     "summary_error": "ValueError: Not enough article text or RSS description was accessible to create a reliable gist.",
-    "summarised_at": "2026-11-15T06:41:33.066695+00:00"
+    "summarised_at": "2026-11-16T06:38:15.131519+00:00"
   },
   {
     "title": "NCERT Introduces AI And Computational Thinking Module For Classes 9–12 - BW Education",
@@ -563,7 +563,7 @@
     "year": "2026",
     "summary_status": "error",
     "summary_error": "ValueError: Not enough article text or RSS description was accessible to create a reliable gist.",
-    "summarised_at": "2026-11-15T06:42:38.096363+00:00"
+    "summarised_at": "2026-11-16T06:39:14.879874+00:00"
   },
   {
     "title": "AI Literacy in the Language Classroom: Navigating Opportunity and Risk - Cambridge University Press & Assessment",
@@ -607,7 +607,7 @@
     "year": "2026",
     "summary_status": "error",
     "summary_error": "ValueError: Not enough article text or RSS description was accessible to create a reliable gist.",
-    "summarised_at": "2026-11-15T06:42:52.275923+00:00"
+    "summarised_at": "2026-11-16T06:39:29.065722+00:00"
   },
   {
     "title": "EdgeConneX Expands Hello World Partnership to Bring AI Literacy and STEM Curriculum to More Than 100,000 Students by Early 2027 - Business Wire",
@@ -677,7 +677,7 @@
   },
   {
     "title": "Boston to become first major U.S. city public school district to launch AI literacy curriculum - Boston Herald",
-    "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxOb1hVOWxWaDhXU0lEWVBEWEUwdktmUVFkaFA3UW9RQ1E0ZThQTjZlQ0FMcWotVXJEQ1hxRjFUdjAzcUpOZXRQRWUwazhEMFlfTDg5djVKT1Ztb2R3VG1aU3dyYUpsb092RF9sNU9ibTRXUGtkUmJyS0FLNTRaRjBqZjRiZDZsZTY1dlRQdDlrVFZzUkpyVkt4R2llOENybHdkSDN4SWl6YVVXMlZGVzlKX0dRVFlUZF9GdHZfaWdsLXlvdjlfTFJVWWtoR3l2X2s",
+    "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxOb1hVOWxWaDhXU0lEWVBEWEUwdktmUVFkaFA3UW9RQ1E0ZThQTjZlQ0FMcWotVXJEQ1hxRjFUdjAzcUpOZXRQRWUwazhEMFlfTDg5djVKT1Ztb2R3VG1aU3dyYUpsb092RF9sNU9ibTRXUGtkUmJyS0FLNTRaRjBqZjRiZDZsZTY1dlRQdDlrVFZzUkpyVkt4R2llOENybHdkSDN4SWl6YVVXMlZGVzlKX0dRVFlUZF9GdHZfaWdsLXlvdjlfTFJVWWtoR3l2X2s?oc=5&hl=en-US&gl=US&ceid=US%3Aen",
     "rss_url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxOb1hVOWxWaDhXU0lEWVBEWEUwdktmUVFkaFA3UW9RQ1E0ZThQTjZlQ0FMcWotVXJEQ1hxRjFUdjAzcUpOZXRQRWUwazhEMFlfTDg5djVKT1Ztb2R3VG1aU3dyYUpsb092RF9sNU9ibTRXUGtkUmJyS0FLNTRaRjBqZjRiZDZsZTY1dlRQdDlrVFZzUkpyVkt4R2llOENybHdkSDN4SWl6YVVXMlZGVzlKX0dRVFlUZF9GdHZfaWdsLXlvdjlfTFJVWWtoR3l2X2s?oc=5",
     "description": "Boston to become first major U.S. city public school district to launch AI literacy curriculum Boston Herald",
     "published": "2026-03-30",
@@ -688,12 +688,14 @@
     "source": "",
     "article_text": "",
     "first_seen": "2026-11-13",
-    "summary": "",
+    "summary": "Main idea: Boston is set to become the first major U.S. city public school district to launch an artificial intelligence literacy curriculum, as reported by the Boston Herald.\n\nClassroom use: Although specific lesson details are not provided in the source text, school-level computer science and AI educators can anticipate the district adopting formal instructional materials focused on AI literacy.\n\nWhy it is useful: This news highlights a major milestone in public education policy, signaling a growing trend toward institutional adoption of AI literacy curricula that teachers across other districts may soon need to prepare for or reference.",
     "summary_basis": "",
     "author": "Not listed",
     "publisher": "Publisher not listed",
     "year": "2026",
-    "summary_status": "pending"
+    "summary_status": "ok",
+    "summary_error": "",
+    "summarised_at": "2026-11-16T06:39:32.467217+00:00"
   },
   {
     "title": "Learning to Use AI for Learning: Teaching Responsible Use of AI Chatbot to K-12 Students Through an AI Literacy Module - The Association for the Advancement of Artificial Intelligence",
