@@ -1,0 +1,71 @@
+name: Collect education articles
+
+on:
+  schedule:
+    # Runs once a day at 00:15 UTC. Scheduled runs collect articles and update
+    # data/articles.json plus feed.xml; Gemini summaries remain disabled.
+    - cron: "15 0 * * *"
+
+  workflow_dispatch:
+    inputs:
+      generate_summaries:
+        description: "Use Gemini for short summaries (up to 5 newest articles per region; incurs API usage)"
+        required: false
+        type: boolean
+        default: false
+
+permissions:
+  contents: write
+
+# Avoid overlapping scheduled/manual commits to the generated data files.
+concurrency:
+  group: education-article-collection
+  cancel-in-progress: false
+
+jobs:
+  collect-articles:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
+
+      # The collector writes only machine-maintained data and the RSS feed.
+      # index.html, header.html, footer.html, CSS, and JavaScript are templates
+      # and are deliberately excluded from the commit step below.
+      - name: Collect articles and update feed
+        env:
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+          GEMINI_MODEL: gemini-3.5-flash-lite
+          GENERATE_SUMMARIES: ${{ github.event_name == 'workflow_dispatch' && inputs.generate_summaries || false }}
+          SITE_URL: https://ajayyadavmit.github.io/cs_ai_education
+        run: |
+          python scripts/collect_articles.py
+
+      # Stage an explicit allow-list. Do not use "git add ." here: website
+      # presentation files are hand-edited and must never be overwritten by CI.
+      - name: Commit and push article data and RSS
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
+          git add data/articles.json feed.xml
+
+          if ! git diff --cached --quiet; then
+            git commit -m "Update collected education articles"
+            git fetch origin main
+            git rebase origin/main
+            git push origin HEAD:refs/heads/main
+          else
+            echo "No changes to publish."
+          fi

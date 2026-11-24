@@ -12,12 +12,15 @@
     "categories": [
       "Computational Thinking"
     ],
-    "article_text": "",
     "summary": "",
     "summary_status": "error",
     "first_seen": "2026-11-24",
     "summary_error": "ValueError: Not enough article text or RSS description was accessible to create a reliable gist.",
-    "summarised_at": "2026-11-24T10:00:44.670871+00:00"
+    "summarised_at": "2026-11-24T10:00:44.670871+00:00",
+    "region": "Global",
+    "source": "Google News",
+    "content_type": "Web article",
+    "collected_at": "2026-11-24"
   },
   {
     "title": "The Learning Frontier: AI in Education Conference for Independent Schools - Superpower Daily",
@@ -32,12 +35,15 @@
     "categories": [
       "AI in Education"
     ],
-    "article_text": "",
     "summary": "Main idea: The source mentions The Learning Frontier, an artificial intelligence in education conference specifically tailored for independent schools, as reported by Superpower Daily.\n\nClassroom use: The available text does not provide specific details on how a computer science or artificial intelligence teacher or school learner could use it in the classroom.\n\nWhy it is useful: The practical or research value cannot be determined because the provided source text is incomplete and only consists of a short event title and publisher name without further details.",
     "summary_status": "ok",
     "first_seen": "2026-11-23",
     "summary_error": "",
-    "summarised_at": "2026-11-23T07:47:29.559049+00:00"
+    "summarised_at": "2026-11-23T07:47:29.559049+00:00",
+    "region": "Global",
+    "source": "Google News",
+    "content_type": "Web article",
+    "collected_at": "2026-11-24"
   },
   {
     "title": "The Learning Frontier: AI in Education Conference for Independent Schools - Superpower Daily",
@@ -52,10 +58,13 @@
     "categories": [
       "AI in Education"
     ],
-    "article_text": "",
     "summary": "",
     "summary_status": "pending",
-    "first_seen": "2026-11-24"
+    "first_seen": "2026-11-24",
+    "region": "Global",
+    "source": "Google News",
+    "content_type": "Web article",
+    "collected_at": "2026-11-24"
   },
   {
     "title": "Ridge High School Students to Explore Artificial Intelligence Through New SHARE AI Club - TAPinto",
@@ -70,12 +79,15 @@
     "categories": [
       "Student Activities and Assessment"
     ],
-    "article_text": "",
     "summary": "Main idea: Ridge High School students can explore artificial intelligence through a newly formed student organization called the SHARE AI Club.\n\nClassroom use: High school students and educators can establish or participate in a similar school-based club activity focused on exploring artificial intelligence topics outside of traditional coursework.\n\nWhy it is useful: It highlights an extracurricular model for introducing artificial intelligence topics to high school students, though the provided text lacks specific details on curriculum, tools, or teaching resources.",
     "summary_status": "ok",
     "first_seen": "2026-11-22",
     "summary_error": "",
-    "summarised_at": "2026-11-22T06:56:37.673205+00:00"
+    "summarised_at": "2026-11-22T06:56:37.673205+00:00",
+    "region": "Global",
+    "source": "Google News",
+    "content_type": "Web article",
+    "collected_at": "2026-11-24"
   },
   {
     "title": "DepEd’s AI tool 'Project SABAY' to identify learners’ needs in 15 minutes MANILA – The Department of Education (DepEd) on Wednesday highlighted the benefits of the artificial intelligence (AI) tool called Project SABAY in helping teachers identify learners' ne - Facebook",
@@ -90,12 +102,15 @@
     "categories": [
       "Education Technology"
     ],
-    "article_text": "",
     "summary": "Main idea: The Department of Education highlighted an artificial intelligence tool named Project SABAY, which is designed to identify learners' needs in fifteen minutes.\n\nClassroom use: Teachers can potentially use the AI tool, as highlighted by the Department of Education, to help identify the needs of learners.\n\nWhy it is useful: Based on the provided text, the tool offers the practical benefit of helping teachers identify learners' needs within a fifteen-minute timeframe, though specific details about its features and implementation are not provided in the source.",
     "summary_status": "ok",
     "first_seen": "2026-11-22",
     "summary_error": "",
-    "summarised_at": "2026-11-22T06:58:21.766735+00:00"
+    "summarised_at": "2026-11-22T06:58:21.766735+00:00",
+    "region": "Global",
+    "source": "Google News",
+    "content_type": "Web article",
+    "collected_at": "2026-11-24"
   },
   {
     "title": "DepEd’s AI tool 'Project SABAY' to identify learners’ needs in 15 minutes MANILA – The Department of Education (DepEd) on Wednesday highlighted the benefits of the artificial intelligence (AI) tool called Project SABAY in helping teachers identify learners' ne - Facebook",
@@ -110,12 +125,13 @@
     "categories": [
       "Education Technology"
     ],
-    "article_text": "",
-    "summary": "Main idea: The Department of Education highlighted an artificial intelligence tool named Project SABAY, which is designed to identify learners' needs in fifteen minutes.\n\nClassroom use: Teachers could potentially use this AI tool to help identify learners' needs within a short timeframe, based on the limited information provided in the source text.\n\nWhy it is useful: It offers a potentially fast assessment process, claiming to identify student needs in just fifteen minutes, though specific features and practical applications are not detailed in the available text.",
-    "summary_status": "ok",
+    "summary": "",
+    "summary_status": "not_requested",
     "first_seen": "2026-11-24",
-    "summary_error": "",
-    "summarised_at": "2026-11-24T10:00:47.728728+00:00"
+    "region": "Global",
+    "source": "Google News",
+    "content_type": "Web article",
+    "collected_at": "2026-11-24"
   },
   {
     "title": "AI in Education: How Artificial Intelligence Is Transforming Classrooms and Digital Learning in India - Business News This Week",
@@ -131,12 +147,15 @@
       "AI in Education",
       "Digital Pedagogy"
     ],
-    "article_text": "",
     "summary": "Main idea: A news article reporting on how artificial intelligence is transforming classrooms and digital learning environments in India.\n\nClassroom use: The source text lacks specific details, meaning teachers and students cannot derive concrete lesson models, quizzes, activities, or tools directly from it.\n\nWhy it is useful: Its practical value is extremely limited for school-level Computer Science and AI education, as the text only provides a general headline and introduction without offering actionable teaching approaches, research data, or specific educational resources.",
     "summary_status": "ok",
     "first_seen": "2026-11-20",
     "summary_error": "",
-    "summarised_at": "2026-11-20T07:23:42.482151+00:00"
+    "summarised_at": "2026-11-20T07:23:42.482151+00:00",
+    "region": "India",
+    "source": "Google News",
+    "content_type": "Web article",
+    "collected_at": "2026-11-24"
   },
   {
     "title": "BU’s EVAL collaborative researches AI tools in education, seeks to ‘understand the limits’ - The Daily Free Press",
@@ -151,12 +170,13 @@
     "categories": [
       "Education Technology"
     ],
-    "article_text": "",
-    "summary": "Main idea: Boston University's EVAL collaborative conducts research on artificial intelligence tools within education, specifically aiming to understand the limits of these technologies.\n\nClassroom use: The source text does not provide specific details on how computer science or AI teachers and school learners can use the collaborative's tools or findings in the classroom.\n\nWhy it is useful: It highlights an ongoing institutional research effort into AI educational tools. However, because the text lacks specific details, its immediate practical value for school-level teaching or learning remains strictly limited based on this source alone.",
-    "summary_status": "ok",
+    "summary": "",
+    "summary_status": "not_requested",
     "first_seen": "2026-11-18",
-    "summary_error": "",
-    "summarised_at": "2026-11-23T07:47:32.948404+00:00"
+    "region": "Global",
+    "source": "Google News",
+    "content_type": "Web article",
+    "collected_at": "2026-11-24"
   },
   {
     "title": "BU’s EVAL collaborative researches AI tools in education, seeks to ‘understand the limits’ - The Daily Free Press",
@@ -171,10 +191,13 @@
     "categories": [
       "Education Technology"
     ],
-    "article_text": "",
     "summary": "",
-    "summary_status": "pending",
-    "first_seen": "2026-11-24"
+    "summary_status": "not_requested",
+    "first_seen": "2026-11-24",
+    "region": "Global",
+    "source": "Google News",
+    "content_type": "Web article",
+    "collected_at": "2026-11-24"
   },
   {
     "title": "Chicago schools block student AI tools as Google changes threaten Search access - Heartlander News",
@@ -189,12 +212,15 @@
     "categories": [
       "Education Technology"
     ],
-    "article_text": "",
     "summary": "Main idea: Chicago Public Schools have blocked student access to artificial intelligence tools, while impending Google changes threaten student access to Search.\n\nClassroom use: Computer science and artificial intelligence teachers and students cannot utilize the blocked AI tools within the district's systems, and must navigate potential disruptions to Google Search access.\n\nWhy it is useful: This news highlights institutional policy restrictions and technological changes affecting digital tools in schools, serving as a cautionary context for educators planning reliance on specific AI or search applications.",
     "summary_status": "ok",
     "first_seen": "2026-11-22",
     "summary_error": "",
-    "summarised_at": "2026-11-22T06:58:27.944390+00:00"
+    "summarised_at": "2026-11-22T06:58:27.944390+00:00",
+    "region": "USA",
+    "source": "Google News",
+    "content_type": "Web article",
+    "collected_at": "2026-11-24"
   },
   {
     "title": "AI tools might help teachers. Students? Not so much, research review finds - Chalkbeat",
@@ -209,12 +235,13 @@
     "categories": [
       "Education Technology"
     ],
-    "article_text": "",
-    "summary": "Main idea: A research review by Chalkbeat finds that artificial intelligence tools may assist teachers, but currently offer limited benefits for students.\n\nClassroom use: The source text does not provide specific details on how teachers or students should use AI tools in the classroom.\n\nWhy it is useful: The resource highlights research findings regarding the differing effectiveness of AI tools for educators versus learners, though it offers no specific tools or teaching approaches in the provided text.",
-    "summary_status": "ok",
+    "summary": "",
+    "summary_status": "not_requested",
     "first_seen": "2026-11-23",
-    "summary_error": "",
-    "summarised_at": "2026-11-23T07:47:12.376509+00:00"
+    "region": "Global",
+    "source": "Google News",
+    "content_type": "Web article",
+    "collected_at": "2026-11-24"
   },
   {
     "title": "Bebras computational thinking challenge begins for first- and second-grade pupils - سانا",
@@ -229,10 +256,13 @@
     "categories": [
       "Computational Thinking"
     ],
-    "article_text": "",
     "summary": "",
-    "summary_status": "pending",
-    "first_seen": "2026-11-21"
+    "summary_status": "not_requested",
+    "first_seen": "2026-11-21",
+    "region": "Global",
+    "source": "Google News",
+    "content_type": "Web article",
+    "collected_at": "2026-11-24"
   },
   {
     "title": "AI-generated lesson plans save teachers time. Just don’t let the kids know. - Chalkbeat",
@@ -247,10 +277,13 @@
     "categories": [
       "Education Technology"
     ],
-    "article_text": "",
     "summary": "",
-    "summary_status": "pending",
-    "first_seen": "2026-11-14"
+    "summary_status": "not_requested",
+    "first_seen": "2026-11-14",
+    "region": "Global",
+    "source": "Google News",
+    "content_type": "Web article",
+    "collected_at": "2026-11-24"
   },
   {
     "title": "Manitoba schools integrate AI literacy into classroom curriculum - Winnipeg Free Press",
@@ -263,16 +296,15 @@
       "AI in Education"
     ],
     "source": "",
-    "article_text": "",
     "first_seen": "2026-11-13",
-    "summary": "Main idea: Manitoba schools are integrating artificial intelligence literacy into their classroom curriculum according to a Winnipeg Free Press report.\n\nClassroom use: Teachers and learners in Manitoba can engage with newly integrated artificial intelligence literacy content as part of the classroom curriculum.\n\nWhy it is useful: This development highlights a regional curriculum update that introduces artificial intelligence literacy into school settings, though specific teaching tools, activities, or age groups are not detailed in the provided text.",
-    "summary_basis": "",
+    "summary": "",
     "author": "Not listed",
     "publisher": "Publisher not listed",
     "year": "2026",
-    "summary_status": "ok",
-    "summary_error": "",
-    "summarised_at": "2026-11-13T12:37:47.680925+00:00"
+    "summary_status": "not_requested",
+    "region": "Global",
+    "content_type": "Web article",
+    "collected_at": "2026-11-24"
   },
   {
     "title": "AI – Master and Commander: Lessons from graduate student projects and the need for an AI-enriched contract - CEPR",
@@ -287,10 +319,13 @@
     "categories": [
       "Education Technology"
     ],
-    "article_text": "",
     "summary": "",
-    "summary_status": "pending",
-    "first_seen": "2026-11-14"
+    "summary_status": "not_requested",
+    "first_seen": "2026-11-14",
+    "region": "Global",
+    "source": "Google News",
+    "content_type": "Web article",
+    "collected_at": "2026-11-24"
   },
   {
     "title": "A programme-wide approach to AI literacy - Times Higher Education",
@@ -303,14 +338,15 @@
       "AI in Education"
     ],
     "source": "",
-    "article_text": "",
     "first_seen": "2026-11-13",
     "summary": "",
-    "summary_basis": "",
     "author": "Not listed",
     "publisher": "Publisher not listed",
     "year": "2026",
-    "summary_status": "pending"
+    "summary_status": "not_requested",
+    "region": "Global",
+    "content_type": "Web article",
+    "collected_at": "2026-11-24"
   },
   {
     "title": "Elementary school students are guided in systematic and proactive AI practice. - Vietnam.vn",
@@ -325,12 +361,13 @@
     "categories": [
       "Student Activities and Assessment"
     ],
-    "article_text": "",
-    "summary": "Main idea: A report from Vietnam.vn indicating that elementary school students are guided in systematic and proactive AI practice.\n\nClassroom use: Elementary school teachers and learners could potentially apply systematic and proactive AI practice approaches, though the specific activities or tools are not detailed in the source text.\n\nWhy it is useful: It highlights an initiative for early AI education in elementary schools, offering a reference point for structured AI learning practices, though limited by the lack of specific curricular details in the provided source.",
-    "summary_status": "ok",
+    "summary": "",
+    "summary_status": "not_requested",
     "first_seen": "2026-11-16",
-    "summary_error": "",
-    "summarised_at": "2026-11-16T06:37:46.795557+00:00"
+    "region": "Global",
+    "source": "Google News",
+    "content_type": "Web article",
+    "collected_at": "2026-11-24"
   },
   {
     "title": "Chicago Public Schools blocks generative AI on student account as Google threatens to block search access - CBS News",
@@ -343,7 +380,6 @@
       "AI in Education"
     ],
     "source": "CBS News",
-    "article_text": "Google News",
     "first_seen": "2026-11-13",
     "summary": "",
     "summary_basis": "Insufficient source text",
@@ -351,7 +387,10 @@
     "summary_status": "error",
     "author": "Not listed",
     "publisher": "Publisher not listed",
-    "year": "2026"
+    "year": "2026",
+    "region": "USA",
+    "content_type": "Web article",
+    "collected_at": "2026-11-24"
   },
   {
     "title": "AI literacy: When it pays to listen to students - School Management Plus",
@@ -364,16 +403,15 @@
       "AI in Education"
     ],
     "source": "",
-    "article_text": "",
     "first_seen": "2026-11-13",
     "summary": "",
-    "summary_basis": "",
     "author": "Not listed",
     "publisher": "Publisher not listed",
     "year": "2026",
-    "summary_status": "error",
-    "summary_error": "ValueError: Not enough article text or RSS description was accessible to create a reliable gist.",
-    "summarised_at": "2026-11-24T09:59:33.710994+00:00"
+    "summary_status": "not_requested",
+    "region": "Global",
+    "content_type": "Web article",
+    "collected_at": "2026-11-24"
   },
   {
     "title": "Nagaland University develops assessment tool to evaluate teachers' inclusive education skills - ET Education",
@@ -388,12 +426,13 @@
     "categories": [
       "Education Technology"
     ],
-    "article_text": "",
-    "summary": "Main idea: Nagaland University has developed an assessment tool designed to evaluate teachers' inclusive education skills. \n\nClassroom use: Although the source text lacks specific details on computer science or artificial intelligence applications, a school-level CS or AI educator could potentially adapt or reference such evaluation frameworks to ensure their inclusive teaching practices accommodate diverse learners during technology instruction. \n\nWhy it is useful: The tool offers a method for evaluating educators' inclusive education skills, which may help support professional development in inclusive teaching practices, though its direct practical application to school-level computer science and AI education remains limited based on the provided text.",
-    "summary_status": "ok",
+    "summary": "",
+    "summary_status": "not_requested",
     "first_seen": "2026-11-24",
-    "summary_error": "",
-    "summarised_at": "2026-11-24T10:00:51.042683+00:00"
+    "region": "Global",
+    "source": "Google News",
+    "content_type": "Web article",
+    "collected_at": "2026-11-24"
   },
   {
     "title": "MIT professor talks AI in computer science education, research - The Daily Cardinal",
@@ -406,14 +445,15 @@
       "Computer Science Education"
     ],
     "source": "",
-    "article_text": "",
     "first_seen": "2026-11-13",
     "summary": "",
-    "summary_basis": "",
     "author": "Not listed",
     "publisher": "Publisher not listed",
     "year": "2026",
-    "summary_status": "pending"
+    "summary_status": "not_requested",
+    "region": "Global",
+    "content_type": "Web article",
+    "collected_at": "2026-11-24"
   },
   {
     "title": "EU to Pilot AI Literacy Certificate for School Children - Ratopati",
@@ -426,16 +466,15 @@
       "AI in Education"
     ],
     "source": "",
-    "article_text": "",
     "first_seen": "2026-11-13",
     "summary": "",
-    "summary_basis": "",
     "author": "Not listed",
     "publisher": "Publisher not listed",
     "year": "2026",
-    "summary_status": "error",
-    "summary_error": "ValueError: Not enough article text or RSS description was accessible to create a reliable gist.",
-    "summarised_at": "2026-11-24T10:01:05.210489+00:00"
+    "summary_status": "not_requested",
+    "region": "Global",
+    "content_type": "Web article",
+    "collected_at": "2026-11-24"
   },
   {
     "title": "Rethinking Computer Science Education: Why Students Should Build Before They Master Theory - HackerNoon",
@@ -448,16 +487,15 @@
       "Computer Science Education"
     ],
     "source": "",
-    "article_text": "",
     "first_seen": "2026-11-13",
-    "summary": "Main idea: An opinion piece from HackerNoon titled \"Rethinking Computer Science Education: Why Students Should Build Before They Master Theory\" that advocates for a practice-first approach to computer science learning.\n\nClassroom use: CS teachers and school learners can apply the proposed approach by having students build projects before learning underlying theories.\n\nWhy it is useful: The text offers a pedagogical perspective on curriculum sequencing, suggesting that prioritizing building over theory mastery can be an alternative way to structure computer science education.",
-    "summary_basis": "",
+    "summary": "",
     "author": "Not listed",
     "publisher": "Publisher not listed",
     "year": "2026",
-    "summary_status": "ok",
-    "summary_error": "",
-    "summarised_at": "2026-11-21T07:18:04.876220+00:00"
+    "summary_status": "not_requested",
+    "region": "Global",
+    "content_type": "Web article",
+    "collected_at": "2026-11-24"
   },
   {
     "title": "How Is EdTech Reshaping Student Assessment Through AI-Based Evaluation and Continuous Learning Analytics? - Kings Research",
@@ -473,12 +511,13 @@
       "Student Activities and Assessment",
       "Teaching and Learning Analytics"
     ],
-    "article_text": "",
-    "summary": "Main idea: A market research overview from Kings Research discussing how EdTech reshapes student assessment through artificial intelligence-based evaluation and continuous learning analytics.\n\nClassroom use: Computer Science and AI educators can review the provided text to understand industry trends regarding AI-based evaluation and learning analytics in educational technology.\n\nWhy it is useful: It offers broad contextual insight into how automated evaluation and continuous analytics are discussed within the EdTech sector, though the source text is very limited and contains no specific tools, models, or classroom activities.",
-    "summary_status": "ok",
+    "summary": "",
+    "summary_status": "not_requested",
     "first_seen": "2026-11-16",
-    "summary_error": "",
-    "summarised_at": "2026-11-16T06:38:32.348765+00:00"
+    "region": "Global",
+    "source": "Google News",
+    "content_type": "Web article",
+    "collected_at": "2026-11-24"
   },
   {
     "title": "How Is EdTech Reshaping Student Assessment Through AI-Based Evaluation and Continuous Learning Analytics? - Kings Research",
@@ -494,12 +533,13 @@
       "Student Activities and Assessment",
       "Teaching and Learning Analytics"
     ],
-    "article_text": "",
-    "summary": "Main idea: A market research overview from Kings Research discussing how educational technology is reshaping student assessment through artificial intelligence-based evaluation and continuous learning analytics.\n\nClassroom use: The source text does not provide specific details on how teachers or learners can use a tool, model, quiz, or teaching activity in a Computer Science or AI classroom.\n\nWhy it is useful: It offers limited direct practical value for school-level lesson planning, as the provided text consists only of a title introduction without actionable teaching methods, research findings, or specific EdTech product features.",
-    "summary_status": "ok",
+    "summary": "",
+    "summary_status": "not_requested",
     "first_seen": "2026-11-17",
-    "summary_error": "",
-    "summarised_at": "2026-11-17T08:00:23.482626+00:00"
+    "region": "Global",
+    "source": "Google News",
+    "content_type": "Web article",
+    "collected_at": "2026-11-24"
   },
   {
     "title": "New Framework Maps How to Teach AI Literacy to Four-to-Six-Year-Olds - Bioengineer.org",
@@ -512,14 +552,15 @@
       "AI in Education"
     ],
     "source": "",
-    "article_text": "",
     "first_seen": "2026-11-13",
     "summary": "",
-    "summary_basis": "",
     "author": "Not listed",
     "publisher": "Publisher not listed",
     "year": "2026",
-    "summary_status": "pending"
+    "summary_status": "not_requested",
+    "region": "Global",
+    "content_type": "Web article",
+    "collected_at": "2026-11-24"
   },
   {
     "title": "20 Best Generative AI Tools | Top Picks and Benefits - Simplilearn.com",
@@ -534,32 +575,13 @@
     "categories": [
       "AI in Education"
     ],
-    "article_text": "",
     "summary": "",
-    "summary_status": "error",
-    "first_seen": "2026-11-22",
-    "summary_error": "ValueError: Not enough article text or RSS description was accessible to create a reliable gist.",
-    "summarised_at": "2026-11-24T09:59:47.896168+00:00"
-  },
-  {
-    "title": "20 Best Generative AI Tools | Top Picks and Benefits - Simplilearn.com",
-    "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNdG5iaFltOWVIYkxRcjhaUGpmSEpreEVXNHNCR3FqakM5eW9DOHY4V29sbUptVndKeVVYeTNWWGlUdzBuRW0xdDR6SDVNVGZvVWVPWUd5MWljQ1ZYSV9KRnNlaklPVkRtVHZKeV9lVEpZWUtfVUd2a2plZHU4QWlIb2N1dExXLXhMSDBaUERRWGtNVUxISmZHWGF3?oc=5&hl=en-US&gl=US&ceid=US%3Aen",
-    "rss_url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNdG5iaFltOWVIYkxRcjhaUGpmSEpreEVXNHNCR3FqakM5eW9DOHY4V29sbUptVndKeVVYeTNWWGlUdzBuRW0xdDR6SDVNVGZvVWVPWUd5MWljQ1ZYSV9KRnNlaklPVkRtVHZKeV9lVEpZWUtfVUd2a2plZHU4QWlIb2N1dExXLXhMSDBaUERRWGtNVUxISmZHWGF3?oc=5",
-    "publisher": "Simplilearn.com",
-    "author": "Not listed",
-    "published": "2026-10-29",
-    "year": "2026",
-    "description": "20 Best Generative AI Tools | Top Picks and Benefits Simplilearn.com",
-    "score": 8,
-    "categories": [
-      "AI in Education"
-    ],
-    "article_text": "",
-    "summary": "",
-    "summary_status": "error",
+    "summary_status": "not_requested",
     "first_seen": "2026-11-24",
-    "summary_error": "ValueError: Not enough article text or RSS description was accessible to create a reliable gist.",
-    "summarised_at": "2026-11-24T10:00:02.136126+00:00"
+    "region": "Global",
+    "source": "Google News",
+    "content_type": "Web article",
+    "collected_at": "2026-11-24"
   },
   {
     "title": "In Dewan Rakyat today: AI literacy, Brics role and AI Bill on the agenda - Malay Mail",
@@ -572,15 +594,15 @@
       "AI in Education"
     ],
     "source": "Malay Mail",
-    "article_text": "Google News",
     "first_seen": "2026-11-13",
     "summary": "",
-    "summary_basis": "Insufficient source text",
-    "last_summarised": "2026-11-13T05:55:51.454131+00:00",
-    "summary_status": "error",
+    "summary_status": "not_requested",
     "author": "Not listed",
     "publisher": "Publisher not listed",
-    "year": "2026"
+    "year": "2026",
+    "region": "Global",
+    "content_type": "Web article",
+    "collected_at": "2026-11-24"
   },
   {
     "title": "Education and Learning Analytics Market (2033): AI-Powered - openPR.com",
@@ -593,15 +615,15 @@
       "Teaching & Learning Analytics"
     ],
     "source": "openPR.com",
-    "article_text": "Google News",
     "first_seen": "2026-11-13",
     "summary": "",
-    "summary_basis": "Insufficient source text",
-    "last_summarised": "2026-11-13T05:55:53.571786+00:00",
-    "summary_status": "error",
+    "summary_status": "not_requested",
     "author": "Not listed",
     "publisher": "Publisher not listed",
-    "year": "2026"
+    "year": "2026",
+    "region": "Global",
+    "content_type": "Web article",
+    "collected_at": "2026-11-24"
   },
   {
     "title": "Beyond the Black Box: Reducing Governance Blind Spots Through AI Literacy for Civil Servants - UNESCO",
@@ -614,14 +636,15 @@
       "AI in Education"
     ],
     "source": "",
-    "article_text": "",
     "first_seen": "2026-11-13",
     "summary": "",
-    "summary_basis": "",
     "author": "Not listed",
     "publisher": "Publisher not listed",
     "year": "2026",
-    "summary_status": "pending"
+    "summary_status": "not_requested",
+    "region": "Global",
+    "content_type": "Web article",
+    "collected_at": "2026-11-24"
   },
   {
     "title": "UNILORIN Student Who Won 3 Scholarships Emerges Best in Computer Science Education, Posts CGPA - Legit News",
@@ -634,16 +657,15 @@
       "Computer Science Education"
     ],
     "source": "",
-    "article_text": "",
     "first_seen": "2026-11-13",
-    "summary": "Main idea: A University of Ilorin student who won three scholarships has emerged as the best graduating student in Computer Science Education with a specific CGPA.\nClassroom use: Teachers can share this achievement as a motivational example for school learners studying Computer Science Education, highlighting potential academic success and scholarship opportunities.\nWhy it is useful: This news report provides a real-world example of student success in a computer science education program, though its direct application to classroom instruction, tools, or research methods is limited based on the provided text.",
-    "summary_basis": "",
+    "summary": "",
     "author": "Not listed",
     "publisher": "Publisher not listed",
     "year": "2026",
-    "summary_status": "ok",
-    "summary_error": "",
-    "summarised_at": "2026-11-21T07:18:07.917375+00:00"
+    "summary_status": "not_requested",
+    "region": "Global",
+    "content_type": "Web article",
+    "collected_at": "2026-11-24"
   },
   {
     "title": "NCERT Launches New AI & CT Module For High School Students - Rediff",
@@ -658,12 +680,13 @@
     "categories": [
       "Student Activities and Assessment"
     ],
-    "article_text": "",
     "summary": "",
-    "summary_status": "error",
+    "summary_status": "not_requested",
     "first_seen": "2026-11-23",
-    "summary_error": "ValueError: Not enough article text or RSS description was accessible to create a reliable gist.",
-    "summarised_at": "2026-11-24T09:59:19.542978+00:00"
+    "region": "Global",
+    "source": "Google News",
+    "content_type": "Web article",
+    "collected_at": "2026-11-24"
   },
   {
     "title": "NCERT Introduces AI And Computational Thinking Module For Classes 9–12 - BW Education",
@@ -676,15 +699,15 @@
       "Computational Thinking"
     ],
     "source": "BW Education",
-    "article_text": "Google News",
     "first_seen": "2026-11-13",
     "summary": "",
-    "summary_basis": "Insufficient source text",
-    "last_summarised": "2026-11-13T05:55:47.209330+00:00",
-    "summary_status": "error",
+    "summary_status": "not_requested",
     "author": "Not listed",
     "publisher": "Publisher not listed",
-    "year": "2026"
+    "year": "2026",
+    "region": "Global",
+    "content_type": "Web article",
+    "collected_at": "2026-11-24"
   },
   {
     "title": "NCERT Introduces AI And Computational Thinking Module For Classes 9 To 12, Details Here - Jagran Josh",
@@ -697,15 +720,15 @@
       "Computational Thinking"
     ],
     "source": "Jagran Josh",
-    "article_text": "Google News",
     "first_seen": "2026-11-13",
     "summary": "",
-    "summary_basis": "Insufficient source text",
-    "last_summarised": "2026-11-13T05:55:49.329527+00:00",
-    "summary_status": "error",
+    "summary_status": "not_requested",
     "author": "Not listed",
     "publisher": "Publisher not listed",
-    "year": "2026"
+    "year": "2026",
+    "region": "Global",
+    "content_type": "Web article",
+    "collected_at": "2026-11-24"
   },
   {
     "title": "NCERT Introduces Computational Thinking And AI Module For Classes 9 To 12 - The Logical Indian",
@@ -718,7 +741,6 @@
       "Computational Thinking"
     ],
     "source": "The Logical Indian",
-    "article_text": "Google News",
     "first_seen": "2026-11-13",
     "summary": "",
     "summary_basis": "Insufficient source text",
@@ -726,7 +748,10 @@
     "summary_status": "error",
     "author": "Not listed",
     "publisher": "Publisher not listed",
-    "year": "2026"
+    "year": "2026",
+    "region": "India",
+    "content_type": "Web article",
+    "collected_at": "2026-11-24"
   },
   {
     "title": "Open-Source AI Grading Platform EvaluAI Turns LLMs Into Classroom Assessment Tools - Bioengineer.org",
@@ -741,10 +766,13 @@
     "categories": [
       "Education Technology"
     ],
-    "article_text": "",
     "summary": "",
-    "summary_status": "pending",
-    "first_seen": "2026-11-13"
+    "summary_status": "not_requested",
+    "first_seen": "2026-11-13",
+    "region": "Global",
+    "source": "Google News",
+    "content_type": "Web article",
+    "collected_at": "2026-11-24"
   },
   {
     "title": "AI In Education Is Forcing Schools To Explain Why Learning Matters - Forbes",
@@ -759,10 +787,13 @@
     "categories": [
       "AI in Education"
     ],
-    "article_text": "",
     "summary": "",
-    "summary_status": "pending",
-    "first_seen": "2026-11-13"
+    "summary_status": "not_requested",
+    "first_seen": "2026-11-13",
+    "region": "Global",
+    "source": "Google News",
+    "content_type": "Web article",
+    "collected_at": "2026-11-24"
   },
   {
     "title": "SUNY schools add AI literacy requirement to curriculum - WCAX",
@@ -775,16 +806,15 @@
       "AI in Education"
     ],
     "source": "",
-    "article_text": "",
     "first_seen": "2026-11-13",
     "summary": "",
-    "summary_basis": "",
     "author": "Not listed",
     "publisher": "Publisher not listed",
     "year": "2026",
-    "summary_status": "error",
-    "summary_error": "ValueError: Not enough article text or RSS description was accessible to create a reliable gist.",
-    "summarised_at": "2026-11-24T10:00:16.306852+00:00"
+    "summary_status": "not_requested",
+    "region": "Global",
+    "content_type": "Web article",
+    "collected_at": "2026-11-24"
   },
   {
     "title": "AI Literacy in the Language Classroom: Navigating Opportunity and Risk - Cambridge University Press & Assessment",
@@ -797,16 +827,15 @@
       "AI in Education"
     ],
     "source": "",
-    "article_text": "",
     "first_seen": "2026-11-13",
-    "summary": "Main idea: Cambridge University Press & Assessment provides a resource titled AI Literacy in the Language Classroom: Navigating Opportunity and Risk, which explores the integration of artificial intelligence literacy within language education.\n\nClassroom use: The source text does not specify exact classroom activities, tools, quizzes, models, or instructional steps for teachers or school learners.\n\nWhy it is useful: The resource offers insights into navigating the opportunities and risks associated with AI literacy, though its practical value for direct school-level Computer Science and AI teaching is currently limited due to the lack of detailed implementation data in the text.",
-    "summary_basis": "",
+    "summary": "",
     "author": "Not listed",
     "publisher": "Publisher not listed",
     "year": "2026",
-    "summary_status": "ok",
-    "summary_error": "",
-    "summarised_at": "2026-11-13T12:38:40.158527+00:00"
+    "summary_status": "not_requested",
+    "region": "Global",
+    "content_type": "Web article",
+    "collected_at": "2026-11-24"
   },
   {
     "title": "Banning AI In Schools And Teaching AI Literacy Share One Goal - Scary Mommy",
@@ -819,16 +848,15 @@
       "AI in Education"
     ],
     "source": "",
-    "article_text": "",
     "first_seen": "2026-11-13",
     "summary": "",
-    "summary_basis": "",
     "author": "Not listed",
     "publisher": "Publisher not listed",
     "year": "2026",
-    "summary_status": "error",
-    "summary_error": "ValueError: Not enough article text or RSS description was accessible to create a reliable gist.",
-    "summarised_at": "2026-11-24T10:00:30.487026+00:00"
+    "summary_status": "not_requested",
+    "region": "Global",
+    "content_type": "Web article",
+    "collected_at": "2026-11-24"
   },
   {
     "title": "EdgeConneX Expands Hello World Partnership to Bring AI Literacy and STEM Curriculum to More Than 100,000 Students by Early 2027 - Business Wire",
@@ -841,16 +869,15 @@
       "AI in Education"
     ],
     "source": "",
-    "article_text": "",
     "first_seen": "2026-11-13",
-    "summary": "Main idea: EdgeConneX is expanding its partnership with Hello World to deliver an AI literacy and STEM curriculum to over 100,000 students by early 2027.\n\nClassroom use: Although specific lesson details are not provided in the text, the expanded initiative offers schools access to structured AI literacy and STEM curriculum resources as they are rolled out through the partnership.\n\nWhy it is useful: This partnership initiative highlights an expanding external curriculum program aimed at scaling AI literacy and STEM education for large numbers of students over the next few years.",
-    "summary_basis": "",
+    "summary": "",
     "author": "Not listed",
     "publisher": "Publisher not listed",
     "year": "2026",
-    "summary_status": "ok",
-    "summary_error": "",
-    "summarised_at": "2026-11-13T12:38:58.050402+00:00"
+    "summary_status": "not_requested",
+    "region": "Global",
+    "content_type": "Web article",
+    "collected_at": "2026-11-24"
   },
   {
     "title": "NCERT & CBSE jointly introduced computational thinking and AI curriculum for 3rd to 8th class students - News On AIR",
@@ -863,16 +890,15 @@
       "Computational Thinking"
     ],
     "source": "",
-    "article_text": "",
     "first_seen": "2026-11-13",
-    "summary": "Main idea: NCERT and CBSE jointly introduced a computational thinking and AI curriculum targeting students in classes 3 through 8.\n\nClassroom use: Teachers and school learners can implement this joint curriculum to guide instruction and learning in computational thinking and artificial intelligence for middle and upper-primary grade levels.\n\nWhy it is useful: It provides a structured, foundational framework directly supported by national educational bodies to integrate critical CS and AI concepts into early and middle school education.",
-    "summary_basis": "",
+    "summary": "",
     "author": "Not listed",
     "publisher": "Publisher not listed",
     "year": "2026",
-    "summary_status": "ok",
-    "summary_error": "",
-    "summarised_at": "2026-11-14T06:34:08.984552+00:00"
+    "summary_status": "not_requested",
+    "region": "Global",
+    "content_type": "Web article",
+    "collected_at": "2026-11-24"
   },
   {
     "title": "PISA 2029: Media and AI Literacy – key concepts, curriculum links and competences - Teacher Magazine",
@@ -885,16 +911,15 @@
       "AI in Education"
     ],
     "source": "",
-    "article_text": "",
     "first_seen": "2026-11-13",
-    "summary": "Main idea: This text is a Teacher Magazine article about PISA 2029 focusing on Media and AI Literacy, outlining key concepts, curriculum links, and competences.\n\nClassroom use: The source text does not provide specific details on how a teacher or learner could use it in the classroom.\n\nWhy it is useful: The text indicates relevance to future PISA 2029 assessments regarding Media and AI Literacy, though the provided source is only a short descriptive title without further details.",
-    "summary_basis": "",
+    "summary": "",
     "author": "Not listed",
     "publisher": "Publisher not listed",
     "year": "2026",
-    "summary_status": "ok",
-    "summary_error": "",
-    "summarised_at": "2026-11-15T06:43:02.776610+00:00"
+    "summary_status": "not_requested",
+    "region": "Global",
+    "content_type": "Web article",
+    "collected_at": "2026-11-24"
   },
   {
     "title": "Boston to become first major U.S. city public school district to launch AI literacy curriculum - Boston Herald",
@@ -907,7 +932,6 @@
       "AI in Education"
     ],
     "source": "",
-    "article_text": "",
     "first_seen": "2026-11-13",
     "summary": "Main idea: Boston is set to become the first major U.S. city public school district to launch an artificial intelligence literacy curriculum, as reported by the Boston Herald.\n\nClassroom use: Although specific lesson details are not provided in the source text, school-level computer science and AI educators can anticipate the district adopting formal instructional materials focused on AI literacy.\n\nWhy it is useful: This news highlights a major milestone in public education policy, signaling a growing trend toward institutional adoption of AI literacy curricula that teachers across other districts may soon need to prepare for or reference.",
     "summary_basis": "",
@@ -916,7 +940,10 @@
     "year": "2026",
     "summary_status": "ok",
     "summary_error": "",
-    "summarised_at": "2026-11-16T06:39:32.467217+00:00"
+    "summarised_at": "2026-11-16T06:39:32.467217+00:00",
+    "region": "USA",
+    "content_type": "Web article",
+    "collected_at": "2026-11-24"
   },
   {
     "title": "Learning to Use AI for Learning: Teaching Responsible Use of AI Chatbot to K-12 Students Through an AI Literacy Module - The Association for the Advancement of Artificial Intelligence",
@@ -929,16 +956,15 @@
       "AI in Education"
     ],
     "source": "",
-    "article_text": "",
     "first_seen": "2026-11-13",
-    "summary": "Main idea: A published learning module by the Association for the Advancement of Artificial Intelligence designed to teach K-12 students how to use AI chatbots responsibly for learning.\n\nClassroom use: K-12 school learners and teachers can use the AI literacy module to learn how to use AI chatbots for learning and practice responsible AI use.\n\nWhy it is useful: It provides a structured educational resource specifically aimed at developing AI literacy and responsible chatbot usage among K-12 students through a dedicated learning module.",
-    "summary_basis": "",
+    "summary": "",
     "author": "Not listed",
     "publisher": "Publisher not listed",
     "year": "2026",
-    "summary_status": "ok",
-    "summary_error": "",
-    "summarised_at": "2026-11-17T08:01:33.061232+00:00"
+    "summary_status": "not_requested",
+    "region": "Global",
+    "content_type": "Web article",
+    "collected_at": "2026-11-24"
   },
   {
     "title": "Philadelphia schools celebrate Computer Science Education Week with an hour of coding - WHYY",
@@ -951,7 +977,6 @@
       "Computer Science Education"
     ],
     "source": "",
-    "article_text": "",
     "first_seen": "2026-11-13",
     "summary": "Main idea: Philadelphia schools celebrated Computer Science Education Week by participating in an hour of coding.\n\nClassroom use: School learners and teachers can participate in coding activities during Computer Science Education Week, as highlighted by the Philadelphia schools' celebration.\n\nWhy it is useful: It demonstrates a practical school-level event and activity model centered around coding to engage students in computer science education during a dedicated awareness week.",
     "summary_basis": "",
@@ -960,6 +985,9 @@
     "year": "2025",
     "summary_status": "ok",
     "summary_error": "",
-    "summarised_at": "2026-11-17T08:01:36.240159+00:00"
+    "summarised_at": "2026-11-17T08:01:36.240159+00:00",
+    "region": "USA",
+    "content_type": "Web article",
+    "collected_at": "2026-11-24"
   }
 ]
