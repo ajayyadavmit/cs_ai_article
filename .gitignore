@@ -1,3 +1,5 @@
+data/articles1.json
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[codz]
@@ -218,3 +220,13 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# Local environment files and secrets
+.env.*
+!.env.example
+
+# Operating system and editor artifacts
+.DS_Store
+Thumbs.db
+*.swp
+*.swo

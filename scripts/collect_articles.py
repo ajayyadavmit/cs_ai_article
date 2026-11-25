@@ -2,6 +2,7 @@
 
 from __future__ import annotations
 
+import argparse
 import json
 import logging
 import os
@@ -21,15 +22,20 @@ from xml.etree import ElementTree
 # Gemini is used only when GENERATE_SUMMARIES=true and a Gemini key is set.
 GEMINI_MODEL = os.getenv("GEMINI_MODEL", "gemini-3.5-flash-lite")
 GENERATE_SUMMARIES = os.getenv("GENERATE_SUMMARIES", "false").strip().lower() == "true"
+GENERATE_GEMINI_DIGEST = (
+    os.getenv("GENERATE_GEMINI_DIGEST", "false").strip().lower() == "true"
+)
 SUMMARY_AUDIENCE = os.getenv("SUMMARY_AUDIENCE", "computer science education")
+GEMINI_SEARCH_MODEL = os.getenv("GEMINI_SEARCH_MODEL", "gemini-2.5-flash")
 
 # Article retention and search age.
-MAX_ARTICLES_ON_PAGE = 150
-RECENT_DAYS = 30
+MAX_GLOBAL_ARTICLES = 40
+REGIONAL_ARTICLE_TARGET = 15
 OLDER_ARTICLE_LIMIT_DAYS = 365
 
-# At most five newest articles in EACH region can have summaries.
-MAX_SUMMARIES_PER_REGION = 5
+# At most two newest articles in EACH region can have summaries.
+MAX_SUMMARIES_PER_REGION = 2
+GEMINI_DIGEST_MAX_WORDS = 500
 
 # Limit source text passed to Gemini to reduce token usage.
 MAX_ARTICLE_TEXT_CHARS = 3500
@@ -40,31 +46,6 @@ SECONDS_BETWEEN_GEMINI_CALLS = 1
 SITE_URL = os.getenv(
     "SITE_URL", "https://ajayyadavmit.github.io/cs_ai_education"
 ).rstrip("/")
-
-# ------------------------------------------------------------
-# SEMANTIC SEARCH TERMS: ADD OR EDIT YOUR OWN TERMS HERE.
-# ------------------------------------------------------------
-# Google News RSS searches phrases; it is not a vector database. Add phrases
-# that describe the articles you want, then tune TOPIC_KEYWORDS to score them.
-# For a finance, arts, history, or politics template, replace these terms and
-# the topic categories below with terms for that subject area.
-SEMANTIC_SEARCH_TERMS = [
-    "AI generated learning materials for school students",
-    "AI tools for creating classroom quizzes and worksheets",
-    "generative AI lesson plans for K-12 teachers",
-    "teaching computer science with AI tools",
-    "AI models for school education and student learning",
-    "computational thinking activities for children",
-    "coding games and programming activities for school students",
-    "computer science teaching resources and classroom activities",
-    "AI literacy curriculum for children and teenagers",
-    "AI assisted assessment and feedback in schools",
-    "learning analytics for K-12 education",
-    "educational data mining and teaching analytics",
-    "AI tutors and intelligent tutoring systems for school students",
-    "generative AI for creating educational content",
-    "computer science curriculum and programming pedagogy",
-]
 
 # Tune these phrases to change the relevance score and article tags.
 TOPIC_KEYWORDS = {
@@ -106,37 +87,37 @@ TOPIC_KEYWORDS = {
     ],
 }
 
-# Broad and country-specific searches. Extend these lists to tune coverage.
-BASE_SEARCH_QUERIES = [
-    '"computer science education" (teaching OR curriculum OR classroom)',
-    '"K-12 computer science" (teacher OR student OR resources)',
-    '"AI in education" (school OR teacher OR classroom OR students)',
-    '"generative AI" (lesson plans OR worksheets OR quizzes OR teaching)',
-    '"computational thinking" (children OR school OR activities OR teaching)',
-    '"learning analytics" (school OR classroom OR teaching)',
-]
-REGION_SEARCH_QUERIES = {
-    "USA": [
-        '"computer science education" school USA',
-        '"AI in education" teachers United States',
-    ],
-    "India": [
-        '"computer science education" school India',
-        '"AI in education" teachers India',
-    ],
-    "Nepal": [
-        '"computer science education" school Nepal',
-        '"AI in education" teachers Nepal',
-    ],
-}
-RESEARCH_SEARCH_QUERIES = [
+# The same subject searches are used for news and research, then results are
+# classified by country. Keep these searches independent of the region tabs.
+SEARCH_QUERIES = [
     "computer science education",
-    "computing education",
-    "teaching programming in schools",
-    "artificial intelligence education schools",
+    "K-12 computer science curriculum",
+    "AI in education schools",
+    "generative AI teaching and learning",
     "computational thinking education",
+    "coding education schools",
+    "learning analytics education",
+    "computer science education research",
 ]
 REGIONS = ("Global", "USA", "India", "Nepal")
+NEWS_EDITION_SEARCHES = (
+    ("India", "IN", "en-IN"),
+    ("USA", "US", "en-US"),
+)
+NEPAL_NEWS_SITES = (
+    "kathmandupost.com",
+    "risingnepaldaily.com",
+    "myrepublica.nagariknetwork.com",
+    "edusanjal.com",
+    "techpana.com",
+)
+NEPAL_SEARCH_QUERIES = (
+    '"AI education" Nepal',
+    '"AI in education" Nepal',
+    '"computer science education" Nepal',
+    '"coding education" Nepal',
+    '"digital learning" Nepal',
+)
 
 # ============================================================
 # PATHS, CLIENTS, AND LOGGING
@@ -205,28 +186,117 @@ def age_in_days(date_text: str) -> int | None:
         return None
 
 
-def infer_region(*values: str) -> str:
-    """Infer a region from explicit text; default non-local stories to Global."""
+COUNTRY_NAMES = (
+    "USA", "United States", "India", "Nepal", "United Kingdom", "Canada", "Russia",
+    "Australia", "China", "Japan", "Germany", "France", "Singapore",
+    "Finland", "Brazil", "Syria",
+)
+
+COUNTRY_TEXT_SIGNALS = {
+    "USA": (
+        r"\bu\.s\.a?\.?\b", r"\bu\.s\.?\b", r"\bamerican\b",
+        r"\bunited states\b", r"\bnew york\b", r"\bcalifornia\b",
+        r"\btexas\b", r"\bwashington\b", r"\bchicago\b", r"\bboston\b",
+        r"\bphiladelphia\b", r"\bseattle\b", r"\blos angeles\b",
+    ),
+    "India": (
+        r"\bindian\b", r"\bnew delhi\b", r"\bmumbai\b", r"\bbengaluru\b",
+        r"\bbangalore\b", r"\bchennai\b", r"\bhyderabad\b", r"\bkolkata\b",
+        r"\bncert\b", r"\bcbse\b", r"\biit\b",
+    ),
+    "Nepal": (
+        r"\bnepali\b", r"\bnepalese\b", r"\bkathmandu\b", r"\bpokhara\b",
+        r"\blalitpur\b", r"\bbhaktapur\b", r"\btribhuvan\b",
+    ),
+}
+
+
+def country_from_domain(url: str) -> str:
+    """Use country-code domains as a location hint; generic .com is not a hint."""
+    host = urlparse(url).hostname or ""
+    host = host.lower().removeprefix("www.")
+    if host.endswith((".com.np", ".org.np", ".edu.np", ".np")) or host in {
+        "kathmandupost.com",
+        "risingnepaldaily.com",
+        "myrepublica.nagariknetwork.com",
+        "edusanjal.com","ekantipur.com",
+        "techpana.com","ekantipur.com",
+    }:
+        return "Nepal"
+    if host.endswith(".in") or host in {
+        "thehindu.com",
+        "indianexpress.com",
+        "hindustantimes.com",
+        "timesofindia.indiatimes.com",
+        "ndtv.com",
+    }:
+        return "India"
+    if host.endswith(".us"):
+        return "USA"
+    return ""
+
+
+def infer_location(
+    *values: str,
+    publisher_url: str = "",
+    edition_country: str = "",
+) -> tuple[str, str]:
+    """Infer a likely country and record whether text, domain, or edition signaled it."""
     text = " ".join(values).lower()
-    signals = {
-        "India": (
-            r"\bindia\b", r"\bindian\b", r"\bnew delhi\b", r"\bmumbai\b",
-            r"\bbengaluru\b", r"\bbangalore\b", r"\bchennai\b", r"\bdelhi\b",
-            r"\bhyderabad\b", r"\bkolkata\b",
-        ),
-        "Nepal": (
-            r"\bnepal\b", r"\bnepali\b", r"\bkathmandu\b", r"\bpokhara\b",
-        ),
-        "USA": (
-            r"\busa\b", r"\bu\.s\.a\.?\b", r"\bunited states\b", r"\bu\.s\.?\b",
-            r"\bamerican\b", r"\bnew york\b", r"\bcalifornia\b", r"\btexas\b",
-            r"\bwashington\b", r"\bphiladelphia\b", r"\bchicago\b", r"\bboston\b",
-        ),
-    }
-    for region in ("India", "Nepal", "USA"):
-        if any(re.search(pattern, text) for pattern in signals[region]):
-            return region
-    return "Global"
+    for country, patterns in COUNTRY_TEXT_SIGNALS.items():
+        if any(re.search(pattern, text) for pattern in patterns):
+            return country, "article text"
+    for country in COUNTRY_NAMES:
+        if re.search(rf"\b{re.escape(country.lower())}\b", text):
+            return ("USA" if country == "United States" else country), "article text"
+    domain_country = country_from_domain(publisher_url)
+    if domain_country:
+        return domain_country, "publisher domain"
+    if edition_country in ("USA", "India", "Nepal"):
+        return edition_country, "news edition"
+    return "", "unknown"
+
+
+LOCATION_BASIS_PRIORITY = {
+    "unknown": 0,
+    "news edition": 1,
+    "multiple editions": 1,
+    "publisher domain": 2,
+    "article text": 3,
+}
+
+
+def should_update_location(existing: dict[str, Any], candidate: dict[str, Any]) -> bool:
+    existing_basis = existing.get("location_basis", "unknown")
+    candidate_basis = candidate.get("location_basis", "unknown")
+    if LOCATION_BASIS_PRIORITY.get(candidate_basis, 0) != LOCATION_BASIS_PRIORITY.get(
+        existing_basis, 0
+    ):
+        return LOCATION_BASIS_PRIORITY.get(candidate_basis, 0) > LOCATION_BASIS_PRIORITY.get(
+            existing_basis, 0
+        )
+    return (
+        candidate.get("country") == existing.get("country")
+        and int(candidate.get("score", 0)) > int(existing.get("score", 0))
+    )
+
+
+def infer_country(*values: str, publisher_url: str = "") -> str:
+    return infer_location(*values, publisher_url=publisher_url)[0]
+
+
+def infer_region(
+    *values: str,
+    publisher_url: str = "",
+    edition_country: str = "",
+) -> str:
+    """Map the three country tabs; other countries are shown under Global."""
+    country = infer_location(
+        *values,
+        publisher_url=publisher_url,
+        edition_country=edition_country,
+    )[0]
+    return country if country in ("India", "Nepal", "USA") else "Global"
 
 
 def classify_and_score(title: str, description: str = "") -> tuple[int, list[str]]:
@@ -253,7 +323,24 @@ def classify_and_score(title: str, description: str = "") -> tuple[int, list[str
         "learning", "teaching", "education", "pedagogy",
     )
     score += min(sum(phrase in text for phrase in education_signals), 5)
+    has_ai = re.search(r"\b(ai|artificial intelligence)\b", text)
+    has_education_context = any(
+        phrase in text for phrase in ("teacher", "student", "school", "classroom", "education")
+    )
+    if has_ai and has_education_context:
+        score += 5
+        if "AI in Education" not in categories:
+            categories.append("AI in Education")
     return score, categories or ["Education Technology"]
+
+
+def passes_news_filters(score: int, age: int | None, region_hint: str) -> bool:
+    minimum_score = 3 if region_hint == "Nepal" else 6
+    if age is not None and (age < 0 or age > OLDER_ARTICLE_LIMIT_DAYS):
+        return False
+    if age is None and score < 15:
+        return False
+    return score >= minimum_score
 
 
 def discover_articles() -> list[dict[str, Any]]:
@@ -264,23 +351,26 @@ def discover_articles() -> list[dict[str, Any]]:
 
     http = get_session()
     query_specs = [
-        (query, "US", "en-US") for query in BASE_SEARCH_QUERIES
-    ] + [
-        (f'"{term}"', "US", "en-US") for term in SEMANTIC_SEARCH_TERMS
+        (query, country_code, language, region)
+        for query in SEARCH_QUERIES
+        for region, country_code, language in NEWS_EDITION_SEARCHES
     ]
-    locale_by_region = {"USA": ("US", "en-US"), "India": ("IN", "en-IN"), "Nepal": ("NP", "en-US")}
     query_specs.extend(
-        (query, *locale_by_region[region])
-        for region, queries in REGION_SEARCH_QUERIES.items()
-        for query in queries
+        (query, "US", "en-US", "Nepal")
+        for query in NEPAL_SEARCH_QUERIES
+    )
+    nepal_topic_query = " OR ".join(f'"{query}"' for query in SEARCH_QUERIES)
+    query_specs.extend(
+        (f"site:{site} ({nepal_topic_query})", "US", "en-US", "Nepal")
+        for site in NEPAL_NEWS_SITES
     )
     found: dict[str, dict[str, Any]] = {}
 
-    for query, country_code, language in query_specs:
+    for query, country_code, language, edition_country in query_specs:
         edition = f"{country_code}:{language.split('-')[0]}"
         rss_url = (
             "https://news.google.com/rss/search?q="
-            + requests.utils.quote(f"{query} when:30d")
+            + requests.utils.quote(f"{query} when:{OLDER_ARTICLE_LIMIT_DAYS}d")
             + f"&hl={language}&gl={country_code}&ceid={edition}"
         )
         logging.info("RSS search: %s", query)
@@ -303,37 +393,57 @@ def discover_articles() -> list[dict[str, Any]]:
             score, categories = classify_and_score(title, description)
             published = parse_entry_date(entry)
             age = age_in_days(published)
-            if age is not None:
-                if age < 0 or age > OLDER_ARTICLE_LIMIT_DAYS:
-                    continue
-                if age > RECENT_DAYS and score < 12:
-                    continue
-            elif score < 15:
-                continue
-            if score < 6:
+            if not passes_news_filters(score, age, edition_country):
                 continue
 
             source = entry.get("source")
             publisher = source.get("title", "").strip() if isinstance(source, dict) else ""
+            publisher_url = (
+                source.get("href") or source.get("url") or ""
+                if isinstance(source, dict)
+                else ""
+            )
+            country, location_basis = infer_location(
+                title,
+                description,
+                publisher,
+                publisher_url=publisher_url,
+                edition_country=edition_country,
+            )
             article_url = clean_url(rss_url)
             article = {
                 "title": title,
                 "url": article_url,
                 "rss_url": rss_url,
                 "publisher": publisher,
+                "publisher_url": publisher_url,
                 "author": (entry.get("author") or "").strip() or "Not listed",
                 "published": published,
                 "year": published[:4] if published else "",
                 "description": description,
                 "score": score,
                 "categories": categories,
-                "region": infer_region(title, description, publisher),
+                "region": country if country in ("USA", "India", "Nepal") else "Global",
+                "country": country,
+                "location_basis": location_basis,
                 "source": "Google News",
                 "content_type": "Web article",
                 "summary": "",
                 "summary_status": "pending",
             }
-            if article_url not in found or score > found[article_url]["score"]:
+            previous = found.get(article_url)
+            if (
+                previous
+                and previous["location_basis"] == "news edition"
+                and article["location_basis"] == "news edition"
+                and previous["country"] != article["country"]
+            ):
+                previous.update({
+                    "country": "",
+                    "region": "Global",
+                    "location_basis": "multiple editions",
+                })
+            elif previous is None or should_update_location(previous, article):
                 found[article_url] = article
 
     results = list(found.values())
@@ -374,6 +484,13 @@ def parse_crossref_item(item: dict[str, Any]) -> dict[str, Any] | None:
     abstract = BeautifulSoup(item.get("abstract", ""), "html.parser").get_text(
         " ", strip=True
     )
+    authors = item.get("author") or []
+    affiliations = " ".join(
+        affiliation.get("name", "")
+        for author in authors
+        for affiliation in (author.get("affiliation") or [])
+        if isinstance(affiliation, dict)
+    )
     score, categories = classify_and_score(title, abstract)
     if score < 6:
         return None
@@ -388,11 +505,13 @@ def parse_crossref_item(item: dict[str, Any]) -> dict[str, Any] | None:
         return None
     container = item.get("container-title") or []
     publisher = container[0].strip() if container else item.get("publisher", "")
-    authors = item.get("author") or []
     author_names = [
         " ".join(part for part in (person.get("given"), person.get("family")) if part)
         for person in authors[:2]
     ]
+    country, location_basis = infer_location(
+        title, abstract, publisher or "", affiliations
+    )
     return {
         "title": title,
         "url": url,
@@ -402,9 +521,12 @@ def parse_crossref_item(item: dict[str, Any]) -> dict[str, Any] | None:
         "published": published,
         "year": published[:4] if published else "",
         "description": abstract[:1200],
+        "affiliations": affiliations,
         "score": score,
         "categories": categories,
-        "region": infer_region(title, abstract, publisher or ""),
+        "region": country if country in ("USA", "India", "Nepal") else "Global",
+        "country": country,
+        "location_basis": location_basis,
         "source": "Crossref",
         "content_type": "Research paper",
         "summary": "",
@@ -419,11 +541,11 @@ def discover_research_papers() -> list[dict[str, Any]]:
     http = get_session()
     start_date = (TODAY - timedelta(days=OLDER_ARTICLE_LIMIT_DAYS)).isoformat()
     found: dict[str, dict[str, Any]] = {}
-    for query in RESEARCH_SEARCH_QUERIES:
+    for query in SEARCH_QUERIES:
         params = {
             "query.bibliographic": query,
             "filter": f"from-pub-date:{start_date},until-pub-date:{TODAY.isoformat()}",
-            "rows": 8,
+            "rows": 25,
             "sort": "published",
             "order": "desc",
         }
@@ -523,6 +645,89 @@ Source text:
     return gist
 
 
+def response_field(value: Any, name: str, default: Any = None) -> Any:
+    if isinstance(value, dict):
+        return value.get(name, default)
+    return getattr(value, name, default)
+
+
+def parse_grounded_digest_response(response: Any) -> dict[str, Any]:
+    """Extract a 500-word digest and source links from Gemini grounding metadata."""
+    digest_text = (response_field(response, "text", "") or "").strip()
+    digest_text = re.sub(r"https?://\S+", "", digest_text).strip()
+    digest_text = " ".join(digest_text.split()[:GEMINI_DIGEST_MAX_WORDS])
+    if not digest_text:
+        raise RuntimeError("Gemini returned an empty grounded digest.")
+
+    sources = []
+    seen_urls = set()
+    candidates = response_field(response, "candidates", []) or []
+    for candidate in candidates:
+        metadata = (
+            response_field(candidate, "grounding_metadata")
+            or response_field(candidate, "groundingMetadata")
+        )
+        chunks = (
+            response_field(metadata, "grounding_chunks")
+            or response_field(metadata, "groundingChunks")
+            or []
+        )
+        for chunk in chunks:
+            web = response_field(chunk, "web", {}) or {}
+            url = response_field(web, "uri") or response_field(web, "url") or ""
+            title = response_field(web, "title") or url
+            if (
+                not isinstance(url, str)
+                or urlparse(url).scheme not in {"http", "https"}
+                or url in seen_urls
+            ):
+                continue
+            seen_urls.add(url)
+            sources.append({"title": str(title), "url": clean_url(url)})
+
+    if not sources:
+        raise RuntimeError("Gemini returned no verifiable Google Search source links.")
+    return {"text": digest_text, "sources": sources}
+
+
+def generate_gemini_digest() -> dict[str, Any]:
+    """Generate one opt-in research digest grounded in Google Search results."""
+    if not GEMINI_API_KEY:
+        raise RuntimeError(
+            "Gemini digest generation was requested, but GEMINI_API_KEY is not configured."
+        )
+    from google import genai
+
+    prompt = """Search the web for recent computer science education and AI in education
+news, classroom experiments, and research. Summarize the most useful recent
+developments in at most 500 words. Focus on what the work suggests about where
+computer science education research and practice are going. Be factual, avoid
+unsupported claims, and do not include URLs in the summary; source links are
+collected separately from Google Search citations."""
+    response = genai.Client(api_key=GEMINI_API_KEY).models.generate_content(
+        model=GEMINI_SEARCH_MODEL,
+        contents=prompt,
+        config={
+            "max_output_tokens": 1100,
+            "temperature": 0.2,
+            "tools": [{"google_search": {}}],
+        },
+    )
+    digest = parse_grounded_digest_response(response)
+    digest["generated_at"] = datetime.now(timezone.utc).isoformat()
+    digest["model"] = GEMINI_SEARCH_MODEL
+    return digest
+
+
+def save_gemini_digest(digest: dict[str, Any]) -> None:
+    DATA_DIR.mkdir(parents=True, exist_ok=True)
+    digest_path = DATA_DIR / "gemini_digest.json"
+    digest_path.write_text(
+        json.dumps(digest, ensure_ascii=False, indent=2) + "\n",
+        encoding="utf-8",
+    )
+
+
 def load_database() -> dict[str, dict[str, Any]]:
     DATA_DIR.mkdir(parents=True, exist_ok=True)
     if not DATA_FILE.exists():
@@ -551,12 +756,23 @@ def load_database() -> dict[str, dict[str, Any]]:
         item.setdefault("content_type", "Web article")
         item.setdefault("summary", "")
         item.setdefault("summary_status", "pending")
-        item["region"] = infer_region(
+        existing_country = item.get("country", "")
+        existing_region = item.get("region", "")
+        saved_edition = existing_country if item.get("location_basis") == "news edition" else ""
+        if not saved_edition and existing_region in ("USA", "India", "Nepal"):
+            saved_edition = existing_region
+        country, location_basis = infer_location(
             item.get("title", ""),
             item.get("description", ""),
             item.get("publisher", ""),
             item.get("article_text", ""),
+            item.get("affiliations", ""),
+            publisher_url=item.get("publisher_url", ""),
+            edition_country=saved_edition,
         )
+        item["country"] = country
+        item["region"] = country if country in ("USA", "India", "Nepal") else "Global"
+        item["location_basis"] = location_basis
         for failure_text in (
             "summary generation failed",
             "the publisher did not provide enough accessible",
@@ -601,6 +817,22 @@ def prepare_summary_scope(articles: list[dict[str, Any]]) -> list[dict[str, Any]
             ):
                 item.pop(field, None)
     return [item for item in articles if item.get("url", "") in allowed_urls]
+
+
+def apply_article_quotas(articles: list[dict[str, Any]]) -> list[dict[str, Any]]:
+    """Keep up to 40 Global articles and the configured regional count."""
+    sort_articles(articles)
+    retained = []
+    for region, limit in (
+        ("Global", MAX_GLOBAL_ARTICLES),
+        ("USA", REGIONAL_ARTICLE_TARGET),
+        ("India", REGIONAL_ARTICLE_TARGET),
+        ("Nepal", REGIONAL_ARTICLE_TARGET),
+    ):
+        regional = [item for item in articles if item.get("region") == region]
+        retained.extend(regional[:limit])
+    sort_articles(retained)
+    return retained
 
 
 def save_database(articles: list[dict[str, Any]]) -> None:
@@ -662,11 +894,19 @@ def write_rss_feed(articles: list[dict[str, Any]]) -> None:
     logging.info("RSS feed generated: %s", RSS_FILE)
 
 
-def main() -> None:
-    if GENERATE_SUMMARIES and not GEMINI_API_KEY:
+def main(digest_only: bool = False) -> None:
+    if (GENERATE_SUMMARIES or GENERATE_GEMINI_DIGEST) and not GEMINI_API_KEY:
         raise RuntimeError(
-            "GENERATE_SUMMARIES is true, but GEMINI_API_KEY is not configured."
+            "Gemini generation was requested, but GEMINI_API_KEY is not configured."
         )
+    if digest_only:
+        if not GEMINI_API_KEY:
+            raise RuntimeError(
+                "Gemini digest generation was requested, but GEMINI_API_KEY is not configured."
+            )
+        save_gemini_digest(generate_gemini_digest())
+        logging.info("Gemini education digest saved without running article collection.")
+        return
 
     database = load_database()
     discovered = discover_articles() + discover_research_papers()
@@ -676,7 +916,13 @@ def main() -> None:
             old = database[key]
             old["score"] = max(int(old.get("score", 0)), article["score"])
             old["categories"] = sorted(set(old.get("categories", []) + article["categories"]))
-            old["region"] = article["region"]
+            if should_update_location(old, article):
+                old["region"] = article["region"]
+                old["country"] = article.get("country", "")
+                old["location_basis"] = article.get("location_basis", "unknown")
+                old["publisher_url"] = article.get(
+                    "publisher_url", old.get("publisher_url", "")
+                )
             old["source"] = article["source"]
             old["content_type"] = article["content_type"]
             if not old.get("published") and article.get("published"):
@@ -684,6 +930,8 @@ def main() -> None:
                 old["year"] = article["year"]
             if article.get("description"):
                 old["description"] = article["description"]
+            if article.get("affiliations"):
+                old["affiliations"] = article["affiliations"]
         else:
             article["first_seen"] = TODAY.isoformat()
             database[key] = article
@@ -694,7 +942,7 @@ def main() -> None:
         if age is None or age <= OLDER_ARTICLE_LIMIT_DAYS:
             retained.append(article)
     sort_articles(retained)
-    retained = retained[:MAX_ARTICLES_ON_PAGE]
+    retained = apply_article_quotas(retained)
     summary_candidates = prepare_summary_scope(retained)
 
     processed = 0
@@ -723,6 +971,8 @@ def main() -> None:
         article["collected_at"] = TODAY.isoformat()
     save_database(retained)
     write_rss_feed(retained)
+    if GENERATE_GEMINI_DIGEST:
+        save_gemini_digest(generate_gemini_digest())
     summary_count = sum(bool(article.get("summary")) for article in retained)
     logging.info(
         "Finished: %d articles, %d summaries generated this run, %d summaries available.",
@@ -731,4 +981,10 @@ def main() -> None:
 
 
 if __name__ == "__main__":
-    main()
+    parser = argparse.ArgumentParser(description=__doc__)
+    parser.add_argument(
+        "--digest-only",
+        action="store_true",
+        help="Generate the Gemini digest without collecting articles or rewriting the RSS feed.",
+    )
+    main(digest_only=parser.parse_args().digest_only)

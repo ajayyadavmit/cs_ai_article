@@ -9,7 +9,12 @@ on:
   workflow_dispatch:
     inputs:
       generate_summaries:
-        description: "Use Gemini for short summaries (up to 5 newest articles per region; incurs API usage)"
+        description: "Use Gemini for summaries on up to 2 newest articles per region; incurs API usage"
+        required: false
+        type: boolean
+        default: false
+      generate_gemini_digest:
+        description: "Generate a Google Search-grounded Gemini education digest with source links; incurs API/search usage"
         required: false
         type: boolean
         default: false
@@ -40,6 +45,9 @@ jobs:
           python -m pip install --upgrade pip
           pip install -r requirements.txt
 
+      - name: Run unit tests
+        run: python -m unittest discover -s tests -p "test_*.py"
+
       # The collector writes only machine-maintained data and the RSS feed.
       # index.html, header.html, footer.html, CSS, and JavaScript are templates
       # and are deliberately excluded from the commit step below.
@@ -47,7 +55,9 @@ jobs:
         env:
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
           GEMINI_MODEL: gemini-3.5-flash-lite
+          GEMINI_SEARCH_MODEL: gemini-2.5-flash
           GENERATE_SUMMARIES: ${{ github.event_name == 'workflow_dispatch' && inputs.generate_summaries || false }}
+          GENERATE_GEMINI_DIGEST: ${{ github.event_name == 'workflow_dispatch' && inputs.generate_gemini_digest || false }}
           SITE_URL: https://ajayyadavmit.github.io/cs_ai_education
         run: |
           python scripts/collect_articles.py
@@ -55,11 +65,16 @@ jobs:
       # Stage an explicit allow-list. Do not use "git add ." here: website
       # presentation files are hand-edited and must never be overwritten by CI.
       - name: Commit and push article data and RSS
+        env:
+          GENERATE_GEMINI_DIGEST: ${{ github.event_name == 'workflow_dispatch' && inputs.generate_gemini_digest || false }}
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
 
           git add data/articles.json feed.xml
+          if [ "$GENERATE_GEMINI_DIGEST" = "true" ]; then
+            git add data/gemini_digest.json
+          fi
 
           if ! git diff --cached --quiet; then
             git commit -m "Update collected education articles"

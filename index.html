@@ -1,59 +1,144 @@
 <!doctype html>
 <html lang="en">
-<head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="Recent computer science and AI education articles, research, and classroom resources.">
-  <meta name="theme-color" content="#f5f7f5">
-  <title>AI &amp; Computer Science Education Digest</title>
-  <link rel="alternate" type="application/rss+xml" title="AI &amp; Computer Science Education RSS" href="feed.xml">
-  <link rel="stylesheet" href="assets/css/styles.css">
-  <script src="assets/js/app.js" defer></script>
-</head>
-<body>
-  <div class="page-shell">
-    <div id="site-header" data-include="header.html"></div>
-    <main id="main-content">
-      <section class="intro-panel" aria-labelledby="section-heading">
-        <div>
-          <p class="eyebrow">THE LATEST IN LEARNING &amp; TECHNOLOGY</p>
-          <h2 id="section-heading">Explore the latest ideas</h2>
-          <p class="intro-copy">A curated reading list of articles, experiments, and research for computer science and AI education.</p>
-        </div>
-        <a class="feed-pill" href="feed.xml">
-          <span class="feed-icon" aria-hidden="true">◉</span>
-          Follow the RSS feed
-        </a>
-      </section>
-
-      <section class="collection" aria-label="Article collection">
-        <div class="collection-heading">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta
+      name="description"
+      content="Recent computer science and AI education articles, research, and classroom resources."
+    />
+    <meta name="theme-color" content="#f5f7f5" />
+    <title>AI &amp; Computer Science Education Digest</title>
+    <link
+      rel="alternate"
+      type="application/rss+xml"
+      title="AI &amp; Computer Science Education RSS"
+      href="feed.xml"
+    />
+    <link rel="stylesheet" href="assets/css/styles.css" />
+    <script src="assets/js/app.js" defer></script>
+  </head>
+  <body>
+    <div class="page-shell">
+      <div id="site-header" data-include="header.html"></div>
+      <main id="main-content">
+        <section class="intro-panel" aria-labelledby="section-heading">
           <div>
-            <p class="eyebrow">CURATED READING</p>
-            <h2>Articles by region</h2>
+            <p class="eyebrow">THE LATEST IN LEARNING &amp; TECHNOLOGY</p>
+            <h2 id="section-heading">Explore the latest ideas</h2>
+            <p class="intro-copy">
+              A curated reading list of articles, experiments, and research for
+              computer science and AI education.
+            </p>
           </div>
-          <p id="updated" class="updated" aria-live="polite">Loading articles…</p>
-        </div>
+          <a class="feed-pill" href="feed.xml">
+            <span class="feed-icon" aria-hidden="true">◉</span>
+            Follow the RSS feed
+          </a>
+        </section>
 
-        <label class="search-label" for="article-search">Search this collection</label>
-        <div class="search-wrap">
-          <span aria-hidden="true" class="search-icon">⌕</span>
-          <input id="article-search" type="search" placeholder="Try a topic, publisher, or title" autocomplete="off">
-          <kbd>/</kbd>
-        </div>
+        <section class="collection" aria-label="Article collection">
+          <div class="collection-heading">
+            <div>
+              <p class="eyebrow">CURATED READING</p>
+              <h2>Articles by region</h2>
+            </div>
+            <p id="updated" class="updated" aria-live="polite">
+              Loading articles…
+            </p>
+          </div>
 
-        <div class="tabs" role="tablist" aria-label="Filter articles by region">
-          <button class="tab is-active" id="tab-global" type="button" role="tab" aria-selected="true" aria-controls="article-list" data-region="Global">Global <span class="tab-count" data-count="Global">0</span></button>
-          <button class="tab" id="tab-usa" type="button" role="tab" aria-selected="false" aria-controls="article-list" data-region="USA" tabindex="-1">USA <span class="tab-count" data-count="USA">0</span></button>
-          <button class="tab" id="tab-india" type="button" role="tab" aria-selected="false" aria-controls="article-list" data-region="India" tabindex="-1">India <span class="tab-count" data-count="India">0</span></button>
-          <button class="tab" id="tab-nepal" type="button" role="tab" aria-selected="false" aria-controls="article-list" data-region="Nepal" tabindex="-1">Nepal <span class="tab-count" data-count="Nepal">0</span></button>
-        </div>
-        <p id="result-count" class="result-count" aria-live="polite"></p>
-        <section id="article-list" class="article-list" role="tabpanel" aria-labelledby="tab-global" tabindex="0"></section>
-      </section>
-    </main>
-    <div id="site-footer" data-include="footer.html"></div>
-  </div>
-  <div id="toast" class="toast" role="status" aria-live="polite" hidden></div>
-</body>
+          <label class="search-label" for="article-search"
+            >Search this collection</label
+          >
+          <div class="search-wrap">
+            <span aria-hidden="true" class="search-icon">⌕</span>
+            <input
+              id="article-search"
+              type="search"
+              placeholder="Try a topic, publisher, or title"
+              autocomplete="off"
+            />
+            <kbd>/</kbd>
+          </div>
+
+          <div
+            class="tabs"
+            role="tablist"
+            aria-label="Filter articles by region"
+          >
+            <button
+              class="tab is-active"
+              id="tab-global"
+              type="button"
+              role="tab"
+              aria-selected="true"
+              aria-controls="article-list"
+              data-region="Global"
+            >
+              Global <span class="tab-count" data-count="Global">0</span>
+            </button>
+            <button
+              class="tab"
+              id="tab-usa"
+              type="button"
+              role="tab"
+              aria-selected="false"
+              aria-controls="article-list"
+              data-region="USA"
+              tabindex="-1"
+            >
+              USA <span class="tab-count" data-count="USA">0</span>
+            </button>
+            <button
+              class="tab"
+              id="tab-india"
+              type="button"
+              role="tab"
+              aria-selected="false"
+              aria-controls="article-list"
+              data-region="India"
+              tabindex="-1"
+            >
+              India <span class="tab-count" data-count="India">0</span>
+            </button>
+            <button
+              class="tab"
+              id="tab-nepal"
+              type="button"
+              role="tab"
+              aria-selected="false"
+              aria-controls="article-list"
+              data-region="Nepal"
+              tabindex="-1"
+            >
+              Nepal ++ <span class="tab-count" data-count="Nepal">0</span>
+            </button>
+            <button
+              class="tab"
+              id="tab-gemini"
+              type="button"
+              role="tab"
+              aria-selected="false"
+              aria-controls="article-list"
+              data-region="Gemini AI Education"
+              tabindex="-1"
+            >
+              Gemini AI Education
+            </button>
+          </div>
+          <p id="result-count" class="result-count" aria-live="polite"></p>
+          <section
+            id="article-list"
+            class="article-list"
+            role="tabpanel"
+            aria-labelledby="tab-global"
+            tabindex="0"
+          ></section>
+        </section>
+      </main>
+      <div id="site-footer" data-include="footer.html"></div>
+    </div>
+    <div id="toast" class="toast" role="status" aria-live="polite" hidden></div>
+  </body>
 </html>

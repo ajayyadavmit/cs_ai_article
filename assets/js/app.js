@@ -4,8 +4,10 @@ const searchInput = document.getElementById("article-search");
 const resultCount = document.getElementById("result-count");
 const toast = document.getElementById("toast");
 let articles = [];
+let geminiDigest = null;
 let selectedRegion = "Global";
 let toastTimer;
+const GEMINI_TAB = "Gemini AI Education";
 
 async function loadFragment(target) {
   const response = await fetch(target.dataset.include);
@@ -15,22 +17,45 @@ async function loadFragment(target) {
   target.innerHTML = await response.text();
 }
 
-function inferRegion(article) {
+const countryNames = [
+  "USA", "United States", "India", "Nepal", "United Kingdom", "Canada",
+  "Australia", "China", "Japan", "Germany", "France", "Singapore",
+  "Finland", "Brazil", "Syria",
+];
+const regionalSignals = {
+  USA: /\b(u\.s\.a?\.?|u\.s\.?|american|united states|new york|california|texas|washington|chicago|boston|philadelphia|seattle|los angeles)\b/i,
+  India: /\b(indian|new delhi|mumbai|bengaluru|bangalore|chennai|hyderabad|kolkata|ncert|cbse|iit)\b/i,
+  Nepal: /\b(nepali|nepalese|kathmandu|pokhara|lalitpur|bhaktapur|tribhuvan)\b/i,
+};
+
+function inferCountry(article) {
   const text = [
     article.title,
     article.description,
     article.publisher,
-    article.article_text,
-  ].join(" ").toLowerCase();
-  const patterns = {
-    India: /\b(india|indian|new delhi|mumbai|bengaluru|bangalore|chennai|delhi|hyderabad|kolkata)\b/,
-    Nepal: /\b(nepal|nepali|kathmandu|pokhara)\b/,
-    USA: /\b(usa|u\.s\.a?\.?|united states|american|new york|california|texas|washington|philadelphia|chicago|boston)\b/,
-  };
-  for (const region of ["India", "Nepal", "USA"]) {
-    if (patterns[region].test(text)) return region;
-  }
-  return "Global";
+  ].join(" ");
+  const textCountry = Object.entries(regionalSignals).find(([, pattern]) => pattern.test(text));
+  if (textCountry) return textCountry[0];
+  const publisherUrl = safeArticleUrl(article.publisher_url);
+  const host = publisherUrl ? new URL(publisherUrl).hostname.toLowerCase() : "";
+  if (host.endsWith(".in") || [
+    "thehindu.com", "indianexpress.com", "hindustantimes.com",
+    "timesofindia.indiatimes.com", "ndtv.com",
+  ].some((domain) => host === domain || host.endsWith(`.${domain}`))) return "India";
+  if (host.endsWith(".np") || [
+    "kathmandupost.com", "risingnepaldaily.com",
+    "myrepublica.nagariknetwork.com", "edusanjal.com", "techpana.com",
+  ].some((domain) => host === domain || host.endsWith(`.${domain}`))) return "Nepal";
+  if (host.endsWith(".us")) return "USA";
+  return countryNames.find((country) => new RegExp(
+    `\\b${country}\\b`, "i",
+  ).test(text)) || "";
+}
+
+function inferRegion(article) {
+  const country = inferCountry(article);
+  if (country === "United States") return "USA";
+  return ["USA", "India", "Nepal"].includes(country) ? country : "Global";
 }
 
 function safeArticleUrl(value) {
@@ -62,6 +87,10 @@ function createArticleCard(article) {
     addText(meta, "span", "", new Date(`${article.published}T00:00:00`).toLocaleDateString(
       undefined, { year: "numeric", month: "short", day: "numeric" },
     ));
+  }
+  if (selectedRegion === "Global") {
+    const country = article.country || inferCountry(article);
+    if (country) addText(meta, "span", "country-badge", country);
   }
   card.append(meta);
 
@@ -121,20 +150,14 @@ function showEmptyMessage(message, isError = false) {
 }
 
 function render() {
-  const query = searchInput.value.trim().toLocaleLowerCase();
-  const sectionArticles = articles.filter((article) => article.region === selectedRegion);
-  const visible = sectionArticles.filter((article) => {
-    const haystack = [
-      article.title,
-      article.publisher,
-      article.author,
-      ...(Array.isArray(article.categories) ? article.categories : []),
-      article.description,
-      article.summary,
-    ].join(" ").toLocaleLowerCase();
-    return haystack.includes(query);
-  });
-
+  const queryTerms = searchInput.value
+    .normalize("NFD")
+    .replace(/\p{Diacritic}/gu, "")
+    .toLocaleLowerCase()
+    .replace(/[^\p{L}\p{N}]+/gu, " ")
+    .trim()
+    .split(/\s+/)
+    .filter(Boolean);
   document.querySelectorAll(".tab").forEach((tab) => {
     const active = tab.dataset.region === selectedRegion;
     tab.classList.toggle("is-active", active);
@@ -149,15 +172,94 @@ function render() {
     "aria-labelledby",
     document.querySelector(`.tab[data-region="${selectedRegion}"]`).id,
   );
+  if (selectedRegion === GEMINI_TAB) {
+    renderGeminiDigest(queryTerms);
+    return;
+  }
+
+  const sectionArticles = articles.filter((article) => article.region === selectedRegion);
+  const visible = sectionArticles.filter((article) => {
+    const haystack = [
+      article.title,
+      article.publisher,
+      article.author,
+      article.country,
+      article.region,
+      article.content_type,
+      article.url,
+      ...(Array.isArray(article.categories) ? article.categories : []),
+      article.description,
+      article.summary,
+    ].join(" ").normalize("NFD").replace(/\p{Diacritic}/gu, "").toLocaleLowerCase();
+    return queryTerms.every((term) => haystack.includes(term));
+  });
   resultCount.textContent = `Showing ${visible.length} of ${sectionArticles.length} articles`;
 
   if (!visible.length) {
-    showEmptyMessage(query
+    showEmptyMessage(queryTerms.length
       ? "No articles match your search in this region. Try another term or region."
       : "No articles in this region yet. Check back after the next collection run.");
     return;
   }
   articleList.replaceChildren(...visible.map(createArticleCard));
+}
+
+function renderGeminiDigest(queryTerms) {
+  articleList.replaceChildren();
+  if (!geminiDigest) {
+    resultCount.textContent = "Gemini digest not generated";
+    showEmptyMessage(
+      "No Gemini research digest yet. Enable “Generate a Google Search-grounded Gemini education digest” in a manual workflow run. Google Search grounding lets Gemini search the web and attach source links; it does not guarantee every claim is accurate.",
+    );
+    return;
+  }
+
+  const sources = Array.isArray(geminiDigest.sources)
+    ? geminiDigest.sources.filter((source) => source && typeof source === "object")
+    : [];
+  const haystack = [
+    geminiDigest.text,
+    ...sources.flatMap((source) => [source.title, source.url]),
+  ].join(" ").normalize("NFD").replace(/\p{Diacritic}/gu, "").toLocaleLowerCase();
+  if (!queryTerms.every((term) => haystack.includes(term))) {
+    resultCount.textContent = `No digest or source matches · ${sources.length} sources`;
+    showEmptyMessage("No part of this Gemini digest or its sources matches your search.");
+    return;
+  }
+
+  resultCount.textContent = `Gemini research scan · ${sources.length} sources`;
+  const card = document.createElement("article");
+  card.className = "article-card gemini-digest";
+  addText(card, "p", "eyebrow", "GOOGLE SEARCH-GROUNDED");
+  addText(card, "p", "gemini-digest-text", geminiDigest.text);
+  if (geminiDigest.generated_at) {
+    const generatedDate = new Date(geminiDigest.generated_at);
+    if (!Number.isNaN(generatedDate.getTime())) {
+      addText(
+        card,
+        "p",
+        "article-publisher",
+        `Generated ${generatedDate.toLocaleString()}. Gemini-selected sources; review original articles.`,
+      );
+    }
+  }
+  const sourceHeading = addText(card, "h3", "gemini-sources-heading", "Sources");
+  const sourceList = document.createElement("ol");
+  sourceList.className = "gemini-source-list";
+  for (const source of sources) {
+    if (typeof source.url !== "string") continue;
+    const url = safeArticleUrl(source.url);
+    if (!url) continue;
+    const item = document.createElement("li");
+    const link = addText(item, "a", "", source.title || url);
+    link.href = url;
+    link.target = "_blank";
+    link.rel = "noopener noreferrer";
+    addText(item, "span", "gemini-source-url", url);
+    sourceList.append(item);
+  }
+  card.append(sourceList);
+  articleList.append(card);
 }
 
 function notify(message) {
@@ -182,20 +284,31 @@ async function loadArticles() {
   const data = await response.json();
   if (!Array.isArray(data)) throw new Error("Article data must be a JSON array.");
 
-  const latestFiveByRegion = Object.fromEntries(regions.map((region) => [
+  const latestSummariesByRegion = Object.fromEntries(regions.map((region) => [
     region,
     data.filter((article) => (article.region || inferRegion(article)) === region)
       .sort((a, b) => (b.published || "").localeCompare(a.published || ""))
-      .slice(0, 5),
+      .slice(0, 2),
   ]));
   const latestArticleUrls = new Set(
-    Object.values(latestFiveByRegion).flat().map((article) => article.url),
+    Object.values(latestSummariesByRegion).flat().map((article) => article.url),
   );
   articles = data.map((article) => ({
     ...article,
     region: regions.includes(article.region) ? article.region : inferRegion(article),
+    country: article.country || inferCountry(article),
     summary: latestArticleUrls.has(article.url) ? article.summary : "",
   })).sort((a, b) => (b.published || "").localeCompare(a.published || ""));
+
+  const digestResponse = await fetch("data/gemini_digest.json");
+  if (digestResponse.ok) {
+    geminiDigest = await digestResponse.json();
+    if (typeof geminiDigest.text !== "string" || !Array.isArray(geminiDigest.sources)) {
+      throw new Error("Gemini digest data has an invalid format.");
+    }
+  } else if (digestResponse.status !== 404) {
+    throw new Error(`Could not load Gemini digest (${digestResponse.status}).`);
+  }
 
   const collectionDate = articles.map((article) => (
     article.collected_at || article.first_seen || article.published || ""
