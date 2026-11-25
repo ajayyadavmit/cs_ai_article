@@ -48,7 +48,7 @@ A GitHub Pages template for collecting recent articles, experiments, and researc
 | `assets/js/app.js` | Loads fragments and JSON, builds cards, tabs, search, sharing, and gist UI | **No** |
 | `.github/workflows/cs-education-digest.yml` | Schedule, optional summary/digest inputs, dependency setup, and allow-listed data commits | Workflow definition |
 
-The workflow explicitly stages `data/articles.json` and `feed.xml`, and stages `data/gemini_digest.json` only when digest generation is requested. Do not replace that allow-list with `git add .`; presentation files are intentionally outside the automated write path.
+The workflow has a collection job that publishes `data/articles.json` and `feed.xml` before a separate Gemini job starts. Gemini summaries are committed separately from the grounded digest. A Gemini failure therefore cannot block publication of the collected articles. Do not replace the explicit Git allow-lists with `git add .`; presentation files are intentionally outside the automated write path.
 
 ## Article collection settings
 
@@ -63,7 +63,7 @@ Edit the clearly marked settings near the top of [`scripts/collect_articles.py`]
 | `REGIONAL_ARTICLE_TARGET` | Maximum number of newest USA, India, and Nepal articles retained per tab. Default: 15. |
 | `OLDER_ARTICLE_LIMIT_DAYS` | Older items are retained only up to this age. |
 | `MAX_SUMMARIES_PER_REGION` | Maximum number of newest records eligible for gist summaries in each of Global, USA, India, and Nepal. Default: 2. |
-| `GEMINI_SEARCH_MODEL` | Gemini model used for the optional Google Search-grounded education digest. Default: `gemini-2.5-flash`. |
+| `GEMINI_SEARCH_MODEL` | Gemini model used for the optional Google Search-grounded education digest. Default: `gemini-3.8-flash`. |
 | `GENERATE_GEMINI_DIGEST` | Defaults to `false`; explicitly enables generation of the separate Gemini research digest. |
 | `GEMINI_DIGEST_MAX_WORDS` | Maximum word count for the digest body. Source URLs are stored separately and do not count toward this limit. Default: 500. |
 | `MAX_ARTICLE_TEXT_CHARS` | Upper bound on publisher text sent to Gemini. Default: 3,500 characters. |
@@ -91,26 +91,26 @@ Google News RSS and Crossref article collection run without a Gemini key. Gemini
 
 ## Gemini summaries and grounded research digest
 
-Summaries are **off by default**, including the daily scheduled run. To request summaries:
+The daily scheduled run enables both Gemini features. Manual runs leave them off unless selected:
 
 1. Add `GEMINI_API_KEY` as a GitHub Actions repository secret.
 2. Open **Actions → Collect education articles → Run workflow**.
-3. Check **Use Gemini for short summaries** and start the workflow.
+3. Check **Use Gemini for short summaries** and/or **Generate a Google Search-grounded Gemini education digest with source links**, then start the workflow.
 
 Only the newest two articles per region are summary-eligible (up to eight articles total). Gists request 35–55 words, send at most 3,500 source characters, and cap generated output at 150 tokens. The script makes one request per eligible article that does not already have a gist; it does not retry failed API calls. Failed or unavailable summaries remain blank and do not display a Gist Summary control. Records outside the newest-two scope have their old gists cleared.
 
-The workflow can collect articles without a Gemini key as long as a Gemini feature is not requested.
+Article collection does not require the Gemini key. If Gemini fails, the collection job has already committed the article JSON and RSS; gist and digest generation run separately.
 
 The final **Gemini AI Education** tab is a separate, optional research scan grounded in Google Search. “Grounded” means Gemini can search the web while preparing its answer and the app displays the source links returned with that answer. It is not a guarantee that every statement is correct, so readers should review the cited sources. This is separate from article collection: the collector makes one Gemini request and saves the response and citations to `data/gemini_digest.json`. The text body is capped at 500 words; source URLs are presented separately and do not count toward that limit. The digest can include public news, classroom experiments, and research. Generation may incur Gemini API and Google Search grounding usage.
 
-To generate or refresh the digest:
+To generate or refresh the digest manually:
 
 1. Add `GEMINI_API_KEY` as a GitHub Actions repository secret.
 2. Open **Actions → Collect education articles → Run workflow**.
 3. Optionally select **Use Gemini for short summaries** and independently select **Generate a Google Search-grounded Gemini education digest with source links**.
-4. Start the workflow. When the digest option is checked, the workflow commits the updated `data/gemini_digest.json` along with the article JSON and RSS feed.
+4. Start the workflow. The digest runs in its own step after article collection is committed. A successful digest is committed independently to `data/gemini_digest.json`.
 
-The digest option is off by default, including scheduled runs. If no digest file has been generated yet, the tab explains how to enable it. Normal collection runs do not remove or refresh an existing digest.
+The digest option is off by default for manual runs. Scheduled runs generate one digest daily. If no digest file has been generated yet, the tab explains how to enable it. Article collection does not remove or refresh an existing digest.
 
 For a local digest-only test, install the packages from `requirements.txt`, set `GEMINI_API_KEY` in your local terminal environment, and run:
 
@@ -238,7 +238,7 @@ The collector does not persist full publisher article text.
 
 ## Dependencies and workflow
 
-Install dependencies from `requirements.txt` with `python3 -m pip install -r requirements.txt`. The daily workflow runs at 00:15 UTC. Manual runs can opt in to summaries. It commits only the generated JSON and RSS feed, preserving all manually maintained templates.
+Install dependencies from `requirements.txt` with `python3 -m pip install -r requirements.txt`. The daily workflow runs at 00:15 UTC: article collection and publication occur first, then an isolated Gemini job generates gists and the grounded digest. Manual runs can opt in to either Gemini feature. The workflow commits only generated data and RSS files, preserving all manually maintained templates.
 
 Run the focused collector tests with:
 

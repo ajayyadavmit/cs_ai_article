@@ -20,13 +20,13 @@ from xml.etree import ElementTree
 # ============================================================
 
 # Gemini is used only when GENERATE_SUMMARIES=true and a Gemini key is set.
-GEMINI_MODEL = os.getenv("GEMINI_MODEL", "gemini-3.5-flash-lite")
+GEMINI_MODEL = os.getenv("GEMINI_MODEL", "gemini-3.8-flash")
 GENERATE_SUMMARIES = os.getenv("GENERATE_SUMMARIES", "false").strip().lower() == "true"
 GENERATE_GEMINI_DIGEST = (
     os.getenv("GENERATE_GEMINI_DIGEST", "false").strip().lower() == "true"
 )
 SUMMARY_AUDIENCE = os.getenv("SUMMARY_AUDIENCE", "computer science education")
-GEMINI_SEARCH_MODEL = os.getenv("GEMINI_SEARCH_MODEL", "gemini-2.5-flash")
+GEMINI_SEARCH_MODEL = os.getenv("GEMINI_SEARCH_MODEL", "gemini-3.8-flash")
 
 # Article retention and search age.
 MAX_GLOBAL_ARTICLES = 40
@@ -827,6 +827,30 @@ def prepare_summary_scope(articles: list[dict[str, Any]]) -> list[dict[str, Any]
     return [item for item in articles if item.get("url", "") in allowed_urls]
 
 
+def generate_missing_summaries(summary_candidates: list[dict[str, Any]]) -> int:
+    pending = [article for article in summary_candidates if not article.get("summary")]
+    processed = 0
+    for article in pending:
+        logging.info("Preparing optional gist for %s", article.get("title", ""))
+        try:
+            article_text = fetch_article_text(article)
+            article["summary"] = generate_gist(article, article_text)
+            article["summary_status"] = "ok"
+            article.pop("summary_error", None)
+        except Exception as exc:
+            article["summary"] = ""
+            article["summary_status"] = "error"
+            article["summary_error"] = f"{type(exc).__name__}: {exc}"
+            logging.warning(
+                "Summary failed for %r: %s", article.get("title", ""), exc
+            )
+        article["summarised_at"] = datetime.now(timezone.utc).isoformat()
+        article.pop("article_text", None)
+        processed += 1
+        time.sleep(SECONDS_BETWEEN_GEMINI_CALLS)
+    return processed
+
+
 def apply_article_quotas(articles: list[dict[str, Any]]) -> list[dict[str, Any]]:
     """Keep up to 40 Global articles and the configured regional count."""
     sort_articles(articles)
@@ -902,11 +926,13 @@ def write_rss_feed(articles: list[dict[str, Any]]) -> None:
     logging.info("RSS feed generated: %s", RSS_FILE)
 
 
-def main(digest_only: bool = False) -> None:
+def main(digest_only: bool = False, summaries_only: bool = False) -> None:
     if (GENERATE_SUMMARIES or GENERATE_GEMINI_DIGEST) and not GEMINI_API_KEY:
         raise RuntimeError(
             "Gemini generation was requested, but GEMINI_API_KEY is not configured."
         )
+    if digest_only and summaries_only:
+        raise ValueError("Digest-only and summaries-only modes cannot be combined.")
     if digest_only:
         if not GEMINI_API_KEY:
             raise RuntimeError(
@@ -914,6 +940,25 @@ def main(digest_only: bool = False) -> None:
             )
         save_gemini_digest(generate_gemini_digest())
         logging.info("Gemini education digest saved without running article collection.")
+        return
+
+    if summaries_only:
+        if not GENERATE_SUMMARIES:
+            raise RuntimeError(
+                "Summaries-only mode requires GENERATE_SUMMARIES=true."
+            )
+        retained = apply_article_quotas(list(load_database().values()))
+        summary_candidates = prepare_summary_scope(retained)
+        processed = generate_missing_summaries(summary_candidates)
+        for article in retained:
+            article["collected_at"] = TODAY.isoformat()
+        save_database(retained)
+        write_rss_feed(retained)
+        logging.info(
+            "Finished Gemini gist update: %d summaries generated, %d summaries available.",
+            processed,
+            sum(bool(article.get("summary")) for article in retained),
+        )
         return
 
     database = load_database()
@@ -955,25 +1000,7 @@ def main(digest_only: bool = False) -> None:
 
     processed = 0
     if GENERATE_SUMMARIES:
-        pending = [article for article in summary_candidates if not article.get("summary")]
-        for article in pending:
-            logging.info("Preparing optional gist for %s", article.get("title", ""))
-            article_text = fetch_article_text(article)
-            try:
-                article["summary"] = generate_gist(article, article_text)
-                article["summary_status"] = "ok"
-                article.pop("summary_error", None)
-            except Exception as exc:
-                article["summary"] = ""
-                article["summary_status"] = "error"
-                article["summary_error"] = f"{type(exc).__name__}: {exc}"
-                logging.warning(
-                    "Summary failed for %r: %s", article.get("title", ""), exc
-                )
-            article["summarised_at"] = datetime.now(timezone.utc).isoformat()
-            article.pop("article_text", None)
-            processed += 1
-            time.sleep(SECONDS_BETWEEN_GEMINI_CALLS)
+        processed = generate_missing_summaries(summary_candidates)
 
     for article in retained:
         article["collected_at"] = TODAY.isoformat()
@@ -995,4 +1022,10 @@ if __name__ == "__main__":
         action="store_true",
         help="Generate the Gemini digest without collecting articles or rewriting the RSS feed.",
     )
-    main(digest_only=parser.parse_args().digest_only)
+    parser.add_argument(
+        "--summaries-only",
+        action="store_true",
+        help="Generate eligible article gists without running article discovery.",
+    )
+    args = parser.parse_args()
+    main(digest_only=args.digest_only, summaries_only=args.summaries_only)

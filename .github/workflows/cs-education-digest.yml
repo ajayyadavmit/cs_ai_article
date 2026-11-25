@@ -2,8 +2,7 @@ name: Collect education articles
 
 on:
   schedule:
-    # Runs once a day at 00:15 UTC. Scheduled runs collect articles and update
-    # data/articles.json plus feed.xml; Gemini summaries remain disabled.
+    # Runs once a day at 00:15 UTC. Gemini runs in a separate dependent job.
     - cron: "15 0 * * *"
 
   workflow_dispatch:
@@ -22,7 +21,6 @@ on:
 permissions:
   contents: write
 
-# Avoid overlapping scheduled/manual commits to the generated data files.
 concurrency:
   group: education-article-collection
   cancel-in-progress: false
@@ -48,39 +46,95 @@ jobs:
       - name: Run unit tests
         run: python -m unittest discover -s tests -p "test_*.py"
 
-      # The collector writes only machine-maintained data and the RSS feed.
-      # index.html, header.html, footer.html, CSS, and JavaScript are templates
-      # and are deliberately excluded from the commit step below.
+      # This job only discovers and publishes articles and RSS; Gemini is isolated below.
       - name: Collect articles and update feed
         env:
-          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
-          GEMINI_MODEL: gemini-3.5-flash-lite
-          GEMINI_SEARCH_MODEL: gemini-2.5-flash
-          GENERATE_SUMMARIES: ${{ github.event_name == 'workflow_dispatch' && inputs.generate_summaries || false }}
-          GENERATE_GEMINI_DIGEST: ${{ github.event_name == 'workflow_dispatch' && inputs.generate_gemini_digest || false }}
           SITE_URL: https://ajayyadavmit.github.io/cs_ai_education
-        run: |
-          python scripts/collect_articles.py
+        run: python scripts/collect_articles.py
 
-      # Stage an explicit allow-list. Do not use "git add ." here: website
-      # presentation files are hand-edited and must never be overwritten by CI.
       - name: Commit and push article data and RSS
-        env:
-          GENERATE_GEMINI_DIGEST: ${{ github.event_name == 'workflow_dispatch' && inputs.generate_gemini_digest || false }}
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
 
           git add data/articles.json feed.xml
-          if [ "$GENERATE_GEMINI_DIGEST" = "true" ]; then
-            git add data/gemini_digest.json
-          fi
-
           if ! git diff --cached --quiet; then
             git commit -m "Update collected education articles"
             git fetch origin main
             git rebase origin/main
             git push origin HEAD:refs/heads/main
           else
-            echo "No changes to publish."
+            echo "No article or RSS changes to publish."
+          fi
+
+  generate-gemini:
+    needs: collect-articles
+    if: >-
+      github.event_name == 'schedule' ||
+      (github.event_name == 'workflow_dispatch' &&
+      (inputs.generate_summaries || inputs.generate_gemini_digest))
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout latest main
+        uses: actions/checkout@v4
+        with:
+          ref: main
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
+
+      - name: Generate article gist summaries
+        if: github.event_name == 'schedule' || inputs.generate_summaries
+        env:
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+          GEMINI_MODEL: gemini-3.5-flash-lite
+          GENERATE_SUMMARIES: "true"
+          SITE_URL: https://ajayyadavmit.github.io/cs_ai_education
+        run: python scripts/collect_articles.py --summaries-only
+
+      - name: Commit and push gist summaries
+        if: github.event_name == 'schedule' || inputs.generate_summaries
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
+          git add data/articles.json feed.xml
+          if ! git diff --cached --quiet; then
+            git commit -m "Add Gemini article gist summaries"
+            git fetch origin main
+            git rebase origin/main
+            git push origin HEAD:refs/heads/main
+          else
+            echo "No gist summary changes to publish."
+          fi
+
+      - name: Generate Google Search-grounded Gemini digest
+        if: github.event_name == 'schedule' || inputs.generate_gemini_digest
+        env:
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+          GEMINI_SEARCH_MODEL: gemini-3.8-flash
+        run: python scripts/collect_articles.py --digest-only
+
+      - name: Commit and push Gemini digest
+        if: github.event_name == 'schedule' || inputs.generate_gemini_digest
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
+          git add data/gemini_digest.json
+          if ! git diff --cached --quiet; then
+            git commit -m "Update Gemini education digest"
+            git fetch origin main
+            git rebase origin/main
+            git push origin HEAD:refs/heads/main
+          else
+            echo "No Gemini digest changes to publish."
           fi

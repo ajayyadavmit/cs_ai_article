@@ -109,6 +109,27 @@ class SummaryScopeTests(unittest.TestCase):
         self.assertTrue(all(not a["summary"] for a in excluded))
         self.assertTrue(all(a["summary_status"] == "not_requested" for a in excluded))
 
+    def test_article_text_fetch_failure_does_not_stop_remaining_summaries(self):
+        articles = [
+            {"url": "https://example.org/1", "title": "First", "summary": ""},
+            {"url": "https://example.org/2", "title": "Second", "summary": ""},
+        ]
+        with (
+            patch.object(
+                collect_articles,
+                "fetch_article_text",
+                side_effect=[RuntimeError("publisher unavailable"), "Article text " * 10],
+            ),
+            patch.object(collect_articles, "generate_gist", return_value="Short gist"),
+            patch.object(collect_articles.time, "sleep"),
+        ):
+            processed = collect_articles.generate_missing_summaries(articles)
+
+        self.assertEqual(processed, 2)
+        self.assertEqual(articles[0]["summary_status"], "error")
+        self.assertEqual(articles[0]["summary"], "")
+        self.assertEqual(articles[1]["summary"], "Short gist")
+
 
 class ArticleQuotaTests(unittest.TestCase):
     def test_global_and_regional_article_limits(self):
@@ -355,6 +376,38 @@ class MainModeTests(unittest.TestCase):
         ):
             with self.assertRaisesRegex(RuntimeError, "GEMINI_API_KEY"):
                 collect_articles.main(digest_only=True)
+
+    def test_summaries_only_skips_article_discovery(self):
+        record = {
+            "title": "Computer science education research",
+            "url": "https://example.org/article",
+            "region": "Global",
+            "published": "2026-04-01",
+            "summary": "",
+        }
+        with tempfile.TemporaryDirectory() as directory:
+            data_dir = Path(directory) / "data"
+            data_dir.mkdir()
+            data_file = data_dir / "articles.json"
+            data_file.write_text(json.dumps([record]), encoding="utf-8")
+            rss_file = Path(directory) / "feed.xml"
+            with (
+                patch.object(collect_articles, "DATA_DIR", data_dir),
+                patch.object(collect_articles, "DATA_FILE", data_file),
+                patch.object(collect_articles, "RSS_FILE", rss_file),
+                patch.object(collect_articles, "GEMINI_API_KEY", "test-key"),
+                patch.object(collect_articles, "GENERATE_SUMMARIES", True),
+                patch.object(collect_articles, "GENERATE_GEMINI_DIGEST", False),
+                patch.object(collect_articles, "generate_missing_summaries", return_value=0),
+                patch.object(collect_articles, "discover_articles", side_effect=AssertionError),
+                patch.object(
+                    collect_articles, "discover_research_papers", side_effect=AssertionError
+                ),
+            ):
+                collect_articles.main(summaries_only=True)
+
+            self.assertTrue(rss_file.exists())
+            self.assertEqual(len(json.loads(data_file.read_text(encoding="utf-8"))), 1)
 
 
 class DatabaseTests(unittest.TestCase):
