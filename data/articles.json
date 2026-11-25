@@ -1,5 +1,29 @@
 [
   {
+    "title": "Artificial Intelligence and Its Influence on Shaping Entrepreneurial Mindsets in Education",
+    "url": "https://doi.org/10.64149/edm.v36i3.1400",
+    "rss_url": "https://doi.org/10.64149/edm.v36i3.1400",
+    "publisher": "Enterprise Development and Microfinance",
+    "author": "Anitha Mani, Geetha Manoharan",
+    "published": "2026-11-25",
+    "year": "2026",
+    "description": "Artificial intelligence is driving significant change in education in general with entrepreneurship included in this research. This research discusses how AI is making a difference in setting the entrepreneurial mindset of students. It explores how AI tools and platforms are increasingly reshaping the way of entrepreneurship is currently taught by providing personalized, interactive and hands-on learning experiences. Incorporating AI powered learning within the curriculum will inculcate an entrepreneurial mindset focusing on creativity, innovation and problem- solving. This research explores case studies of successful AI integration, in which these technologies further enhance the learning process in ultimately better to prepare students for a real-world entrepreneurial challenge. It is also discussed the benefits of AI in the personalization of education, mentorship and real time feedback. The challenges and ethical considerations for the use of AI in education are also explored and making sure that one gets full understanding and implications. This research analysis current trends and future possibilities to put forward the potential of AI to really transform entrepreneurship edu",
+    "affiliations": "",
+    "score": 17,
+    "categories": [
+      "AI in Education"
+    ],
+    "region": "Global",
+    "country": "",
+    "location_basis": "unknown",
+    "source": "Crossref",
+    "content_type": "Research paper",
+    "summary": "",
+    "summary_status": "pending",
+    "first_seen": "2026-11-25",
+    "collected_at": "2026-11-25"
+  },
+  {
     "title": "Artificial intelligence familiarity and use frequency are independently associated with artificial intelligence literacy among compulsory education teachers in Enshi Prefecture, China",
     "url": "https://www.frontiersin.org/journals/education/articles/10.3389/feduc.2026.1960948/full",
     "rss_url": "https://doi.org/10.3389/feduc.2026.1960948",
@@ -45,7 +69,7 @@
     "source": "Crossref",
     "content_type": "Research paper",
     "summary": "",
-    "summary_status": "pending",
+    "summary_status": "not_requested",
     "first_seen": "2026-11-25",
     "collected_at": "2026-11-25"
   },
@@ -171,6 +195,30 @@
     "collected_at": "2026-11-25"
   },
   {
+    "title": "Addressing the Youth Suicide Crisis: Policy Recommendations for Schools, Communities, and Health Care Settings",
+    "url": "https://doi.org/10.1177/15248399261505525",
+    "rss_url": "https://doi.org/10.1177/15248399261505525",
+    "publisher": "Health Promotion Practice",
+    "author": "Yash K. Garg, Shriya K. Garg",
+    "published": "2026-11-25",
+    "year": "2026",
+    "description": "About 10% of high school students reported a suicide attempt in 2023, indicating that growing youth suicide rates are an emerging public health crisis. Social and structural factors including trauma, marginalization, and systemic racism contribute to disparities in youth suicide risk and underscore the need to prioritize culturally relevant and responsive crisis intervention. We promote four policy recommendations: (a) placing 988 Suicide and Crisis Lifeline, Crisis Text Line, and local resources on all high school and college student IDs; (b) expanding state-sponsored community and school programs; (c) implementing universal school-based mental health screenings; and (d) promoting lethal means restriction. These policies address critical gaps in current youth suicide prevention approaches.",
+    "affiliations": "Rome High School, GA, USA University of Georgia, Athens, USA University of Pittsburgh, PA, USA Rome High School, GA, USA University of St. Thomas, Houston, TX, USA University of Pittsburgh Medical Center (UPMC), PA, USA",
+    "score": 10,
+    "categories": [
+      "Student Activities and Assessment"
+    ],
+    "region": "USA",
+    "country": "USA",
+    "location_basis": "article text",
+    "source": "Crossref",
+    "content_type": "Research paper",
+    "summary": "",
+    "summary_status": "pending",
+    "first_seen": "2026-11-25",
+    "collected_at": "2026-11-25"
+  },
+  {
     "title": "AI Tutoring in Primary ICT Education: The CARE Conceptual Framework",
     "url": "https://doi.org/10.1007/978-3-032-42258-3_21",
     "rss_url": "https://doi.org/10.1007/978-3-032-42258-3_21",
@@ -292,6 +340,30 @@
     "collected_at": "2026-11-25"
   },
   {
+    "title": "Design of a Personalized Learning System for Higher Education Using Artificial Intelligence and Interactive Mobile Technologies",
+    "url": "https://doi.org/10.3991/ijim.v20i21.63623",
+    "rss_url": "https://doi.org/10.3991/ijim.v20i21.63623",
+    "publisher": "International Journal of Interactive Mobile Technologies (iJIM)",
+    "author": "Weijing Li, Tingting Fu",
+    "published": "2026-11-25",
+    "year": "2026",
+    "description": "Mobile learning in higher education is shifting from ubiquitous access toward contextsensitive personalization. However, cloud-based recommendation systems are constrained by unpredictable latency, insufficient contextual awareness, and limited capacity for continuous adaptation. To address these limitations, an on-device context-adaptive personalization loop (OCAPL) was proposed, in which personalized inference, path generation, and online adaptation were performed directly on mobile devices. The proposed framework was built on three technical pillars: on-device multimodal state inference, context-constrained path generation, and implicit-feedback-driven parameter-efficient updating. Learning behaviors, touch interactions, and device context were jointly integrated. Learning actions were subsequently generated under constraints on latency, energy consumption, memory, and path coherence. Continuous adaptation was further enabled by natural interaction signals and low-rank fine-tuning. Experimental results demonstrate that OCAPL maintained on-device inference latency below 200 ms, peak memory usage below 50 MB, and additional energy consumption below 5% per hour of learning. Compare",
+    "affiliations": "",
+    "score": 7,
+    "categories": [
+      "AI in Education"
+    ],
+    "region": "Global",
+    "country": "",
+    "location_basis": "unknown",
+    "source": "Crossref",
+    "content_type": "Research paper",
+    "summary": "",
+    "summary_status": "not_requested",
+    "first_seen": "2026-11-25",
+    "collected_at": "2026-11-25"
+  },
+  {
     "title": "A COMPARATIVE ANALYSIS OF EUROPEAN AND UKRAINIAN FRAMEWORKS GOVERNING THE USE OF ARTIFICIAL INTELLIGENCE IN RESEARCH AND EDUCATION",
     "url": "https://doi.org/10.62792/ut.icfra.y2026.i2.pp94",
     "rss_url": "https://doi.org/10.62792/ut.icfra.y2026.i2.pp94",
@@ -364,6 +436,54 @@
     "collected_at": "2026-11-25"
   },
   {
+    "title": "Educate students to use AI ethically, basic skills remain priority, says Fadhlina - Newswav",
+    "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQMEx1S01oN3gtY3ZKQXRETmRrd1ZzbFJnTktGMTBDNGp3SjB5NjZtWlpZUGNuTWJEak41emhmMEkzZHV6QXZFQ0NVcFVaX25ITE1kZFZ4LXRWek5SVnZhazR0V3lOQVpqSEZQRVFBRk5XQm4xd1NDNlo3Y19Rb1R5dEIyZmthdjV2dWVwY3J4dUVwS3dTLUpmRlRGQmw5dlpjeDlkLWQxRG4yYjhkeDhsU0lzT3FkYTQ?oc=5",
+    "rss_url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQMEx1S01oN3gtY3ZKQXRETmRrd1ZzbFJnTktGMTBDNGp3SjB5NjZtWlpZUGNuTWJEak41emhmMEkzZHV6QXZFQ0NVcFVaX25ITE1kZFZ4LXRWek5SVnZhazR0V3lOQVpqSEZQRVFBRk5XQm4xd1NDNlo3Y19Rb1R5dEIyZmthdjV2dWVwY3J4dUVwS3dTLUpmRlRGQmw5dlpjeDlkLWQxRG4yYjhkeDhsU0lzT3FkYTQ?oc=5",
+    "publisher": "Newswav",
+    "publisher_url": "https://newswav.com",
+    "author": "Not listed",
+    "published": "2026-11-25",
+    "year": "2026",
+    "description": "Educate students to use AI ethically, basic skills remain priority, says Fadhlina Newswav",
+    "score": 6,
+    "categories": [
+      "AI in Education"
+    ],
+    "region": "Global",
+    "country": "",
+    "location_basis": "multiple editions",
+    "source": "Google News",
+    "content_type": "Web article",
+    "summary": "",
+    "summary_status": "not_requested",
+    "first_seen": "2026-11-25",
+    "collected_at": "2026-11-25"
+  },
+  {
+    "title": "AI-Powered Attention Monitoring with Live Computer Vision Processing",
+    "url": "https://doi.org/10.21203/rs.3.rs-8947136/v1",
+    "rss_url": "https://doi.org/10.21203/rs.3.rs-8947136/v1",
+    "publisher": "Springer Science and Business Media LLC",
+    "author": "Kishor Wagh, Prajwal Dalvi",
+    "published": "2026-11-25",
+    "year": "2026",
+    "description": "Abstract In fields like driver safety, remote work, online education, and cognitive evaluation, real-time attention monitoring is becoming more and more necessary. Existing solutions typically rely on cloud-based APIs, specialized sensors, or heavyweight native applications, which restrict accessibility, scalability, and privacy. Using MediaPipe Face Landmarker and TensorFlow.js for real-time computer vision processing, this paper introduces a fully browser-based, AI-powered attention monitoring system. Using JavaScript and Web APIs, the suggested system operates fully on the client side. It processes offline and live webcam footage, extracts facial landmarks, eye aspect ratio (EAR), head pose proxies, and gaze direction, and calculates an interpretable attention score for each frame.\nReal-time charts, blink-rate estimation, head-movement indicators, configurable thresholds, distraction alerts, and comprehensive post-session analytics are all included in the application's rich dashboard. Uploading and analyzing offline videos frame-by-frame can produce detailed statistics, attention-level distributions, temporal attention timelines, and exportable CSV, JSON, and PDF reports. Experi",
+    "affiliations": "AISSMS Institute of Information Technology AISSMS Institute of Information Technology AISSMS Institute of Information Technology AISSMS Institute of Information Technology",
+    "score": 6,
+    "categories": [
+      "AI in Education"
+    ],
+    "region": "Global",
+    "country": "",
+    "location_basis": "unknown",
+    "source": "Crossref",
+    "content_type": "Research paper",
+    "summary": "",
+    "summary_status": "not_requested",
+    "first_seen": "2026-11-25",
+    "collected_at": "2026-11-25"
+  },
+  {
     "title": "Columbia High School Students Urge District to Teach Responsible AI Use Rather Than Ban It - TAPinto",
     "url": "https://news.google.com/rss/articles/CBMihgJBVV95cUxNOHl2dzBmd0MzZ0RqZ2pHdlVnX1pIQi1XR1V5QTM5VTVMWmpJcUI5cWRwZ3hnaXFVMWpUT2taN002ZzBVaHdKVW9FcXpvcXRvNlhYUkMydXFmRWo3YnpQMng5aDdja1J4cF8ybE5Mc2N5bGt2b3pOUk9QVVdQdVNIZnRPRUdHcl9WdVNnWEdwY2RrWnFIU0hBc3ZxbTBBMW9oOVVHLUYtb0ZIZjNfcjJSSGVQemdtWGFReXFnc3YxTXlnQ0ZZYjhYNmVEU0IxLTE4OWt0aXNhLW81MXJwdkloT0hUZEp6bTRuSndzZktqX2h5amhOa1ZkLTRyV1hoWkk0Tmota0Rn?oc=5",
     "rss_url": "https://news.google.com/rss/articles/CBMihgJBVV95cUxNOHl2dzBmd0MzZ0RqZ2pHdlVnX1pIQi1XR1V5QTM5VTVMWmpJcUI5cWRwZ3hnaXFVMWpUT2taN002ZzBVaHdKVW9FcXpvcXRvNlhYUkMydXFmRWo3YnpQMng5aDdja1J4cF8ybE5Mc2N5bGt2b3pOUk9QVVdQdVNIZnRPRUdHcl9WdVNnWEdwY2RrWnFIU0hBc3ZxbTBBMW9oOVVHLUYtb0ZIZjNfcjJSSGVQemdtWGFReXFnc3YxTXlnQ0ZZYjhYNmVEU0IxLTE4OWt0aXNhLW81MXJwdkloT0hUZEp6bTRuSndzZktqX2h5amhOa1ZkLTRyV1hoWkk0Tmota0Rn?oc=5",
@@ -375,8 +495,8 @@
     "description": "Columbia High School Students Urge District to Teach Responsible AI Use Rather Than Ban It TAPinto",
     "score": 18,
     "categories": [
-      "Student Activities and Assessment",
-      "AI in Education"
+      "AI in Education",
+      "Student Activities and Assessment"
     ],
     "region": "Global",
     "country": "",
@@ -424,8 +544,8 @@
     "description": "FF EAI Robotics Ecosystem (FFR) Announces K-12 Robotics Education Partnerships and Sales Across Top Public School Districts, Advancing a Scalable Physical AI Education Ecosystem in the U.S. StreetInsider",
     "score": 10,
     "categories": [
-      "CS Education",
-      "AI in Education"
+      "AI in Education",
+      "CS Education"
     ],
     "region": "USA",
     "country": "USA",
@@ -449,8 +569,8 @@
     "description": "FF EAI Robotics Ecosystem (FFR) Announces K-12 Robotics Education Partnerships and Sales Across Top Public School Districts, Advancing a Scalable Physical AI Education Ecosystem in the U.S. PR Newswire",
     "score": 10,
     "categories": [
-      "CS Education",
-      "AI in Education"
+      "AI in Education",
+      "CS Education"
     ],
     "region": "USA",
     "country": "USA",
@@ -458,7 +578,7 @@
     "source": "Google News",
     "content_type": "Web article",
     "summary": "",
-    "summary_status": "pending",
+    "summary_status": "not_requested",
     "first_seen": "2026-11-25",
     "collected_at": "2026-11-25"
   },
@@ -479,7 +599,7 @@
     ],
     "region": "Global",
     "country": "",
-    "location_basis": "multiple editions",
+    "location_basis": "unknown",
     "source": "Google News",
     "content_type": "Web article",
     "summary": "",
@@ -1113,30 +1233,6 @@
     "collected_at": "2026-11-25"
   },
   {
-    "title": "Four Pennsylvania bills that could shape AI use in schools - The Keystone Newsroom",
-    "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOU3o5aU9zN21CcnhuVVhEM29uYW0xNUpIOXpySVQ0T2lDM2Izb2FWbFFIY0I5Q1cxS2JxOENYWTBaSFBpVk8xMVRBVVB0dktWQjdrT0YzaDBLWmRiek1DYTlLVVpSUldIa2ZjZzlmcExVWVpZTjZzYkJnNWVlN25Wem40R0kwb2kzb1drV1o5TTZoeFVGMDdXMHMyOEZ3bVphenNtQ3N3?oc=5",
-    "rss_url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOU3o5aU9zN21CcnhuVVhEM29uYW0xNUpIOXpySVQ0T2lDM2Izb2FWbFFIY0I5Q1cxS2JxOENYWTBaSFBpVk8xMVRBVVB0dktWQjdrT0YzaDBLWmRiek1DYTlLVVpSUldIa2ZjZzlmcExVWVpZTjZzYkJnNWVlN25Wem40R0kwb2kzb1drV1o5TTZoeFVGMDdXMHMyOEZ3bVphenNtQ3N3?oc=5",
-    "publisher": "The Keystone Newsroom",
-    "publisher_url": "https://keystonenewsroom.com",
-    "author": "Not listed",
-    "published": "2026-11-23",
-    "year": "2026",
-    "description": "Four Pennsylvania bills that could shape AI use in schools The Keystone Newsroom",
-    "score": 6,
-    "categories": [
-      "AI in Education"
-    ],
-    "region": "Global",
-    "country": "",
-    "location_basis": "multiple editions",
-    "source": "Google News",
-    "content_type": "Web article",
-    "summary": "",
-    "summary_status": "not_requested",
-    "first_seen": "2026-11-25",
-    "collected_at": "2026-11-25"
-  },
-  {
     "title": "Daniel Anello: Chicago Board of Education should wait before adopting a far-reaching AI policy - Chicago Tribune",
     "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPNUJrX3E0TDhSUkktTGJGa3F6OFh2MUoyZDNiRlBJcXFmNG1hdTBoV2ROSmlMeDRYWnlqTEJORXJTdWZHVUdNNFF5eWxxWmhTQW9VcDRMRV9oY0RzeEhhcTNLX25sZmRaUHFsZHBkQmpmMmpycW10cEt0TU5saVJzQ2FPbmI?oc=5",
     "rss_url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPNUJrX3E0TDhSUkktTGJGa3F6OFh2MUoyZDNiRlBJcXFmNG1hdTBoV2ROSmlMeDRYWnlqTEJORXJTdWZHVUdNNFF5eWxxWmhTQW9VcDRMRV9oY0RzeEhhcTNLX25sZmRaUHFsZHBkQmpmMmpycW10cEt0TU5saVJzQ2FPbmI?oc=5",
@@ -1282,78 +1378,6 @@
     "collected_at": "2026-11-25"
   },
   {
-    "title": "Google told schools to accept AI or lose Search. Now 3 of America’s 4 largest districts are pushing back - Fortune",
-    "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQZWIxdkYwQlNrcVVDLUNlNFVwbzRRaHp0el9jS3JsRGN1MVRIOWU2QW5rUlluT1RwaXdhV3pnU2JtcDAwVEZqZGJMSWY2RV9Edk84Mjh3N3ltTHlBS2hHcVNGWE4xZUhlbnJDZTZZNlFVc2xiX09GMmMxTFhHcmVqeDNhVm9PSFpOaVM1djJ2YXBaa3doYUlMWWJKTV8?oc=5",
-    "rss_url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQZWIxdkYwQlNrcVVDLUNlNFVwbzRRaHp0el9jS3JsRGN1MVRIOWU2QW5rUlluT1RwaXdhV3pnU2JtcDAwVEZqZGJMSWY2RV9Edk84Mjh3N3ltTHlBS2hHcVNGWE4xZUhlbnJDZTZZNlFVc2xiX09GMmMxTFhHcmVqeDNhVm9PSFpOaVM1djJ2YXBaa3doYUlMWWJKTV8?oc=5",
-    "publisher": "Fortune",
-    "publisher_url": "https://fortune.com",
-    "author": "Not listed",
-    "published": "2026-11-21",
-    "year": "2026",
-    "description": "Google told schools to accept AI or lose Search. Now 3 of America’s 4 largest districts are pushing back Fortune",
-    "score": 6,
-    "categories": [
-      "AI in Education"
-    ],
-    "region": "USA",
-    "country": "USA",
-    "location_basis": "news edition",
-    "source": "Google News",
-    "content_type": "Web article",
-    "summary": "",
-    "summary_status": "not_requested",
-    "first_seen": "2026-11-25",
-    "collected_at": "2026-11-25"
-  },
-  {
-    "title": "Dartmouth to Pilot New Approaches to AI in Education - Dartmouth",
-    "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPbi1yZ1YyQ3dGblVWMEVmaWM0ZG1NNFMxQnlNYjNYU2FhRWdyaUpudEVQdEZvZUxZbEdPX2JWNGlDR3NHTW40NGZTMHdNRF9jUHVCVnJhaHdLX015VU1LUnBILXRGRDZHZk5ZY25GSkFQdHMyOU9BMWxpRE1uNENNaTNsc29hZk5tQ0dr?oc=5",
-    "rss_url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPbi1yZ1YyQ3dGblVWMEVmaWM0ZG1NNFMxQnlNYjNYU2FhRWdyaUpudEVQdEZvZUxZbEdPX2JWNGlDR3NHTW40NGZTMHdNRF9jUHVCVnJhaHdLX015VU1LUnBILXRGRDZHZk5ZY25GSkFQdHMyOU9BMWxpRE1uNENNaTNsc29hZk5tQ0dr?oc=5",
-    "publisher": "Dartmouth",
-    "publisher_url": "https://home.dartmouth.edu",
-    "author": "Not listed",
-    "published": "2026-11-20",
-    "year": "2026",
-    "description": "Dartmouth to Pilot New Approaches to AI in Education Dartmouth",
-    "score": 9,
-    "categories": [
-      "AI in Education"
-    ],
-    "region": "Global",
-    "country": "",
-    "location_basis": "multiple editions",
-    "source": "Google News",
-    "content_type": "Web article",
-    "summary": "",
-    "summary_status": "not_requested",
-    "first_seen": "2026-11-25",
-    "collected_at": "2026-11-25"
-  },
-  {
-    "title": "Be the Driver: Keeping Generative AI in the Backseat by Supporting Students’ Use of AI - Faculty Focus",
-    "url": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxQU1ppcUZzMERsbzIxTEh6T0dUMmYwZ2tWVE1TZEJNbW9vY3ExX0dMVTFaM1Z6aFA5OGhKaDdaTWlnOUxKcHNNQWUtTDdfMURJaVExU1hTQkJWOXByT09UQzFsZ1FtbDNrVFNmbmNNMEh1S1ZnMGZjeVB5YXZEZTVaTWVPejY5T3NXdnQybVhLWVFNbURJNGxMdnc5bFhWbl9ScGloSTdQUld5YVkzTTByYk5YellUVUdScFVON0xsUjJWbUdkVmNrT0dNaUpyOThKSkFDQjZMNGtJZzZiS3UzNmphSDFtS2NRQkFpcWVR?oc=5",
-    "rss_url": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxQU1ppcUZzMERsbzIxTEh6T0dUMmYwZ2tWVE1TZEJNbW9vY3ExX0dMVTFaM1Z6aFA5OGhKaDdaTWlnOUxKcHNNQWUtTDdfMURJaVExU1hTQkJWOXByT09UQzFsZ1FtbDNrVFNmbmNNMEh1S1ZnMGZjeVB5YXZEZTVaTWVPejY5T3NXdnQybVhLWVFNbURJNGxMdnc5bFhWbl9ScGloSTdQUld5YVkzTTByYk5YellUVUdScFVON0xsUjJWbUdkVmNrT0dNaUpyOThKSkFDQjZMNGtJZzZiS3UzNmphSDFtS2NRQkFpcWVR?oc=5",
-    "publisher": "Faculty Focus",
-    "publisher_url": "https://www.facultyfocus.com",
-    "author": "Not listed",
-    "published": "2026-11-20",
-    "year": "2026",
-    "description": "Be the Driver: Keeping Generative AI in the Backseat by Supporting Students’ Use of AI Faculty Focus",
-    "score": 9,
-    "categories": [
-      "AI in Education"
-    ],
-    "region": "Global",
-    "country": "",
-    "location_basis": "multiple editions",
-    "source": "Google News",
-    "content_type": "Web article",
-    "summary": "",
-    "summary_status": "not_requested",
-    "first_seen": "2026-11-25",
-    "collected_at": "2026-11-25"
-  },
-  {
     "title": "WhalesBot Advances Creativity-Driven AI and Coding Education Through Pubbo AI - Big News Network.com",
     "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQVkc1Ym9xVHVaOHg3cGVXQ2MzbG8yUHlmV1A4ZVBWNlM1dEJWZjh0blJzcHA3bVpqdFVETXl4VGoybVBUNmtnSm4xYW5ZbW5NcEIycHFNRUo0bWx5NV9HakczS3k1RjR4R0NfUmsxTEliMFFiUjE1ZzVUV1pSQXdZanVCekx4M2NYa2l4d2RySkYxOUpBWFRUald0ZnFxSFZBT0JuTld2eHRFdW1zOXZEYWtpN1hGZ0JlZlJMZVh1Qlg?oc=5&hl=en-US&gl=US&ceid=US%3Aen",
     "rss_url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQVkc1Ym9xVHVaOHg3cGVXQ2MzbG8yUHlmV1A4ZVBWNlM1dEJWZjh0blJzcHA3bVpqdFVETXl4VGoybVBUNmtnSm4xYW5ZbW5NcEIycHFNRUo0bWx5NV9HakczS3k1RjR4R0NfUmsxTEliMFFiUjE1ZzVUV1pSQXdZanVCekx4M2NYa2l4d2RySkYxOUpBWFRUald0ZnFxSFZBT0JuTld2eHRFdW1zOXZEYWtpN1hGZ0JlZlJMZVh1Qlg?oc=5",
@@ -1401,30 +1425,6 @@
     "content_type": "Web article",
     "summary": "",
     "summary_status": "pending",
-    "first_seen": "2026-11-25",
-    "collected_at": "2026-11-25"
-  },
-  {
-    "title": "Education unions condemn Google's attempt to force AI into schools - Education International",
-    "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNbUZLSDBlaGp4YVZuZTBYT1l0VFNMS2ZTUzI5WjBCaEpFWEQybl9zYWhFU3lJS0JfY2Vkc3JRQlY5emlHZXRyZ1lKc0dOUFRwV3VrLWpyMEtteWp1UWFnbG96MFItX1Z1OEFPbGVWV2tFWWp0d200OExzT3hiRzRnSXdCdFNRVjNXMWo5amFpUTlIRndXeXYxc0l3Vl9XckZGaS1R?oc=5",
-    "rss_url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNbUZLSDBlaGp4YVZuZTBYT1l0VFNMS2ZTUzI5WjBCaEpFWEQybl9zYWhFU3lJS0JfY2Vkc3JRQlY5emlHZXRyZ1lKc0dOUFRwV3VrLWpyMEtteWp1UWFnbG96MFItX1Z1OEFPbGVWV2tFWWp0d200OExzT3hiRzRnSXdCdFNRVjNXMWo5amFpUTlIRndXeXYxc0l3Vl9XckZGaS1R?oc=5",
-    "publisher": "Education International",
-    "publisher_url": "https://www.ei-ie.org",
-    "author": "Not listed",
-    "published": "2026-11-20",
-    "year": "2026",
-    "description": "Education unions condemn Google's attempt to force AI into schools Education International",
-    "score": 7,
-    "categories": [
-      "AI in Education"
-    ],
-    "region": "Global",
-    "country": "",
-    "location_basis": "unknown",
-    "source": "Google News",
-    "content_type": "Web article",
-    "summary": "",
-    "summary_status": "not_requested",
     "first_seen": "2026-11-25",
     "collected_at": "2026-11-25"
   },
