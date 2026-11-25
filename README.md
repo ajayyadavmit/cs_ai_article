@@ -1,4 +1,5 @@
-# Education Article Digest
+# Template: Education Article Digest
+## This template can be used for other domains such as finance, arts etc.. to track article, news, blogs on their domain. Just change the Search_queries, Topic_keywords, and region. 
 
 A GitHub Pages template for collecting recent articles, experiments, and research related to computer science and AI education. The collector stores structured article data; a separate, hand-maintained HTML/CSS/JavaScript site displays it. The same template can be adapted for other subjects such as finance, arts, history, or politics.
 
@@ -91,15 +92,15 @@ Google News RSS and Crossref article collection run without a Gemini key. Gemini
 
 ## Gemini summaries and grounded research digest
 
-The daily scheduled run enables both Gemini features. Manual runs leave them off unless selected:
+The daily scheduled run only collects articles and updates the RSS feed. Gemini features are separate manual-only jobs. When starting a manual workflow run, you can select either or both:
 
 1. Add `GEMINI_API_KEY` as a GitHub Actions repository secret.
 2. Open **Actions → Collect education articles → Run workflow**.
-3. Check **Use Gemini for short summaries** and/or **Generate a Google Search-grounded Gemini education digest with source links**, then start the workflow.
+3. Check **Use Gemini for short summaries** to run the gist job, and/or **Generate a Google Search-grounded Gemini education digest with source links** to run the Gemini education job. Leave both unchecked to run article collection only.
 
 Only the newest two articles per region are summary-eligible (up to eight articles total). Gists request 35–55 words, send at most 3,500 source characters, and cap generated output at 150 tokens. The script makes one request per eligible article that does not already have a gist; it does not retry failed API calls. Failed or unavailable summaries remain blank and do not display a Gist Summary control. Records outside the newest-two scope have their old gists cleared.
 
-Article collection does not require the Gemini key. If Gemini fails, the collection job has already committed the article JSON and RSS; gist and digest generation run separately.
+Article collection does not require the Gemini key. The collection job commits the article JSON and RSS before the separate Gemini jobs start. Gists and the grounded digest each run in their own job, so one Gemini feature failing does not prevent the collection or the other feature from being committed.
 
 The final **Gemini AI Education** tab is a separate, optional research scan grounded in Google Search. “Grounded” means Gemini can search the web while preparing its answer and the app displays the source links returned with that answer. It is not a guarantee that every statement is correct, so readers should review the cited sources. This is separate from article collection: the collector makes one Gemini request and saves the response and citations to `data/gemini_digest.json`. The text body is capped at 500 words; source URLs are presented separately and do not count toward that limit. The digest can include public news, classroom experiments, and research. Generation may incur Gemini API and Google Search grounding usage.
 
@@ -108,9 +109,9 @@ To generate or refresh the digest manually:
 1. Add `GEMINI_API_KEY` as a GitHub Actions repository secret.
 2. Open **Actions → Collect education articles → Run workflow**.
 3. Optionally select **Use Gemini for short summaries** and independently select **Generate a Google Search-grounded Gemini education digest with source links**.
-4. Start the workflow. The digest runs in its own step after article collection is committed. A successful digest is committed independently to `data/gemini_digest.json`.
+4. Start the workflow. Article collection runs first; the digest job then runs separately and commits a successful result to `data/gemini_digest.json`.
 
-The digest option is off by default for manual runs. Scheduled runs generate one digest daily. If no digest file has been generated yet, the tab explains how to enable it. Article collection does not remove or refresh an existing digest.
+The digest runs only when its manual checkbox is selected. Scheduled runs do not use Gemini. If no digest file has been generated yet, the tab explains how to enable it. Article collection does not remove or refresh an existing digest.
 
 For a local digest-only test, install the packages from `requirements.txt`, set `GEMINI_API_KEY` in your local terminal environment, and run:
 
@@ -238,7 +239,7 @@ The collector does not persist full publisher article text.
 
 ## Dependencies and workflow
 
-Install dependencies from `requirements.txt` with `python3 -m pip install -r requirements.txt`. The daily workflow runs at 00:15 UTC: article collection and publication occur first, then an isolated Gemini job generates gists and the grounded digest. Manual runs can opt in to either Gemini feature. The workflow commits only generated data and RSS files, preserving all manually maintained templates.
+Install dependencies from `requirements.txt` with `python3 -m pip install -r requirements.txt`. The daily workflow runs article collection at 00:15 UTC. Manual runs can independently opt in to the gist-summary job and the Gemini education digest job. The workflow commits only generated data and RSS files, preserving all manually maintained templates.
 
 Run the focused collector tests with:
 
@@ -254,3 +255,16 @@ python3 -m unittest discover -s tests -v
 - Updated collect_articles.py to gather web articles through Google News RSS and research records through Crossref, assign regions, write JSON and RSS, and make Gemini summaries opt-in. Summaries are limited to the newest two articles per region.
 - Added feed.xml and updated the workflow to stage only the article data and feed—not the manually maintained templates—in cs-education-digest.yml.
 - Expanded the architecture, settings, and adaptation instructions in README.md.
+
+## Workflow Github
+
+Article collection is already automatic when you manually run the workflow—you don’t need to select a separate option.
+
+In GitHub, go to Actions → Collect education articles → Run workflow. Leave both Gemini options unchecked and click Run workflow to collect articles and update the RSS feed without using Gemini.
+
+
+- the scheduled run only collects articles and updates the RSS feed. Gemini now has two separate jobs, and both are manual-only:
+
+- Select Use Gemini for short summaries to run the gist job.
+- Select Generate a Google Search-grounded Gemini education digest to run the education digest job.
+- Leave both unchecked to run article collection without Gemini.
