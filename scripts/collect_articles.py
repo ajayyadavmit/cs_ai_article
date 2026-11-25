@@ -20,13 +20,13 @@ from xml.etree import ElementTree
 # ============================================================
 
 # Gemini is used only when GENERATE_SUMMARIES=true and a Gemini key is set.
-GEMINI_MODEL = os.getenv("GEMINI_MODEL", "gemini-3.8-flash")
+GEMINI_MODEL = os.getenv("GEMINI_MODEL", "gemini-3.5-flash-lite")
 GENERATE_SUMMARIES = os.getenv("GENERATE_SUMMARIES", "false").strip().lower() == "true"
 GENERATE_GEMINI_DIGEST = (
     os.getenv("GENERATE_GEMINI_DIGEST", "false").strip().lower() == "true"
 )
 SUMMARY_AUDIENCE = os.getenv("SUMMARY_AUDIENCE", "computer science education")
-GEMINI_SEARCH_MODEL = os.getenv("GEMINI_SEARCH_MODEL", "gemini-3.8-flash")
+GEMINI_SEARCH_MODEL = os.getenv("GEMINI_SEARCH_MODEL", "gemini-3.5-flash-lite")
 
 # Article retention and search age.
 MAX_GLOBAL_ARTICLES = 40
