@@ -3,7 +3,7 @@ import tempfile
 import unittest
 import xml.etree.ElementTree as ET
 from pathlib import Path
-from types import SimpleNamespace
+from types import ModuleType, SimpleNamespace
 from unittest.mock import patch
 
 from scripts import collect_articles
@@ -244,6 +244,79 @@ class GeminiDigestTests(unittest.TestCase):
 
         with self.assertRaisesRegex(RuntimeError, "no verifiable"):
             collect_articles.parse_grounded_digest_response(response)
+
+
+class GeminiClientLifecycleTests(unittest.TestCase):
+    def make_google_module(self, response=None, request_error=None):
+        client = SimpleNamespace(closed=False)
+
+        def generate_content(**_kwargs):
+            if client.closed:
+                raise AssertionError("Gemini client closed before request completed.")
+            if request_error:
+                raise request_error
+            return response
+
+        def close():
+            client.closed = True
+
+        client.models = SimpleNamespace(generate_content=generate_content)
+        client.close = close
+        google_module = ModuleType("google")
+        google_module.genai = SimpleNamespace(Client=lambda **_kwargs: client)
+        return google_module, client
+
+    def test_gist_keeps_client_open_for_request_and_closes_it(self):
+        google_module, client = self.make_google_module(
+            response=SimpleNamespace(text="A short, useful gist.")
+        )
+        with (
+            patch.dict("sys.modules", {"google": google_module}),
+            patch.object(collect_articles, "GEMINI_API_KEY", "test-key"),
+        ):
+            gist = collect_articles.generate_gist(
+                {"title": "AI in education"},
+                "A sufficiently long source text. " * 5,
+            )
+
+        self.assertEqual(gist, "A short, useful gist.")
+        self.assertTrue(client.closed)
+
+    def test_grounded_digest_keeps_client_open_for_request_and_closes_it(self):
+        response = SimpleNamespace(
+            text="A research summary.",
+            candidates=[SimpleNamespace(grounding_metadata=SimpleNamespace(
+                grounding_chunks=[SimpleNamespace(web=SimpleNamespace(
+                    title="Source",
+                    uri="https://example.org/research",
+                ))],
+            ))],
+        )
+        google_module, client = self.make_google_module(response=response)
+        with (
+            patch.dict("sys.modules", {"google": google_module}),
+            patch.object(collect_articles, "GEMINI_API_KEY", "test-key"),
+        ):
+            digest = collect_articles.generate_gemini_digest()
+
+        self.assertEqual(digest["text"], "A research summary.")
+        self.assertTrue(client.closed)
+
+    def test_gemini_client_closes_when_request_fails(self):
+        google_module, client = self.make_google_module(
+            request_error=RuntimeError("request failed")
+        )
+        with (
+            patch.dict("sys.modules", {"google": google_module}),
+            patch.object(collect_articles, "GEMINI_API_KEY", "test-key"),
+        ):
+            with self.assertRaisesRegex(RuntimeError, "request failed"):
+                collect_articles.generate_gist(
+                    {"title": "AI in education"},
+                    "A sufficiently long source text. " * 5,
+                )
+
+        self.assertTrue(client.closed)
 
 
 class MainModeTests(unittest.TestCase):

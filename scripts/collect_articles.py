@@ -634,11 +634,15 @@ Why it is useful: ...
 Title: {article.get('title', '')}
 Source text:
 {source_text[:MAX_ARTICLE_TEXT_CHARS]}"""
-    response = genai.Client(api_key=GEMINI_API_KEY).models.generate_content(
-        model=GEMINI_MODEL,
-        contents=prompt,
-        config={"max_output_tokens": 150, "temperature": 0.2},
-    )
+    client = genai.Client(api_key=GEMINI_API_KEY)
+    try:
+        response = client.models.generate_content(
+            model=GEMINI_MODEL,
+            contents=prompt,
+            config={"max_output_tokens": 150, "temperature": 0.2},
+        )
+    finally:
+        client.close()
     gist = (getattr(response, "text", None) or "").strip()
     if not gist:
         raise RuntimeError("Gemini returned an empty summary.")
@@ -704,15 +708,19 @@ developments in at most 500 words. Focus on what the work suggests about where
 computer science education research and practice are going. Be factual, avoid
 unsupported claims, and do not include URLs in the summary; source links are
 collected separately from Google Search citations."""
-    response = genai.Client(api_key=GEMINI_API_KEY).models.generate_content(
-        model=GEMINI_SEARCH_MODEL,
-        contents=prompt,
-        config={
-            "max_output_tokens": 1100,
-            "temperature": 0.2,
-            "tools": [{"google_search": {}}],
-        },
-    )
+    client = genai.Client(api_key=GEMINI_API_KEY)
+    try:
+        response = client.models.generate_content(
+            model=GEMINI_SEARCH_MODEL,
+            contents=prompt,
+            config={
+                "max_output_tokens": 1100,
+                "temperature": 0.2,
+                "tools": [{"google_search": {}}],
+            },
+        )
+    finally:
+        client.close()
     digest = parse_grounded_digest_response(response)
     digest["generated_at"] = datetime.now(timezone.utc).isoformat()
     digest["model"] = GEMINI_SEARCH_MODEL
