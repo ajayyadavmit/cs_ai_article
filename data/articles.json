@@ -25,6 +25,30 @@
     "collected_at": "2026-11-26"
   },
   {
+    "title": "An empirically evaluated online classroom framework for enhancing 21st-century competencies in higher education: a mixed-methods study",
+    "url": "https://doi.org/10.3389/feduc.2026.2038914",
+    "rss_url": "https://doi.org/10.3389/feduc.2026.2038914",
+    "publisher": "Frontiers in Education",
+    "author": "Preecha Noiumkar",
+    "published": "2026-11-26",
+    "year": "2026",
+    "description": "Introduction This study develops and empirically evaluates an online classroom framework designed to support 21st-century competencies in higher education by integrating connectivism and social constructivism within a digital humanism paradigm. Addressing the limitations of passive, lecture-based virtual classrooms, the proposed framework incorporates retrieval-augmented artificial intelligence (AI) chatbots, real-time collaborative whiteboards, hierarchical mastery learning paths, and micro-credential digital badges to scaffold critical thinking, collaboration, creativity, and digital literacy. Methods Employing a four-phase exploratory sequential mixed-methods design, the study began with a contextual needs analysis involving 250 undergraduate students and 40 lecturers at a public university in Thailand, followed by system prototyping, expert design adequacy validation ( n = 3), and a 16-week semester classroom pilot across two undergraduate database courses with two instructors and 100 students. Results In Phase 1, thematic analysis of qualitative reflections and multiple regression modeling indicated that online classroom environment structure ( β = .421, p &lt; .001), active l",
+    "affiliations": "Department of Information Technology, Faculty of Informatics, Mahasarakham University",
+    "score": 14,
+    "categories": [
+      "AI in Education"
+    ],
+    "region": "Global",
+    "country": "",
+    "location_basis": "unknown",
+    "source": "Crossref",
+    "content_type": "Research paper",
+    "summary": "",
+    "summary_status": "pending",
+    "first_seen": "2026-11-26",
+    "collected_at": "2026-11-26"
+  },
+  {
     "title": "Digital readiness as an enabling capability for HyFlex-VR learning in vocational education",
     "url": "https://doi.org/10.1108/heswbl-09-2026-0884",
     "rss_url": "https://doi.org/10.1108/heswbl-09-2026-0884",
@@ -44,7 +68,7 @@
     "source": "Crossref",
     "content_type": "Research paper",
     "summary": "",
-    "summary_status": "pending",
+    "summary_status": "not_requested",
     "first_seen": "2026-11-26",
     "collected_at": "2026-11-26"
   },
@@ -156,8 +180,8 @@
     "affiliations": "School of Science and Technology A , , , . University of New England A , , , . School of Science and Technology A , , , . University of New England A , , , . School of Science and Technology A , , , . University of New England A , , , . School of Dentistry and Medical Sciences B , , , . Charles Sturt University B , , , . School of Agriculture C , , , , . Biomedicine and Environment, La Trobe University C , , , , .",
     "score": 10,
     "categories": [
-      "Digital Pedagogy",
-      "AI in Education"
+      "AI in Education",
+      "Digital Pedagogy"
     ],
     "region": "Global",
     "country": "Australia",
@@ -1450,30 +1474,6 @@
     "collected_at": "2026-11-26"
   },
   {
-    "title": "Lam Research Pledges $15 Million to LEGO Education to Boost AI and STEM Literacy - Mashdigi",
-    "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5manNwdTdWXzJEMFhXVi0tWk1QSkhxSGd2TTd1aEdzdmd3ZUMyWDF5TnVWcy1leDB4Rno0TmJYR3MyNlo5WXJISnpvVHR6cWxLYThrc3U2ZjJTLXU3ZmhVbnZMZDJqZmxtZ290VE94OXpDUzVULVVZYjNWeGlHakk?oc=5",
-    "rss_url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5manNwdTdWXzJEMFhXVi0tWk1QSkhxSGd2TTd1aEdzdmd3ZUMyWDF5TnVWcy1leDB4Rno0TmJYR3MyNlo5WXJISnpvVHR6cWxLYThrc3U2ZjJTLXU3ZmhVbnZMZDJqZmxtZ290VE94OXpDUzVULVVZYjNWeGlHakk?oc=5",
-    "publisher": "Mashdigi",
-    "publisher_url": "https://mashdigi.com",
-    "author": "Not listed",
-    "published": "2026-11-23",
-    "year": "2026",
-    "description": "Lam Research Pledges $15 Million to LEGO Education to Boost AI and STEM Literacy Mashdigi",
-    "score": 6,
-    "categories": [
-      "AI in Education"
-    ],
-    "region": "Global",
-    "country": "",
-    "location_basis": "multiple editions",
-    "source": "Google News",
-    "content_type": "Web article",
-    "summary": "",
-    "summary_status": "not_requested",
-    "first_seen": "2026-11-25",
-    "collected_at": "2026-11-26"
-  },
-  {
     "title": "AI Education Policy: 3 Lessons frsniom Japan on Inclusion - World Economic Forum",
     "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQUDN2NXhwZXRYZTRyNEdUd1B6a01PUnd6QnJJWThORTViZHQ5dmExZ0t1WVlUbDh3cS1Eb0NLVTN2UGRFbnBJRnB2UTJtbUMzOUhTRU1xWFU5ZjR5X1ZRS3ozcllEeUlCLXpnYUx0Y2NfbV9RUFUzcURLRi1OSzhmVXk2UFFJcWloTF9RQ1pEbnhNX0Q3d0xZSTRneDBRVTd0MFdKWVl2UUxSdw?oc=5",
     "rss_url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQUDN2NXhwZXRYZTRyNEdUd1B6a01PUnd6QnJJWThORTViZHQ5dmExZ0t1WVlUbDh3cS1Eb0NLVTN2UGRFbnBJRnB2UTJtbUMzOUhTRU1xWFU5ZjR5X1ZRS3ozcllEeUlCLXpnYUx0Y2NfbV9RUFUzcURLRi1OSzhmVXk2UFFJcWloTF9RQ1pEbnhNX0Q3d0xZSTRneDBRVTd0MFdKWVl2UUxSdw?oc=5",
@@ -1669,6 +1669,30 @@
     "collected_at": "2026-11-26"
   },
   {
+    "title": "Education unions condemn Google's attempt to force AI into schools - Education International",
+    "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNbUZLSDBlaGp4YVZuZTBYT1l0VFNMS2ZTUzI5WjBCaEpFWEQybl9zYWhFU3lJS0JfY2Vkc3JRQlY5emlHZXRyZ1lKc0dOUFRwV3VrLWpyMEtteWp1UWFnbG96MFItX1Z1OEFPbGVWV2tFWWp0d200OExzT3hiRzRnSXdCdFNRVjNXMWo5amFpUTlIRndXeXYxc0l3Vl9XckZGaS1R?oc=5",
+    "rss_url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNbUZLSDBlaGp4YVZuZTBYT1l0VFNMS2ZTUzI5WjBCaEpFWEQybl9zYWhFU3lJS0JfY2Vkc3JRQlY5emlHZXRyZ1lKc0dOUFRwV3VrLWpyMEtteWp1UWFnbG96MFItX1Z1OEFPbGVWV2tFWWp0d200OExzT3hiRzRnSXdCdFNRVjNXMWo5amFpUTlIRndXeXYxc0l3Vl9XckZGaS1R?oc=5",
+    "publisher": "Education International",
+    "publisher_url": "https://www.ei-ie.org",
+    "author": "Not listed",
+    "published": "2026-11-20",
+    "year": "2026",
+    "description": "Education unions condemn Google's attempt to force AI into schools Education International",
+    "score": 7,
+    "categories": [
+      "AI in Education"
+    ],
+    "region": "Global",
+    "country": "",
+    "location_basis": "multiple editions",
+    "source": "Google News",
+    "content_type": "Web article",
+    "summary": "",
+    "summary_status": "not_requested",
+    "first_seen": "2026-11-26",
+    "collected_at": "2026-11-26"
+  },
+  {
     "title": "AI in African education: Benefits, risks & policy solutions - World Economic Forum",
     "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPSzExREw1MmNuYTl4OWEtMVJXbVM1dXBoRU5LVXo0UjNsWVFCb1pPdGZfM3NYYlREYzFSLVd2Wnl4dDJmMFlMOExUV2hwZlRNV3NiazFzZ0RfVWpTRjRWdzZ0NWtiS2V1OW5waU9McTZlamFNNlgyY2NoM3V4MGNEajZkd2ZyUjJpZHBfeVFaSGwxUmZLWHUzWmExeUZGN3M?oc=5",
     "rss_url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPSzExREw1MmNuYTl4OWEtMVJXbVM1dXBoRU5LVXo0UjNsWVFCb1pPdGZfM3NYYlREYzFSLVd2Wnl4dDJmMFlMOExUV2hwZlRNV3NiazFzZ0RfVWpTRjRWdzZ0NWtiS2V1OW5waU9McTZlamFNNlgyY2NoM3V4MGNEajZkd2ZyUjJpZHBfeVFaSGwxUmZLWHUzWmExeUZGN3M?oc=5",
@@ -1693,42 +1717,17 @@
     "collected_at": "2026-11-26"
   },
   {
-    "title": "NTU CCDS AI-supported Course and Senior Lecturer Win Education, Technology Awards - Nanyang Technological University - NTU Singapore",
-    "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxOc2gwaEVXbWIyTHB3bF9ETTgzdE9wZUdUSDRDMEprU3h4dUdfS3lEX2xibGp2MXpuYk5acUVwOGVmYkJYQWpPR0F3NUFYNWlpdGNwbDk2Qmdac044ZUFFUk9ILS00cGhVNzJkeDQ5M2xYMEgwVEJMOHJ4M3JtQm5mZUZtT0Uwa2t6aDU0aHBGRnRYaEg3Sk9xNFRHVm5oX09uLVBYU0xpb3N5cmxyUjN6eXk1SW1PdkV6R0pITkJJMldCME1nWmdoT2ZQTVJnLXIwX2xxWQ?oc=5",
-    "rss_url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxOc2gwaEVXbWIyTHB3bF9ETTgzdE9wZUdUSDRDMEprU3h4dUdfS3lEX2xibGp2MXpuYk5acUVwOGVmYkJYQWpPR0F3NUFYNWlpdGNwbDk2Qmdac044ZUFFUk9ILS00cGhVNzJkeDQ5M2xYMEgwVEJMOHJ4M3JtQm5mZUZtT0Uwa2t6aDU0aHBGRnRYaEg3Sk9xNFRHVm5oX09uLVBYU0xpb3N5cmxyUjN6eXk1SW1PdkV6R0pITkJJMldCME1nWmdoT2ZQTVJnLXIwX2xxWQ?oc=5",
-    "publisher": "Nanyang Technological University - NTU Singapore",
-    "publisher_url": "https://www.ntu.edu.sg",
+    "title": "How to prepare computer science students for the AI era - University of North Dakota",
+    "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQZW9XWjc4Z0dYYzgtZF9XakQ2VFpDVGFvRnBTbkh2TUhGQ1ZkQ3U5S0cybmp6UmEtdXRLajhrQ25uVm5XTFlfbm9YdDdLcmQ0R0UtUkw2SEIwS0Y4OV80aGNJYzFTWnhtWklHYVpKWGJ5NS1mYWFUZ0RzWUh5bmtaYkdjYjVWZG44UFVLU0ZJNm1VcFBo?oc=5",
+    "rss_url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQZW9XWjc4Z0dYYzgtZF9XakQ2VFpDVGFvRnBTbkh2TUhGQ1ZkQ3U5S0cybmp6UmEtdXRLajhrQ25uVm5XTFlfbm9YdDdLcmQ0R0UtUkw2SEIwS0Y4OV80aGNJYzFTWnhtWklHYVpKWGJ5NS1mYWFUZ0RzWUh5bmtaYkdjYjVWZG44UFVLU0ZJNm1VcFBo?oc=5",
+    "publisher": "University of North Dakota",
+    "publisher_url": "https://blogs.und.edu",
     "author": "Not listed",
-    "published": "2026-11-17",
+    "published": "2026-11-18",
     "year": "2026",
-    "description": "NTU CCDS AI-supported Course and Senior Lecturer Win Education, Technology Awards Nanyang Technological University - NTU Singapore",
+    "description": "How to prepare computer science students for the AI era University of North Dakota",
     "score": 6,
     "categories": [
-      "AI in Education"
-    ],
-    "region": "Global",
-    "country": "Singapore",
-    "location_basis": "article text",
-    "source": "Google News",
-    "content_type": "Web article",
-    "summary": "",
-    "summary_status": "not_requested",
-    "first_seen": "2026-11-26",
-    "collected_at": "2026-11-26"
-  },
-  {
-    "title": "MIT professor talks AI in computer science education, research - The Daily Cardinal",
-    "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNU2YzMmVkNVNDZWhORWVWZ3VpM1d1cmhFNGNmZUdkZzl2NW45VjduX3lhTWlYWUJ6dVRwYXo3R2NrRlAzenI5RGtkemdoM1hxTGNpQTJCa3FTblJwTFFvRmkwcUwyUlZBRVpLZWpSZzVXWmFzUlh0M1NNSXpBM1YzcmxVNHFLM0t1Q0dBNDkxdGl6WDFXSl83cW42UmktNmpFX2ltLTFUV1gyX0E?oc=5",
-    "rss_url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNU2YzMmVkNVNDZWhORWVWZ3VpM1d1cmhFNGNmZUdkZzl2NW45VjduX3lhTWlYWUJ6dVRwYXo3R2NrRlAzenI5RGtkemdoM1hxTGNpQTJCa3FTblJwTFFvRmkwcUwyUlZBRVpLZWpSZzVXWmFzUlh0M1NNSXpBM1YzcmxVNHFLM0t1Q0dBNDkxdGl6WDFXSl83cW42UmktNmpFX2ltLTFUV1gyX0E?oc=5",
-    "publisher": "The Daily Cardinal",
-    "publisher_url": "https://www.dailycardinal.com",
-    "author": "Not listed",
-    "published": "2026-11-09",
-    "year": "2026",
-    "description": "MIT professor talks AI in computer science education, research The Daily Cardinal",
-    "score": 9,
-    "categories": [
-      "CS Education",
       "AI in Education"
     ],
     "region": "Global",
