@@ -1,5 +1,438 @@
 [
   {
+    "title": "Affective drivers of generative AI acceptance in higher education: a UTAUT extension across on-campus and distance learning",
+    "url": "https://doi.org/10.1108/lfet-07-2026-0090",
+    "rss_url": "https://doi.org/10.1108/lfet-07-2026-0090",
+    "publisher": "Learning Futures and Emerging Technologies",
+    "author": "Mareike Mueller, Evelyn Kaestner",
+    "published": "2026-11-27",
+    "year": "2026",
+    "description": "Purpose This study aims to examine the drivers of students’ intention to intensify generative artificial intelligence (GenAI) use in higher education, focusing on the incremental explanatory value of Affective Evaluation and differences between on-campus and distance-learning students. Design/methodology/approach Building on the Unified Theory of Acceptance and Use of Technology (UTAUT), the study analyzes survey data from 502 students at a German university of applied sciences. Hierarchical regression analyses, group comparisons and moderation analyses are used to examine predictor–intention relationships and the role of study mode. Findings The UTAUT-based model explained approximately 62% of the variance in Intention to Intensify GenAI Use. Affective Evaluation contributed significant incremental explanatory power and showed the largest standardized coefficient, alongside significant effects of Performance Expectancy and Social Influence. Distance-learning students reported higher intention than on-campus students, although the effect was small. Moderation analyses provided little overall evidence of systematic differences in predictor–intention relationships; an isolated Social",
+    "affiliations": "Macromedia University of Applied Sciences , Cologne, Macromedia University of Applied Sciences , Leipzig,",
+    "score": 14,
+    "categories": [
+      "AI in Education"
+    ],
+    "region": "Global",
+    "country": "",
+    "location_basis": "unknown",
+    "source": "Crossref",
+    "content_type": "Research paper",
+    "summary": "",
+    "summary_status": "pending",
+    "first_seen": "2026-11-27",
+    "collected_at": "2026-11-27"
+  },
+  {
+    "title": "Understanding the potential role of GenAI and knowledge governance in the higher education sector through knowledge governance theory",
+    "url": "https://doi.org/10.1108/jkm-05-2026-0908",
+    "rss_url": "https://doi.org/10.1108/jkm-05-2026-0908",
+    "publisher": "Journal of Knowledge Management",
+    "author": "Xie Xiaojuan, Muhammad Azfar Anwar",
+    "published": "2026-11-27",
+    "year": "2026",
+    "description": "Purpose This study aims to investigate how generative artificial intelligence (GenAI) knowledge workflow capabilities influence community knowledge governance (CKG) and community knowledge sharing (CKS) within higher education communities, through the mediating mechanisms of knowledge digitization and knowledge legitimacy. Design/methodology/approach Drawing on a quantitative cross-sectional survey design, data were collected from 357 faculty members, postgraduate researchers and academic staff operating within higher education institutions actively integrating GenAI tools into their academic knowledge workflows. WarpPLS structural equation modeling was used for model analysis, enabling simultaneous assessment of direct and indirect effects across the proposed framework. Scales were adapted from validated instruments in prior knowledge management, AI capability and academic behavior research, ensuring reliability and construct validity across all measured variables. Findings Results confirm that GenAI knowledge workflow capability positively and significantly influences both CKG and CKS in higher education settings. Furthermore, knowledge digitization and knowledge legitimacy each ",
+    "affiliations": "Anhui University School of Journalism and Communication, , Hefei, Ulster University Business School, , Belfast, Princess Nourah bint Abdulrahman University College of Education and Human Development, , Riyadh, Princess Nourah bint Abdulrahman University College of Education and Human Development, , Riyadh,",
+    "score": 12,
+    "categories": [
+      "AI in Education"
+    ],
+    "region": "Global",
+    "country": "",
+    "location_basis": "unknown",
+    "source": "Crossref",
+    "content_type": "Research paper",
+    "summary": "",
+    "summary_status": "pending",
+    "first_seen": "2026-11-27",
+    "collected_at": "2026-11-27"
+  },
+  {
+    "title": "The Impact of COVID-19 on Study Practices: Insights from Higher Education Aspirants’ Enskillment in Brazil and the U.S.",
+    "url": "https://doi.org/10.1108/s2050-206020260000030007",
+    "rss_url": "https://doi.org/10.1108/s2050-206020260000030007",
+    "publisher": "Innovative Pedagogies and Ethics in the Age of AI",
+    "author": "Leonardo Henrique Brandão-Monteiro",
+    "published": "2026-11-27",
+    "year": "2026",
+    "description": "The following chapter derives from research shaped by the COVID-19 pandemic. Although its main aim was not to discuss the impacts of the pandemic, the context in which it occurred allows us to ask: what do the changes brought about by pandemic-related restrictions reveal about the social mediations of our participants’ out-of-school study practices? To address this question, we employed a theory-generating methodology, supported by questionnaires that provided contextual elements of these practices and by explicitation interviews that allowed a deeper analysis. These interviews provide the main data analyzed. Tim Ingold’s concept of enskillment and Bernard Charlot’s concept of the relationship with knowledge structured the analyses conducted. The data originate from a comparative study involving three California universities and one Brazilian public university. We argue that the main issue faced by the U.S. interviewees was de-enskillment, a broadening of the Ingoldian concept. Meanwhile, among the Brazilian participants, it was possible to shed light on inequalities between public high school students and private high school attendees. Whereas those from private high schools typic",
+    "affiliations": "UNESP (Universidade Estadual Paulista – São Paulo State University) ,",
+    "score": 12,
+    "categories": [
+      "Student Activities and Assessment"
+    ],
+    "region": "USA",
+    "country": "USA",
+    "location_basis": "article text",
+    "source": "Crossref",
+    "content_type": "Research paper",
+    "summary": "",
+    "summary_status": "pending",
+    "first_seen": "2026-11-27",
+    "collected_at": "2026-11-27"
+  },
+  {
+    "title": "From Ideation to Implementation",
+    "url": "https://doi.org/10.4018/979-8-2600-5289-1.ch005",
+    "rss_url": "https://doi.org/10.4018/979-8-2600-5289-1.ch005",
+    "publisher": "Advances in Computational Intelligence and Robotics",
+    "author": "Brad Ost, Bryan A. Briones",
+    "published": "2026-11-27",
+    "year": "2026",
+    "description": "This chapter examines how the Atlanta University Center Robert W. Woodruff Library developed an AI Sandbox to support responsible, equitable, and innovative adoption of generative AI across its three Historically Black Colleges and Universities consortial partner campuses; Clark Atlanta University, Morehouse College and Spelman College. Framed within the evolving and expanding role of academic libraries, it confirms that libraries are uniquely situated to address the challenges of AI access, data privacy, governance, and information literacy while also advancing research, teaching innovation, and student success. The chapter traces the sandbox's conceptualization, partnership development, governance structuring, environmental scanning, and strategic planning, highlighting some examples of lessons learned throughout the process. It demonstrates how the AI Sandbox enhanced the AUC Woodruff Library's mission by linking emerging technologies with existing research support, digital scholarship, and ethical information practices to create a sustainable model for AI-enabled scholarship.",
+    "affiliations": "Atlanta University Center, Robert W. Woodruff Library, USA Atlanta University Center, Robert W. Woodruff Library, USA",
+    "score": 10,
+    "categories": [
+      "AI in Education"
+    ],
+    "region": "USA",
+    "country": "USA",
+    "location_basis": "article text",
+    "source": "Crossref",
+    "content_type": "Research paper",
+    "summary": "",
+    "summary_status": "pending",
+    "first_seen": "2026-11-27",
+    "collected_at": "2026-11-27"
+  },
+  {
+    "title": "Critical Thinking in the Age of Artificial Intelligence",
+    "url": "https://doi.org/10.4018/979-8-2600-5289-1.ch004",
+    "rss_url": "https://doi.org/10.4018/979-8-2600-5289-1.ch004",
+    "publisher": "Advances in Computational Intelligence and Robotics",
+    "author": "avram anderson, Ahmed Alwan",
+    "published": "2026-11-27",
+    "year": "2026",
+    "description": "Artificial intelligence (AI) has had and will continue to have, an unprecedented impact on higher education. Yet the integration of AI literacy into postsecondary curricula remains rare and inconsistent. Academic librarians, due to their expertise in information literacy and interdisciplinary collaboration, are uniquely positioned to address this gap. This chapter presents a case study of a credit-bearing AI literacy course housed within the academic library at CSUN. The course was designed not only to introduce students to AI but to support the development of epistemic agency, allowing them to critically evaluate AI-generated information, interrogate algorithmic bias, and navigate an AI-mediated information environment. Grounded in the UNESCO AI Competency Framework for Students, the Council of Europe's three-dimensional model of AI literacy and ACRL Framework for Information Literacy for Higher Education, the course emphasizes the practical and human dimensions of AI literacy and provides a pedagogical framework that academic librarians can adapt across instructional formats.",
+    "affiliations": "California State University, Northridge, USA California State University, Northridge, USA",
+    "score": 10,
+    "categories": [
+      "AI in Education"
+    ],
+    "region": "USA",
+    "country": "USA",
+    "location_basis": "article text",
+    "source": "Crossref",
+    "content_type": "Research paper",
+    "summary": "",
+    "summary_status": "not_requested",
+    "first_seen": "2026-11-27",
+    "collected_at": "2026-11-27"
+  },
+  {
+    "title": "AI-Enabled Production-Oriented Approach: Conceptual Development and a Research Framework A Systematic Review of 46 Studies with Reading as a Test Case",
+    "url": "https://doi.org/10.22158/wjeh.v8n4p109",
+    "rss_url": "https://doi.org/10.22158/wjeh.v8n4p109",
+    "publisher": "World Journal of Education and Humanities",
+    "author": "Xuan Sun",
+    "published": "2026-11-27",
+    "year": "2026",
+    "description": "Teachers and curriculum writers in Chinese foreign language education have used the label AI-enabled production-oriented approach (AI-POA) for several years, but it has no agreed definition, dimensions or boundary, and studies that appear to address the same arrangement cannot be compared. This paper treats the difficulty as conceptual. A systematic search of 1,373 records from OpenAlex and four from a targeted Chinese search yielded 46 studies published between 2017 and 2026, coded for design, technology role, POA stage and outcome. The corpus is deliberately mixed and is not a set of 46 instances: eight are POA sources written before generative tools existed, twenty-six combine POA with AI, ten examine AI in second language reading without POA, and two are reviews. Four roles for the technology are abduced—input source (n = 11), interlocutor (n = 8), evaluator (n = 10) and design partner (n = 7)—and the distribution of abilities is the more telling result: of the twenty-six POA-with-AI studies eleven address writing and one reading, while nine of the ten reading studies make no use of POA. The paper then specifies a definition with four necessary constituents, a 3×3 grid of affor",
+    "affiliations": "",
+    "score": 9,
+    "categories": [
+      "AI in Education"
+    ],
+    "region": "Global",
+    "country": "",
+    "location_basis": "unknown",
+    "source": "Crossref",
+    "content_type": "Research paper",
+    "summary": "",
+    "summary_status": "not_requested",
+    "first_seen": "2026-11-27",
+    "collected_at": "2026-11-27"
+  },
+  {
+    "title": "INTEGRATION OF CHEMISTRY CONCEPTS IN BASIC SCIENCE LEARNING TO SUPPORT ENGINEERING PROBLEM SOLVING",
+    "url": "https://doi.org/10.62710/7jk15h52",
+    "rss_url": "https://doi.org/10.62710/7jk15h52",
+    "publisher": "CARONG: Jurnal Pendidikan, Sosial dan Humaniora",
+    "author": "Feby Indayani, Muhammad Hijerah Al Ahmad",
+    "published": "2026-11-27",
+    "year": "2026",
+    "description": "This study aimed to analyze changes in students’ assessment scores following Basic Science instruction integrating electrochemical reasoning through corrosion-based cases in the contexts of Mechanical Engineering and Civil Engineering. A quantitative approach with a one-group pretest–posttest design was employed. The participants were 54 students from Universitas Tomakaka, comprising 22 Mechanical Engineering students and 32 Civil Engineering students, selected using total sampling. The intervention was conducted over three weeks through three instructional sessions. Data were collected using a 20-item multiple-choice test and analyzed descriptively and using the Wilcoxon signed-rank test. The results showed that the mean score increased from 52.59 on the pretest to 74.81 on the posttest, representing an increase of 22.22 points. All participants (100%) demonstrated improved scores. The Wilcoxon test indicated a statistically significant difference between pretest and posttest scores (W = 0, p < 0.001). These findings indicate that chemistry instruction connecting electrochemical concepts with corrosion cases involving engineering materials was accompanied by improved student asses",
+    "affiliations": "",
+    "score": 9,
+    "categories": [
+      "Student Activities and Assessment",
+      "Computational Thinking"
+    ],
+    "region": "Global",
+    "country": "",
+    "location_basis": "unknown",
+    "source": "Crossref",
+    "content_type": "Research paper",
+    "summary": "",
+    "summary_status": "not_requested",
+    "first_seen": "2026-11-27",
+    "collected_at": "2026-11-27"
+  },
+  {
+    "title": "Harvard Graduate School of Education Launches Initiative To Guide AI Use in Learning - The Harvard Crimson",
+    "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxOY1NETHR2NWYzOXVxVzUzTTZPYzlHd3Y1SXEwWHVJUURDSWVSQmtSd1JiX1RaRm1Rb0xuY3JoSnlqR19HRUcxSVVhUXQtSWpDNHVPNHJhZlBxUHFHcFhya21uazE1ZTNYQThVVVZkZzRHdTA5X0tCa3dSSzVXeUt4Z3pJZDFoRTF6REE?oc=5",
+    "rss_url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxOY1NETHR2NWYzOXVxVzUzTTZPYzlHd3Y1SXEwWHVJUURDSWVSQmtSd1JiX1RaRm1Rb0xuY3JoSnlqR19HRUcxSVVhUXQtSWpDNHVPNHJhZlBxUHFHcFhya21uazE1ZTNYQThVVVZkZzRHdTA5X0tCa3dSSzVXeUt4Z3pJZDFoRTF6REE?oc=5",
+    "publisher": "The Harvard Crimson",
+    "publisher_url": "https://www.thecrimson.com",
+    "author": "Not listed",
+    "published": "2026-11-27",
+    "year": "2026",
+    "description": "Harvard Graduate School of Education Launches Initiative To Guide AI Use in Learning The Harvard Crimson",
+    "score": 8,
+    "categories": [
+      "AI in Education"
+    ],
+    "region": "Global",
+    "country": "",
+    "location_basis": "multiple editions",
+    "source": "Google News",
+    "content_type": "Web article",
+    "summary": "",
+    "summary_status": "not_requested",
+    "first_seen": "2026-11-27",
+    "collected_at": "2026-11-27"
+  },
+  {
+    "title": "Harvard Education School Launches AI Learning Initiative - Wisevoter",
+    "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPZkd0SFlkUjhscFk4YWRLaGJWd1ZFZ0ZuT0RPNWJ2Sm9Ec20wcTJlTUI2ajlhNGpfYkVmNFlEVmtwMDRKVkpvZURYcXFVVHFzb25zS0dndUQzNGxsREd2VGhMZWpZT2cyQWM3WFhrRjZ0b2JCQS1HajZ6WnZGa2lWa0FXWDUzLXNlSWNULVRtd2tDVURQdjhMbHZhVXhFd0ZQQmpQTmw1TmVvM3lnZXpJ?oc=5",
+    "rss_url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPZkd0SFlkUjhscFk4YWRLaGJWd1ZFZ0ZuT0RPNWJ2Sm9Ec20wcTJlTUI2ajlhNGpfYkVmNFlEVmtwMDRKVkpvZURYcXFVVHFzb25zS0dndUQzNGxsREd2VGhMZWpZT2cyQWM3WFhrRjZ0b2JCQS1HajZ6WnZGa2lWa0FXWDUzLXNlSWNULVRtd2tDVURQdjhMbHZhVXhFd0ZQQmpQTmw1TmVvM3lnZXpJ?oc=5",
+    "publisher": "Wisevoter",
+    "publisher_url": "https://wisevoter.com",
+    "author": "Not listed",
+    "published": "2026-11-27",
+    "year": "2026",
+    "description": "Harvard Education School Launches AI Learning Initiative Wisevoter",
+    "score": 8,
+    "categories": [
+      "AI in Education"
+    ],
+    "region": "Global",
+    "country": "",
+    "location_basis": "multiple editions",
+    "source": "Google News",
+    "content_type": "Web article",
+    "summary": "",
+    "summary_status": "not_requested",
+    "first_seen": "2026-11-27",
+    "collected_at": "2026-11-27"
+  },
+  {
+    "title": "Reclaiming the Civic Mission of Higher Education Through Social Entrepreneurship and Experiential Assessment",
+    "url": "https://doi.org/10.4018/979-8-2600-5254-9.ch007",
+    "rss_url": "https://doi.org/10.4018/979-8-2600-5254-9.ch007",
+    "publisher": "Post-Neoliberal Education and Human Flourishing",
+    "author": "Sein Tin, Lachhuman Gurung",
+    "published": "2026-11-27",
+    "year": "2026",
+    "description": "Higher education is facing a compounding legitimacy crisis driven by neoliberal marketisation, generative artificial intelligence, and public doubt about the value of degrees. This chapter argues that assessment is a significant yet underexplored mechanism through which neoliberal values are reproduced: standardised, output-driven individual assessment narrows curricula, marginalises civic and ethical learning, and reinforces educational inequalities, while AI exposes the limitations of these models. In response, the chapter develops the Civic-Embedded Assessment Framework (CEAF), grounded in civic university, experiential learning, student integration, and social entrepreneurship theories. The CEAF proposes four interdependent pillars: social value creation, authentic knowledge application, community engagement, and student identity development. Using a conceptual, practice-informed methodology, the chapter illustrates the framework through three cases, including a community football tournament planned, delivered, and evaluated by mixed undergraduate cohorts in partnership with a local charity, with a post-event evaluation serving as the summative assessment. It further argues tha",
+    "affiliations": "Ravensbourne University, London, UK Ravensbourne University, London, UK",
+    "score": 8,
+    "categories": [
+      "AI in Education"
+    ],
+    "region": "Global",
+    "country": "",
+    "location_basis": "unknown",
+    "source": "Crossref",
+    "content_type": "Research paper",
+    "summary": "",
+    "summary_status": "not_requested",
+    "first_seen": "2026-11-27",
+    "collected_at": "2026-11-27"
+  },
+  {
+    "title": "AI-Augmented Research Support for Commerce Collections",
+    "url": "https://doi.org/10.4018/979-8-2600-5289-1.ch012",
+    "rss_url": "https://doi.org/10.4018/979-8-2600-5289-1.ch012",
+    "publisher": "Advances in Computational Intelligence and Robotics",
+    "author": "Deepak D.",
+    "published": "2026-11-27",
+    "year": "2026",
+    "description": "This chapter analyses a case study of the systematic use of artificial intelligence (AI) tools in re-engineering the research-support service for its commerce collection in an Indian management institute library. The study follows the evolution of a library from reactive support via reference work to proactive, data-driven research partnership based on a single-site case-study design across two academic years: 2023-24 and 2024-25. The five-layer AI tool stack—presentation, AI service, knowledge, infrastructure and governance—is introduced alongside a six-step augmented research workflow using generative AI assistants, retrieval-augmented chatbots, automated summarisation of results, citation bots for tutorial creation and text-mining services.The use of pre- and post-implementation usage data, qualitative feedback, and an adoption-maturity model illustrates measurable improvements in discovery efficiency, citation accuracy, and faculty research output.",
+    "affiliations": "Jain University, India",
+    "score": 8,
+    "categories": [
+      "AI in Education"
+    ],
+    "region": "India",
+    "country": "India",
+    "location_basis": "article text",
+    "source": "Crossref",
+    "content_type": "Research paper",
+    "summary": "",
+    "summary_status": "pending",
+    "first_seen": "2026-11-27",
+    "collected_at": "2026-11-27"
+  },
+  {
+    "title": "Surrey Schools - Surrey Schools Communications Team Earns National Award of Excellence for AI Engagement Strategy - Education News Canada",
+    "url": "https://news.google.com/rss/articles/CBMigAJBVV95cUxNbTVFVVpVRGI5bmVGQUs4T3RWSExHZ1BtR3hvSlVnQ19EdTZNUG90RE44bWRjN3dic2ZTamdJVk02XzBRNG4zN3ppc0VpbUtlckNSWTVST29rYUJXQzlfQ2d0cHU5ODBfVjB1N3lYNS05Z0U2Z1VpazNvQlJUcmtmalpMS2pKckNtT3dnZktHRF9TTE9mUzlPaXk2dE1qMHZYWnNpRTljRnZseFpMdzdGemZib29XdDJfeldwc2pRemJ3RnlNLUFYeFpNUGdKaUFHU1V4Q3Zha3h2QVF3OUdSYVRTRmlpcFZHdkdRU3pTTTVFZmlvRkY3cEJLM1FFMFJY?oc=5",
+    "rss_url": "https://news.google.com/rss/articles/CBMigAJBVV95cUxNbTVFVVpVRGI5bmVGQUs4T3RWSExHZ1BtR3hvSlVnQ19EdTZNUG90RE44bWRjN3dic2ZTamdJVk02XzBRNG4zN3ppc0VpbUtlckNSWTVST29rYUJXQzlfQ2d0cHU5ODBfVjB1N3lYNS05Z0U2Z1VpazNvQlJUcmtmalpMS2pKckNtT3dnZktHRF9TTE9mUzlPaXk2dE1qMHZYWnNpRTljRnZseFpMdzdGemZib29XdDJfeldwc2pRemJ3RnlNLUFYeFpNUGdKaUFHU1V4Q3Zha3h2QVF3OUdSYVRTRmlpcFZHdkdRU3pTTTVFZmlvRkY3cEJLM1FFMFJY?oc=5",
+    "publisher": "Education News Canada",
+    "publisher_url": "https://educationnewscanada.com",
+    "author": "Not listed",
+    "published": "2026-11-27",
+    "year": "2026",
+    "description": "Surrey Schools - Surrey Schools Communications Team Earns National Award of Excellence for AI Engagement Strategy Education News Canada",
+    "score": 7,
+    "categories": [
+      "AI in Education"
+    ],
+    "region": "Global",
+    "country": "Canada",
+    "location_basis": "article text",
+    "source": "Google News",
+    "content_type": "Web article",
+    "summary": "",
+    "summary_status": "not_requested",
+    "first_seen": "2026-11-27",
+    "collected_at": "2026-11-27"
+  },
+  {
+    "title": "Neerja Modi School hosts national AI conclave to advance future-ready education - The Tribune",
+    "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxQTDVKVGdPT2N2ZWdyQWVLTUhnUUd3eVpZWE5YNVJtRk96QndMNjR0RWRQUWZHWndaY3ZWajlIeld1RUZzSVFsTTR5a2l6cWdwS3JMNi10MnNRV1pkTlR5XzVxaTVRd3JzelZ2cTY3QnRlSnZJeF9CdnFlVDFrdDFZZGV3c2plc2RYZDVmbDlMT1dpVDVEUlFCTzRyanBtMmVERGdncmRjRmFtd0d4dnRQdkt1M05PN3dSTDZDVFBZUDNhNHU4THd2bmVQdkF4RVpKMExxNlJ4UzRncVhkaEkzcNIB4AFBVV95cUxQTDVKVGdPT2N2ZWdyQWVLTUhnUUd3eVpZWE5YNVJtRk96QndMNjR0RWRQUWZHWndaY3ZWajlIeld1RUZzSVFsTTR5a2l6cWdwS3JMNi10MnNRV1pkTlR5XzVxaTVRd3JzelZ2cTY3QnRlSnZJeF9CdnFlVDFrdDFZZGV3c2plc2RYZDVmbDlMT1dpVDVEUlFCTzRyanBtMmVERGdncmRjRmFtd0d4dnRQdkt1M05PN3dSTDZDVFBZUDNhNHU4THd2bmVQdkF4RVpKMExxNlJ4UzRncVhkaEkzcA?oc=5",
+    "rss_url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxQTDVKVGdPT2N2ZWdyQWVLTUhnUUd3eVpZWE5YNVJtRk96QndMNjR0RWRQUWZHWndaY3ZWajlIeld1RUZzSVFsTTR5a2l6cWdwS3JMNi10MnNRV1pkTlR5XzVxaTVRd3JzelZ2cTY3QnRlSnZJeF9CdnFlVDFrdDFZZGV3c2plc2RYZDVmbDlMT1dpVDVEUlFCTzRyanBtMmVERGdncmRjRmFtd0d4dnRQdkt1M05PN3dSTDZDVFBZUDNhNHU4THd2bmVQdkF4RVpKMExxNlJ4UzRncVhkaEkzcNIB4AFBVV95cUxQTDVKVGdPT2N2ZWdyQWVLTUhnUUd3eVpZWE5YNVJtRk96QndMNjR0RWRQUWZHWndaY3ZWajlIeld1RUZzSVFsTTR5a2l6cWdwS3JMNi10MnNRV1pkTlR5XzVxaTVRd3JzelZ2cTY3QnRlSnZJeF9CdnFlVDFrdDFZZGV3c2plc2RYZDVmbDlMT1dpVDVEUlFCTzRyanBtMmVERGdncmRjRmFtd0d4dnRQdkt1M05PN3dSTDZDVFBZUDNhNHU4THd2bmVQdkF4RVpKMExxNlJ4UzRncVhkaEkzcA?oc=5",
+    "publisher": "The Tribune",
+    "publisher_url": "https://www.tribuneindia.com",
+    "author": "Not listed",
+    "published": "2026-11-27",
+    "year": "2026",
+    "description": "Neerja Modi School hosts national AI conclave to advance future-ready education The Tribune",
+    "score": 7,
+    "categories": [
+      "AI in Education"
+    ],
+    "region": "India",
+    "country": "India",
+    "location_basis": "news edition",
+    "source": "Google News",
+    "content_type": "Web article",
+    "summary": "",
+    "summary_status": "pending",
+    "first_seen": "2026-11-27",
+    "collected_at": "2026-11-27"
+  },
+  {
+    "title": "Neerja Modi School hosts national AI conclave to advance future-ready education - ANI News",
+    "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxPel9tYlVfdk1WSVRMZG9wN1RuSlhFQ3hmcGlVYTZFU1hXNFZlS1l2a1IxeVZBR3lMNFBFV1EwNVdSUExnQ19hX3hRV0hkRnVMODdzUUdac0dsUXNwVWlGRjg0c3RYSkNRYVhrR1dMVXEzWEJfUmpZWGhyaUVqNzZGRWpVNExuXzdZOTRhLVlWaVZta1BtcF83aklMRDZXbGVaWmxrSHVLOEVncDZhV2dEMUIwVk1KM1FVVnY0c2M2UnBZcWtNMDN1ZkF3?oc=5",
+    "rss_url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxPel9tYlVfdk1WSVRMZG9wN1RuSlhFQ3hmcGlVYTZFU1hXNFZlS1l2a1IxeVZBR3lMNFBFV1EwNVdSUExnQ19hX3hRV0hkRnVMODdzUUdac0dsUXNwVWlGRjg0c3RYSkNRYVhrR1dMVXEzWEJfUmpZWGhyaUVqNzZGRWpVNExuXzdZOTRhLVlWaVZta1BtcF83aklMRDZXbGVaWmxrSHVLOEVncDZhV2dEMUIwVk1KM1FVVnY0c2M2UnBZcWtNMDN1ZkF3?oc=5",
+    "publisher": "ANI News",
+    "publisher_url": "https://www.aninews.in",
+    "author": "Not listed",
+    "published": "2026-11-27",
+    "year": "2026",
+    "description": "Neerja Modi School hosts national AI conclave to advance future-ready education ANI News",
+    "score": 7,
+    "categories": [
+      "AI in Education"
+    ],
+    "region": "India",
+    "country": "India",
+    "location_basis": "publisher domain",
+    "source": "Google News",
+    "content_type": "Web article",
+    "summary": "",
+    "summary_status": "not_requested",
+    "first_seen": "2026-11-27",
+    "collected_at": "2026-11-27"
+  },
+  {
+    "title": "Karnataka To Set Up 1,300 Public Schools: AI Classes From Class 3, Free Bus Facility Planned - ABP Live English",
+    "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxPNC1uejhmUUlfOGhZNUtMV3RqY1pqbHMxY1daZWoxWFh2U3EwNXBZTTlURlhYZjVuMzZEaktmallwV2dtSmlXWDdiZ2pDNlozeE9EUExna09qdVMtOVhKendqLVc5cVctazNlSGZhRF9VT3JpR2dEQ1NZRkJabTRwUWRTamIxT2VBUnBFLTl0UWVLWXJ6bDhmRFFUYnFqa2pEVFg5ZExhQ05PdW53alk3TzFfeDRLODBtZF9na2NSbjFLN1habTNSRklRVnIwd9IB0wFBVV95cUxPR0lvRV9NcFFsRTV6d3h2UGlaUGlhNXczTmxwcl9IUS10RDZmTVp1bnpuVXR1aFF6XzRDRFFxZzE0Q2VPaFE4ZHRUZFN1bG1hV1JfNHJXVjJoOWkweFA1OXpLeWQtbTIyMkM4UXNBSE1lMXZuUzZaVV9CSk1OWGQ0UXViLVRIMmRIaHpqOW9VWTVFRWw3VWI4Nk1EeXpSNlFxYzRiVm1KVWkzc0x1b2NhaUFvcUtRVkkwa1lTdXNxQlFSRTBWQmhfSzhhYy1mT1lFTnIw?oc=5",
+    "rss_url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxPNC1uejhmUUlfOGhZNUtMV3RqY1pqbHMxY1daZWoxWFh2U3EwNXBZTTlURlhYZjVuMzZEaktmallwV2dtSmlXWDdiZ2pDNlozeE9EUExna09qdVMtOVhKendqLVc5cVctazNlSGZhRF9VT3JpR2dEQ1NZRkJabTRwUWRTamIxT2VBUnBFLTl0UWVLWXJ6bDhmRFFUYnFqa2pEVFg5ZExhQ05PdW53alk3TzFfeDRLODBtZF9na2NSbjFLN1habTNSRklRVnIwd9IB0wFBVV95cUxPR0lvRV9NcFFsRTV6d3h2UGlaUGlhNXczTmxwcl9IUS10RDZmTVp1bnpuVXR1aFF6XzRDRFFxZzE0Q2VPaFE4ZHRUZFN1bG1hV1JfNHJXVjJoOWkweFA1OXpLeWQtbTIyMkM4UXNBSE1lMXZuUzZaVV9CSk1OWGQ0UXViLVRIMmRIaHpqOW9VWTVFRWw3VWI4Nk1EeXpSNlFxYzRiVm1KVWkzc0x1b2NhaUFvcUtRVkkwa1lTdXNxQlFSRTBWQmhfSzhhYy1mT1lFTnIw?oc=5",
+    "publisher": "ABP Live English",
+    "publisher_url": "https://news.abplive.com",
+    "author": "Not listed",
+    "published": "2026-11-27",
+    "year": "2026",
+    "description": "Karnataka To Set Up 1,300 Public Schools: AI Classes From Class 3, Free Bus Facility Planned ABP Live English",
+    "score": 6,
+    "categories": [
+      "AI in Education"
+    ],
+    "region": "Global",
+    "country": "",
+    "location_basis": "multiple editions",
+    "source": "Google News",
+    "content_type": "Web article",
+    "summary": "",
+    "summary_status": "not_requested",
+    "first_seen": "2026-11-27",
+    "collected_at": "2026-11-27"
+  },
+  {
+    "title": "Inner Development Goals and Collective Social-Emotional Health in Higher Education Institutions",
+    "url": "https://doi.org/10.4018/979-8-2600-5228-0.ch007",
+    "rss_url": "https://doi.org/10.4018/979-8-2600-5228-0.ch007",
+    "publisher": "Cultivating Collective Socio-Emotional Well-Being in Organizations",
+    "author": "Yuliya Shtaltovna",
+    "published": "2026-11-27",
+    "year": "2026",
+    "description": "This chapter examines collective socio-emotional health through the lens of the Inner Development Goals (IDG). Moving beyond individual resilience, it argues that socio-emotional health is an organizational capability shaped by relational infrastructure, leadership norms, communication cultures, institutional practices, and technological conditions. The chapter positions the IDG dimensions of Being, Thinking, Relating, Collaborating, and Acting as a framework for understanding how inner capacities become collective practices that support trust, psychological safety, empathy, shared meaning, and responsible action. Drawing on selected IDG cases from the Casebook of IDG Implementation into Higher Education, it illustrates how relational well-being can be intentionally designed in higher education organizations and communities. The chapter offers recommendations for researchers, educators, leaders, policy makers, social innovators, and well-being professionals seeking to cultivate emotionally healthy collectives in an age of complexity, artificial intelligence, and human sustainability.",
+    "affiliations": "International Business School, Hochschule Fresenius, Berlin, Germany & Graduate Business School, Kyiv School of Economics, Kyiv, Ukraine",
+    "score": 6,
+    "categories": [
+      "AI in Education"
+    ],
+    "region": "Global",
+    "country": "Germany",
+    "location_basis": "article text",
+    "source": "Crossref",
+    "content_type": "Research paper",
+    "summary": "",
+    "summary_status": "not_requested",
+    "first_seen": "2026-11-27",
+    "collected_at": "2026-11-27"
+  },
+  {
+    "title": "As Google threatens to cut schools' search access, Los Angeles blocks AI features - The Washington Post",
+    "url": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxQdk9HRlpPejJjMnBVN2FWaFhtNkRLNmUydDV5Y0E1V05tXy1kMklwV1NuWkJiWkhrY002WUd6eHdLVFBfMnUtMUo2NUw2QVNXZzA2U0RwRVBGOUdualdCUzJGaXBFMWNoTDVNTEVYQnJDaFNEOHhPMGU2dEFvLVl4LVR5NEJELUdDRnhmaUY2Tm5PNnpQTl9zbWhKdWdUMzRnSmh3MUVuTDNRQjdRYlRPQWpNRUROTUlKWGdjQmVIVlRnMW1oT3ZpMEJpck9WNTZuQzlsaWREZEFfMFlQRXVzZnAwLUhHQ3ZUZ3ZCZGJ3?oc=5",
+    "rss_url": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxQdk9HRlpPejJjMnBVN2FWaFhtNkRLNmUydDV5Y0E1V05tXy1kMklwV1NuWkJiWkhrY002WUd6eHdLVFBfMnUtMUo2NUw2QVNXZzA2U0RwRVBGOUdualdCUzJGaXBFMWNoTDVNTEVYQnJDaFNEOHhPMGU2dEFvLVl4LVR5NEJELUdDRnhmaUY2Tm5PNnpQTl9zbWhKdWdUMzRnSmh3MUVuTDNRQjdRYlRPQWpNRUROTUlKWGdjQmVIVlRnMW1oT3ZpMEJpck9WNTZuQzlsaWREZEFfMFlQRXVzZnAwLUhHQ3ZUZ3ZCZGJ3?oc=5",
+    "publisher": "The Washington Post",
+    "publisher_url": "https://www.washingtonpost.com",
+    "author": "Not listed",
+    "published": "2026-11-27",
+    "year": "2026",
+    "description": "As Google threatens to cut schools' search access, Los Angeles blocks AI features The Washington Post",
+    "score": 6,
+    "categories": [
+      "AI in Education"
+    ],
+    "region": "USA",
+    "country": "USA",
+    "location_basis": "article text",
+    "source": "Google News",
+    "content_type": "Web article",
+    "summary": "",
+    "summary_status": "not_requested",
+    "first_seen": "2026-11-27",
+    "collected_at": "2026-11-27"
+  },
+  {
+    "title": "Artificial Intelligence in Journalism",
+    "url": "https://doi.org/10.4018/979-8-2600-5213-6.ch004",
+    "rss_url": "https://doi.org/10.4018/979-8-2600-5213-6.ch004",
+    "publisher": "Advances in Computational Intelligence and Robotics",
+    "author": "Andleeb Raza, Rahul Kumar",
+    "published": "2026-11-27",
+    "year": "2026",
+    "description": "Artificial Intelligence (AI) is reshaping journalism through automated content creation, data analysis, and personalized news distribution. While it enhances efficiency, AI also raises profound ethical concerns, including algorithmic bias, deepfake-driven misinformation, and the erosion of editorial accountability. This chapter explores AI's dual impact, emphasizing how algorithmic gatekeeping and synthetic media threaten media literacy and democratic discourse. Case studies illustrate how filter bubbles and computational propaganda exploit AI to distort public perception. A pilot study in Jammu and Kashmir reveals high media literacy among youth (mean: 3.98/5), despite regional vulnerabilities, demonstrating education's vital role in building resilience. The chapter advocates for comprehensive media literacy programs, regulatory frameworks to ensure algorithmic transparency, and newsroom policies that maintain human oversight. Addressing these challenges is essential to harness AI's potential while safeguarding journalism's integrity and democratic values in digital landscape.",
+    "affiliations": "Lovely Professional University, India Lovely Professional University, India Vivekananda Global University, India",
+    "score": 6,
+    "categories": [
+      "AI in Education"
+    ],
+    "region": "India",
+    "country": "India",
+    "location_basis": "article text",
+    "source": "Crossref",
+    "content_type": "Research paper",
+    "summary": "",
+    "summary_status": "not_requested",
+    "first_seen": "2026-11-27",
+    "collected_at": "2026-11-27"
+  },
+  {
     "title": "Generative artificial intelligence usage among graduate epidemiology students: a cross-sectional survey of use patterns, attitudes, and perceived learning gains",
     "url": "https://doi.org/10.1108/jarhe-04-2026-0734",
     "rss_url": "https://doi.org/10.1108/jarhe-04-2026-0734",
@@ -20,9 +453,9 @@
     "source": "Crossref",
     "content_type": "Research paper",
     "summary": "",
-    "summary_status": "pending",
+    "summary_status": "not_requested",
     "first_seen": "2026-11-26",
-    "collected_at": "2026-11-26"
+    "collected_at": "2026-11-27"
   },
   {
     "title": "An empirically evaluated online classroom framework for enhancing 21st-century competencies in higher education: a mixed-methods study",
@@ -44,9 +477,9 @@
     "source": "Crossref",
     "content_type": "Research paper",
     "summary": "",
-    "summary_status": "pending",
+    "summary_status": "not_requested",
     "first_seen": "2026-11-26",
-    "collected_at": "2026-11-26"
+    "collected_at": "2026-11-27"
   },
   {
     "title": "Digital readiness as an enabling capability for HyFlex-VR learning in vocational education",
@@ -70,7 +503,7 @@
     "summary": "",
     "summary_status": "not_requested",
     "first_seen": "2026-11-26",
-    "collected_at": "2026-11-26"
+    "collected_at": "2026-11-27"
   },
   {
     "title": "Playful Pathways to Proficiency: The Impact of Educational Language Games on Teaching English Vocabulary to Primary School Students",
@@ -94,7 +527,7 @@
     "summary": "",
     "summary_status": "not_requested",
     "first_seen": "2026-11-26",
-    "collected_at": "2026-11-26"
+    "collected_at": "2026-11-27"
   },
   {
     "title": "The emotional labor of AI integration: a constructivist grounded theory study of academic librarians' work with generative AI tools",
@@ -118,7 +551,7 @@
     "summary": "",
     "summary_status": "not_requested",
     "first_seen": "2026-11-26",
-    "collected_at": "2026-11-26"
+    "collected_at": "2026-11-27"
   },
   {
     "title": "PENGARUH PENGGUNAAN MODEL PEMBELAJARAN COOPERATIVE LEARNING TERHADAP KEMAMPUAN SISWA DALAM MEMBANDINGKAN PUISI DIAFAN DAN PRISMATIS KELAS VIII DI SMP NEGERI 2 BAWOLATO",
@@ -142,7 +575,7 @@
     "summary": "",
     "summary_status": "not_requested",
     "first_seen": "2026-11-26",
-    "collected_at": "2026-11-26"
+    "collected_at": "2026-11-27"
   },
   {
     "title": "Influence of Teachers’ Access to ICT Facilities on Students’ Academic Success in Public Secondary Schools in Nyamagana District, Tanzania",
@@ -166,7 +599,7 @@
     "summary": "",
     "summary_status": "not_requested",
     "first_seen": "2026-11-26",
-    "collected_at": "2026-11-26"
+    "collected_at": "2026-11-27"
   },
   {
     "title": "Applications of artificial intelligence in microbiology education",
@@ -191,7 +624,7 @@
     "summary": "",
     "summary_status": "not_requested",
     "first_seen": "2026-11-26",
-    "collected_at": "2026-11-26"
+    "collected_at": "2026-11-27"
   },
   {
     "title": "Associations Among AI Use, Learning Perception, and Character Perception in Madrasah Teachers: A Multi-Group SEM Study",
@@ -215,7 +648,7 @@
     "summary": "",
     "summary_status": "not_requested",
     "first_seen": "2026-11-26",
-    "collected_at": "2026-11-26"
+    "collected_at": "2026-11-27"
   },
   {
     "title": "Using Generative AI to Promote Mathematical Reasoning in Classrooms",
@@ -239,7 +672,79 @@
     "summary": "",
     "summary_status": "not_requested",
     "first_seen": "2026-11-26",
-    "collected_at": "2026-11-26"
+    "collected_at": "2026-11-27"
+  },
+  {
+    "title": "UAE launches guide to help parents navigate AI in education - ARN News Centre",
+    "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPazRUVGhCdkdrLURhcEx6YVZNUURDY28wRUJ6SEp3YVNsakxaZXZnclNUZ0JPeFBIT3VBclVERWprNllQMWhacTNJcTRvc0NEcFB3aXlpOUhfR1hxYi02ZE40eUM3V1JpU1FPQktiTnRWOVkwWDVhTGF0cXh4cmhkaTQ4Nk9Ddkg2X0VVcVNxN2lfTDhsV3dwZEFWMEZVbjg?oc=5",
+    "rss_url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPazRUVGhCdkdrLURhcEx6YVZNUURDY28wRUJ6SEp3YVNsakxaZXZnclNUZ0JPeFBIT3VBclVERWprNllQMWhacTNJcTRvc0NEcFB3aXlpOUhfR1hxYi02ZE40eUM3V1JpU1FPQktiTnRWOVkwWDVhTGF0cXh4cmhkaTQ4Nk9Ddkg2X0VVcVNxN2lfTDhsV3dwZEFWMEZVbjg?oc=5",
+    "publisher": "ARN News Centre",
+    "publisher_url": "https://www.arnnewscentre.ae",
+    "author": "Not listed",
+    "published": "2026-11-26",
+    "year": "2026",
+    "description": "UAE launches guide to help parents navigate AI in education ARN News Centre",
+    "score": 9,
+    "categories": [
+      "AI in Education"
+    ],
+    "region": "USA",
+    "country": "USA",
+    "location_basis": "news edition",
+    "source": "Google News",
+    "content_type": "Web article",
+    "summary": "",
+    "summary_status": "not_requested",
+    "first_seen": "2026-11-27",
+    "collected_at": "2026-11-27"
+  },
+  {
+    "title": "Ministry of Education, AI Office launch ‘Parent’s Guide to Artificial Intelligence in Education’ - www.wam.ae",
+    "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQaGxzaWFGcU9XZmRvd3dMMlhIWmV4ckVCTGE1RG11aFNraTRMM0tNQkdGelAzelFJbXJxeVJYUmxGVFBsRUIzTTFpdWhIUGJpRDQ1eTFKRXY0aGk1OXRtUDgzMnotS0NBMWZhZ1RyNGFlVk9SX0JhY21kSlVFS0k5UGlGRVJGVUZVVVV5VzJXQ25iUHpTaXNTamZyUE1ZVnRkbFFHcw?oc=5",
+    "rss_url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQaGxzaWFGcU9XZmRvd3dMMlhIWmV4ckVCTGE1RG11aFNraTRMM0tNQkdGelAzelFJbXJxeVJYUmxGVFBsRUIzTTFpdWhIUGJpRDQ1eTFKRXY0aGk1OXRtUDgzMnotS0NBMWZhZ1RyNGFlVk9SX0JhY21kSlVFS0k5UGlGRVJGVUZVVVV5VzJXQ25iUHpTaXNTamZyUE1ZVnRkbFFHcw?oc=5",
+    "publisher": "www.wam.ae",
+    "publisher_url": "https://www.wam.ae",
+    "author": "Not listed",
+    "published": "2026-11-26",
+    "year": "2026",
+    "description": "Ministry of Education, AI Office launch ‘Parent’s Guide to Artificial Intelligence in Education’ www.wam.ae",
+    "score": 9,
+    "categories": [
+      "AI in Education"
+    ],
+    "region": "India",
+    "country": "India",
+    "location_basis": "news edition",
+    "source": "Google News",
+    "content_type": "Web article",
+    "summary": "",
+    "summary_status": "not_requested",
+    "first_seen": "2026-11-27",
+    "collected_at": "2026-11-27"
+  },
+  {
+    "title": "Ontario high school teachers speak about AI in the classroom - The Conversation",
+    "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQR2xXY2hBLVVUeXg5SE1paEZpdnF5S1RQZG5sbUJwcVBzUWdreW1ySW11OE1uMjVrTndpRWtqYzZqWllJLUlFN2RnMXBGTDJaYm81cmVja09kSTRpVFktdW45YnZmNFBjRENzQ0RERkVjWktDWHBVdXAtdnlhUkdUU1JZbkttX2NjcldxUDBBSUk2SjlyR3NLdjZnNA?oc=5",
+    "rss_url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQR2xXY2hBLVVUeXg5SE1paEZpdnF5S1RQZG5sbUJwcVBzUWdreW1ySW11OE1uMjVrTndpRWtqYzZqWllJLUlFN2RnMXBGTDJaYm81cmVja09kSTRpVFktdW45YnZmNFBjRENzQ0RERkVjWktDWHBVdXAtdnlhUkdUU1JZbkttX2NjcldxUDBBSUk2SjlyR3NLdjZnNA?oc=5",
+    "publisher": "The Conversation",
+    "publisher_url": "https://theconversation.com",
+    "author": "Not listed",
+    "published": "2026-11-26",
+    "year": "2026",
+    "description": "Ontario high school teachers speak about AI in the classroom The Conversation",
+    "score": 8,
+    "categories": [
+      "AI in Education"
+    ],
+    "region": "Global",
+    "country": "",
+    "location_basis": "multiple editions",
+    "source": "Google News",
+    "content_type": "Web article",
+    "summary": "",
+    "summary_status": "not_requested",
+    "first_seen": "2026-11-27",
+    "collected_at": "2026-11-27"
   },
   {
     "title": "STUDENT EXPERIENCE OF AI IN LAW ASSESSMENT: AN EXPLORATORY STUDY",
@@ -263,7 +768,7 @@
     "summary": "",
     "summary_status": "not_requested",
     "first_seen": "2026-11-26",
-    "collected_at": "2026-11-26"
+    "collected_at": "2026-11-27"
   },
   {
     "title": "Developing a Theoretical Model of Professional Ethics Education for Preschool Education Students Through the Integration of Social Learning, Moral Development, and Self-Determination Theories",
@@ -287,7 +792,31 @@
     "summary": "",
     "summary_status": "not_requested",
     "first_seen": "2026-11-26",
-    "collected_at": "2026-11-26"
+    "collected_at": "2026-11-27"
+  },
+  {
+    "title": "AI image misuse: what school staff need to know - Independent Education Union",
+    "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTFBTelVPdUpUb0JFWkVtVVdWbEN5b2ZlZ19PNnJrd09vUEl5SjFmSGZGZ1FyT1dxUEY5cm1vZEs1MXg5TEpyS09MRTljRWo1TUlyWlNCb2R3MlRMems4V0JnWFhNNXl4Ylk1NVI0MFloTF81UThaajdkWg?oc=5",
+    "rss_url": "https://news.google.com/rss/articles/CBMieEFVX3lxTFBTelVPdUpUb0JFWkVtVVdWbEN5b2ZlZ19PNnJrd09vUEl5SjFmSGZGZ1FyT1dxUEY5cm1vZEs1MXg5TEpyS09MRTljRWo1TUlyWlNCb2R3MlRMems4V0JnWFhNNXl4Ylk1NVI0MFloTF81UThaajdkWg?oc=5",
+    "publisher": "Independent Education Union",
+    "publisher_url": "https://ieuqnt.org.au",
+    "author": "Not listed",
+    "published": "2026-11-26",
+    "year": "2026",
+    "description": "AI image misuse: what school staff need to know Independent Education Union",
+    "score": 7,
+    "categories": [
+      "AI in Education"
+    ],
+    "region": "Global",
+    "country": "",
+    "location_basis": "multiple editions",
+    "source": "Google News",
+    "content_type": "Web article",
+    "summary": "",
+    "summary_status": "not_requested",
+    "first_seen": "2026-11-27",
+    "collected_at": "2026-11-27"
   },
   {
     "title": "16-year-old drops out of school to build an AI startup, raises Rs 4.4 crore from Y Combinator - Education Times",
@@ -309,9 +838,129 @@
     "source": "Google News",
     "content_type": "Web article",
     "summary": "",
-    "summary_status": "pending",
+    "summary_status": "not_requested",
     "first_seen": "2026-11-26",
-    "collected_at": "2026-11-26"
+    "collected_at": "2026-11-27"
+  },
+  {
+    "title": "Education Ministry: \"AI Use in High School Performance Assessments Should Be Educational, Not Banned Across the Board\" - 아시아경제",
+    "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE1ZOWRHOHZCSVNLdi1WZjRRNTdfVFFUMmJINWZTMUNCMWdaRng2MkZZV3J0VkdVZkFlMnE4TnJlV29mb3VwaHBQcm1aZTNNWGhybWh4bGkzQlpnd2N3VUpoR2pGajBvYnA4UDBBVWQwQVYxQQ?oc=5",
+    "rss_url": "https://news.google.com/rss/articles/CBMickFVX3lxTE1ZOWRHOHZCSVNLdi1WZjRRNTdfVFFUMmJINWZTMUNCMWdaRng2MkZZV3J0VkdVZkFlMnE4TnJlV29mb3VwaHBQcm1aZTNNWGhybWh4bGkzQlpnd2N3VUpoR2pGajBvYnA4UDBBVWQwQVYxQQ?oc=5",
+    "publisher": "아시아경제",
+    "publisher_url": "https://www.asiae.co.kr",
+    "author": "Not listed",
+    "published": "2026-11-26",
+    "year": "2026",
+    "description": "Education Ministry: \"AI Use in High School Performance Assessments Should Be Educational, Not Banned Across the Board\" 아시아경제",
+    "score": 7,
+    "categories": [
+      "AI in Education"
+    ],
+    "region": "India",
+    "country": "India",
+    "location_basis": "news edition",
+    "source": "Google News",
+    "content_type": "Web article",
+    "summary": "",
+    "summary_status": "not_requested",
+    "first_seen": "2026-11-27",
+    "collected_at": "2026-11-27"
+  },
+  {
+    "title": "They were in high school when ChatGPT arrived and in college when their friends got accused of cheating. Now their AI software polices 40 colleges - Fortune",
+    "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNRTRQNlRwMXlicElYVUliYTctX3hJaEZVVVAwTkkxNDF0X2xudm1XRXduUVNqOWpBdHpIcnVkZVVuNWprcjBpUDFfZEVSQ1lmd3VCbzhJQ19QWHZ4QmJuTVJDYUtDQXNZclBhZWs2SlN3YlZuVktJbzRjRUpTZktNT1dCT3FrSXlaUndDMlM2Ty01MzI0MUNyUE9aVmdlalNG?oc=5",
+    "rss_url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNRTRQNlRwMXlicElYVUliYTctX3hJaEZVVVAwTkkxNDF0X2xudm1XRXduUVNqOWpBdHpIcnVkZVVuNWprcjBpUDFfZEVSQ1lmd3VCbzhJQ19QWHZ4QmJuTVJDYUtDQXNZclBhZWs2SlN3YlZuVktJbzRjRUpTZktNT1dCT3FrSXlaUndDMlM2Ty01MzI0MUNyUE9aVmdlalNG?oc=5",
+    "publisher": "Fortune",
+    "publisher_url": "https://fortune.com",
+    "author": "Not listed",
+    "published": "2026-11-26",
+    "year": "2026",
+    "description": "They were in high school when ChatGPT arrived and in college when their friends got accused of cheating. Now their AI software polices 40 colleges Fortune",
+    "score": 6,
+    "categories": [
+      "AI in Education"
+    ],
+    "region": "Global",
+    "country": "",
+    "location_basis": "multiple editions",
+    "source": "Google News",
+    "content_type": "Web article",
+    "summary": "",
+    "summary_status": "not_requested",
+    "first_seen": "2026-11-27",
+    "collected_at": "2026-11-27"
+  },
+  {
+    "title": "AI gave schools wrong information on results checks, DfE claims - Schools Week",
+    "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOZ1o4ZVlIY0lpaXlVSlhXbmJjNUVmaXVsbGNmVDNEbmZBaXM2SXNvY3I2Mi1hN05LSThCaS1fNWNhNDdLNEV4RUNSd2hpdFRIQUZpa0tQeEVLbldZRUxlWEtjR1lWLVlVNVJoZWRPSF9kb0lUMWh2OGVGakJhRDRKVmVIZHlXZHVzNF9rdUV0a1QwaDQ?oc=5",
+    "rss_url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOZ1o4ZVlIY0lpaXlVSlhXbmJjNUVmaXVsbGNmVDNEbmZBaXM2SXNvY3I2Mi1hN05LSThCaS1fNWNhNDdLNEV4RUNSd2hpdFRIQUZpa0tQeEVLbldZRUxlWEtjR1lWLVlVNVJoZWRPSF9kb0lUMWh2OGVGakJhRDRKVmVIZHlXZHVzNF9rdUV0a1QwaDQ?oc=5",
+    "publisher": "Schools Week",
+    "publisher_url": "https://schoolsweek.co.uk",
+    "author": "Not listed",
+    "published": "2026-11-26",
+    "year": "2026",
+    "description": "AI gave schools wrong information on results checks, DfE claims Schools Week",
+    "score": 6,
+    "categories": [
+      "AI in Education"
+    ],
+    "region": "Global",
+    "country": "",
+    "location_basis": "multiple editions",
+    "source": "Google News",
+    "content_type": "Web article",
+    "summary": "",
+    "summary_status": "not_requested",
+    "first_seen": "2026-11-27",
+    "collected_at": "2026-11-27"
+  },
+  {
+    "title": "UNU Macau AI Conference 2026 advances a human-centred approach to AI and education - USA Today",
+    "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxOeDNBNWQzVmZ4TEN0SlUtYi1UV1NCY3BJeHlSeHd6Sk5SZGxIQ1R1QWU5N2FEd3ljbjIyczdJdWdaMUtUX045TFhCZkZaYk1rdFlGWl9hX1hPWHg0dU5KTEVhRTFPV3l4dGF3SzdjUmY5aDN6VlBncEtMWUtBNFJhTC1BbEQ4OGIxRTFkaEhuQmJNZVU5aGpacjdEMXhJR1J5d1FxaFMyRjFIRjIyU0ZtaVVIdFhpSmFyaDNNa0Y3d09QTXlvYjMxUUFLUGRoTTQ?oc=5",
+    "rss_url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxOeDNBNWQzVmZ4TEN0SlUtYi1UV1NCY3BJeHlSeHd6Sk5SZGxIQ1R1QWU5N2FEd3ljbjIyczdJdWdaMUtUX045TFhCZkZaYk1rdFlGWl9hX1hPWHg0dU5KTEVhRTFPV3l4dGF3SzdjUmY5aDN6VlBncEtMWUtBNFJhTC1BbEQ4OGIxRTFkaEhuQmJNZVU5aGpacjdEMXhJR1J5d1FxaFMyRjFIRjIyU0ZtaVVIdFhpSmFyaDNNa0Y3d09QTXlvYjMxUUFLUGRoTTQ?oc=5",
+    "publisher": "USA Today",
+    "publisher_url": "https://www.usatoday.com",
+    "author": "Not listed",
+    "published": "2026-11-26",
+    "year": "2026",
+    "description": "UNU Macau AI Conference 2026 advances a human-centred approach to AI and education USA Today",
+    "score": 6,
+    "categories": [
+      "AI in Education"
+    ],
+    "region": "USA",
+    "country": "USA",
+    "location_basis": "article text",
+    "source": "Google News",
+    "content_type": "Web article",
+    "summary": "",
+    "summary_status": "not_requested",
+    "first_seen": "2026-11-27",
+    "collected_at": "2026-11-27"
+  },
+  {
+    "title": "UAE launches AI education guide for parents: What families need to know - Gulf News",
+    "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNZ2N6Sm9jMFB5S0dXV3FHUGZ5ZjhZVnJXdDZ3TVhISzYxTXpIbjR2enJLZFUwc3BiZW55RGZpcmFuOXhzQ0twUENTaFFjcHBRMHBzU2FIM2I2NzFFenlNNU1TX0dKOTZIY3p0Mk1rbzFXZnhNTW8zWjdubmxFX0Y5WHVfTGdRRXZGbk0xSHBwd0dWdTBNY1BwYlpTYVJKdmRaZFpCR3RfckZ6c1lsT0RTMkxJeWlOWUxV0gHLAUFVX3lxTE5BcE5TMnNFaDI0dUdLakd4QXQweDVTV3Z0V25TRFdtRzIzR01jSXBnU2ItNmM5QTFkdnBZZW0wYTdBbDdFOGlnUXE4X1lGaElrWGd2T3BGT09CZERXRXNlVGpvejJRNUN5UF96bGZXT2FJM1Bnc1RycWEyUjdBc1JxQVR5R2FYY3BvZHRJR3BqU3UxamdORElxdTM5MjVVdE9jSlByYmFIc2wtNG1pQXdkMEpJYVpOWFBYOVNhRElJUTF0OC1pbEpnbHlZ?oc=5",
+    "rss_url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNZ2N6Sm9jMFB5S0dXV3FHUGZ5ZjhZVnJXdDZ3TVhISzYxTXpIbjR2enJLZFUwc3BiZW55RGZpcmFuOXhzQ0twUENTaFFjcHBRMHBzU2FIM2I2NzFFenlNNU1TX0dKOTZIY3p0Mk1rbzFXZnhNTW8zWjdubmxFX0Y5WHVfTGdRRXZGbk0xSHBwd0dWdTBNY1BwYlpTYVJKdmRaZFpCR3RfckZ6c1lsT0RTMkxJeWlOWUxV0gHLAUFVX3lxTE5BcE5TMnNFaDI0dUdLakd4QXQweDVTV3Z0V25TRFdtRzIzR01jSXBnU2ItNmM5QTFkdnBZZW0wYTdBbDdFOGlnUXE4X1lGaElrWGd2T3BGT09CZERXRXNlVGpvejJRNUN5UF96bGZXT2FJM1Bnc1RycWEyUjdBc1JxQVR5R2FYY3BvZHRJR3BqU3UxamdORElxdTM5MjVVdE9jSlByYmFIc2wtNG1pQXdkMEpJYVpOWFBYOVNhRElJUTF0OC1pbEpnbHlZ?oc=5",
+    "publisher": "Gulf News",
+    "publisher_url": "https://gulfnews.com",
+    "author": "Not listed",
+    "published": "2026-11-26",
+    "year": "2026",
+    "description": "UAE launches AI education guide for parents: What families need to know Gulf News",
+    "score": 6,
+    "categories": [
+      "AI in Education"
+    ],
+    "region": "USA",
+    "country": "USA",
+    "location_basis": "news edition",
+    "source": "Google News",
+    "content_type": "Web article",
+    "summary": "",
+    "summary_status": "not_requested",
+    "first_seen": "2026-11-27",
+    "collected_at": "2026-11-27"
   },
   {
     "title": "\"Disappearing Chalk Dust, AI is Already Part of Daily Life\"... Where is Education Headed? - SBS 뉴스",
@@ -333,9 +982,33 @@
     "source": "Google News",
     "content_type": "Web article",
     "summary": "",
-    "summary_status": "pending",
+    "summary_status": "not_requested",
     "first_seen": "2026-11-26",
-    "collected_at": "2026-11-26"
+    "collected_at": "2026-11-27"
+  },
+  {
+    "title": "Today News Headlines for School Assembly, November 27, 2026: Apple pulls MiniMax AI chatbot from App Store over child safety concerns - The Indian Express",
+    "url": "https://news.google.com/rss/articles/CBMijgJBVV95cUxOOVZJZkV4WWFKMk52N1FTU3Y4ek9rRHlYTV82ODJSU2pFVWxnMDMtQS02Q0pmTlpzNUxHXzJkQ2hiVzlKLVJrRWluR0UyMGdldmpDaXNSV1VGUVU5UXhwRGRoSnFCRVVOOVJqSk1Zc3I4dTJCZWZhM3BJUU5LekVYRDBlNzNFZVpnd0JiU1plWWhrUV9OOUJ6MVJ0Wkstb1hSZ2w3eTBfcTdsdE95b3hWdl9KdWYwclI4U05iRnpSbjNONnFQMXh4UUpoTllTYmdIaFltNEVWMHJOd2d1V2VfUHZCMkxIR1pUVE1saGZtZG91ZkY5VDNxTTZ5bS1FVTM4cjhHdnRXaWJhWlhCRGfSAZQCQVVfeXFMUFp2SkpMaFNpVmpJMml5MlBhX013dmlGOVlwWllfNm9XSjl0MFd3MWFyOUFmU0I3R0JiQm1DTXJZNnpVWWdELWFlbTBYV19SQnctVGF4VTktVlR3dzVfQ2lFSkc0cEp6NTRYOTIzSDd2akVFRHZMYm5UTTBDRU43NjI2ejFVQVEtcmJqNWV2WXc2TTVMaEVEY3JwLUFuUWlqeWpQYUFxYUVZTjBqcXltMjRfSVhEc1dkN0lkM0hzVkdvM3pKajdGRVdHLWk2SUtuTTgyTEFaVm1jNC1KTGtjWFh6amVBY0NJakpVaVdlTGpnYThEd0pRZnNkQThYcGRSRnhzZFlfZGkzZjB6SG1mVlV2Zk40?oc=5",
+    "rss_url": "https://news.google.com/rss/articles/CBMijgJBVV95cUxOOVZJZkV4WWFKMk52N1FTU3Y4ek9rRHlYTV82ODJSU2pFVWxnMDMtQS02Q0pmTlpzNUxHXzJkQ2hiVzlKLVJrRWluR0UyMGdldmpDaXNSV1VGUVU5UXhwRGRoSnFCRVVOOVJqSk1Zc3I4dTJCZWZhM3BJUU5LekVYRDBlNzNFZVpnd0JiU1plWWhrUV9OOUJ6MVJ0Wkstb1hSZ2w3eTBfcTdsdE95b3hWdl9KdWYwclI4U05iRnpSbjNONnFQMXh4UUpoTllTYmdIaFltNEVWMHJOd2d1V2VfUHZCMkxIR1pUVE1saGZtZG91ZkY5VDNxTTZ5bS1FVTM4cjhHdnRXaWJhWlhCRGfSAZQCQVVfeXFMUFp2SkpMaFNpVmpJMml5MlBhX013dmlGOVlwWllfNm9XSjl0MFd3MWFyOUFmU0I3R0JiQm1DTXJZNnpVWWdELWFlbTBYV19SQnctVGF4VTktVlR3dzVfQ2lFSkc0cEp6NTRYOTIzSDd2akVFRHZMYm5UTTBDRU43NjI2ejFVQVEtcmJqNWV2WXc2TTVMaEVEY3JwLUFuUWlqeWpQYUFxYUVZTjBqcXltMjRfSVhEc1dkN0lkM0hzVkdvM3pKajdGRVdHLWk2SUtuTTgyTEFaVm1jNC1KTGtjWFh6amVBY0NJakpVaVdlTGpnYThEd0pRZnNkQThYcGRSRnhzZFlfZGkzZjB6SG1mVlV2Zk40?oc=5",
+    "publisher": "The Indian Express",
+    "publisher_url": "https://indianexpress.com",
+    "author": "Not listed",
+    "published": "2026-11-26",
+    "year": "2026",
+    "description": "Today News Headlines for School Assembly, November 27, 2026: Apple pulls MiniMax AI chatbot from App Store over child safety concerns The Indian Express",
+    "score": 6,
+    "categories": [
+      "AI in Education"
+    ],
+    "region": "India",
+    "country": "India",
+    "location_basis": "article text",
+    "source": "Google News",
+    "content_type": "Web article",
+    "summary": "",
+    "summary_status": "not_requested",
+    "first_seen": "2026-11-27",
+    "collected_at": "2026-11-27"
   },
   {
     "title": "Artificial Intelligence and Its Influence on Shaping Entrepreneurial Mindsets in Education",
@@ -359,7 +1032,7 @@
     "summary": "",
     "summary_status": "not_requested",
     "first_seen": "2026-11-25",
-    "collected_at": "2026-11-26"
+    "collected_at": "2026-11-27"
   },
   {
     "title": "Artificial intelligence familiarity and use frequency are independently associated with artificial intelligence literacy among compulsory education teachers in Enshi Prefecture, China",
@@ -384,7 +1057,7 @@
     "summary": "",
     "summary_status": "not_requested",
     "first_seen": "2026-11-25",
-    "collected_at": "2026-11-26"
+    "collected_at": "2026-11-27"
   },
   {
     "title": "AI readiness and indirect associations between AI literacy, TPB-based GAI antecedents, and behavioral intention to use generative AI among undergraduate nursing students: a cross-sectional study",
@@ -408,7 +1081,7 @@
     "summary": "",
     "summary_status": "not_requested",
     "first_seen": "2026-11-25",
-    "collected_at": "2026-11-26"
+    "collected_at": "2026-11-27"
   },
   {
     "title": "Artificial intelligence familiarity and use frequency are independently associated with artificial intelligence literacy among compulsory education teachers in Enshi Prefecture, China",
@@ -433,7 +1106,7 @@
     "summary": "",
     "summary_status": "not_requested",
     "first_seen": "2026-11-25",
-    "collected_at": "2026-11-26"
+    "collected_at": "2026-11-27"
   },
   {
     "title": "Reciprocal within-person associations between physical activity self-efficacy and enjoyment among primary school students participating in a cooperative games-based physical education curriculum: a four-wave random-intercept cross-lagged panel study",
@@ -457,7 +1130,7 @@
     "summary": "",
     "summary_status": "not_requested",
     "first_seen": "2026-11-25",
-    "collected_at": "2026-11-26"
+    "collected_at": "2026-11-27"
   },
   {
     "title": "From Affordance to Coupling: Reconstructing Foreign Language Pedagogy through an AI-Enabled Production-Oriented Approach",
@@ -481,7 +1154,7 @@
     "summary": "",
     "summary_status": "not_requested",
     "first_seen": "2026-11-25",
-    "collected_at": "2026-11-26"
+    "collected_at": "2026-11-27"
   },
   {
     "title": "Reciprocal within-person associations between physical activity self-efficacy and enjoyment among primary school students participating in a cooperative games-based physical education curriculum: a four-wave random-intercept cross-lagged panel study",
@@ -505,7 +1178,7 @@
     "summary": "",
     "summary_status": "not_requested",
     "first_seen": "2026-11-25",
-    "collected_at": "2026-11-26"
+    "collected_at": "2026-11-27"
   },
   {
     "title": "Internalizing Love-Based Curriculum Values in Akidah Akhlak Learning: Strategies and Challenges in Madrasah",
@@ -529,7 +1202,7 @@
     "summary": "",
     "summary_status": "not_requested",
     "first_seen": "2026-11-25",
-    "collected_at": "2026-11-26"
+    "collected_at": "2026-11-27"
   },
   {
     "title": "Addressing the Youth Suicide Crisis: Policy Recommendations for Schools, Communities, and Health Care Settings",
@@ -551,9 +1224,9 @@
     "source": "Crossref",
     "content_type": "Research paper",
     "summary": "",
-    "summary_status": "pending",
+    "summary_status": "not_requested",
     "first_seen": "2026-11-25",
-    "collected_at": "2026-11-26"
+    "collected_at": "2026-11-27"
   },
   {
     "title": "AI Tutoring in Primary ICT Education: The CARE Conceptual Framework",
@@ -578,7 +1251,7 @@
     "summary": "",
     "summary_status": "not_requested",
     "first_seen": "2026-11-25",
-    "collected_at": "2026-11-26"
+    "collected_at": "2026-11-27"
   },
   {
     "title": "UNC researchers study impact of generative AI on education as Google policy change approaches - WRAL",
@@ -602,7 +1275,7 @@
     "summary": "",
     "summary_status": "not_requested",
     "first_seen": "2026-11-26",
-    "collected_at": "2026-11-26"
+    "collected_at": "2026-11-27"
   },
   {
     "title": "The GenAI4IDN Benchmark 3.0 - a Public Tool to Assess Generative AI Tools for the Design of Interactive Digital Narratives",
@@ -626,7 +1299,7 @@
     "summary": "",
     "summary_status": "not_requested",
     "first_seen": "2026-11-25",
-    "collected_at": "2026-11-26"
+    "collected_at": "2026-11-27"
   },
   {
     "title": "DIGA-FAM model (Differentiated Instruction and Game-Based Formative Assessment): Fostering mindfulness, meaningfulness, and joyfulness through interactive wordwall",
@@ -650,7 +1323,7 @@
     "summary": "",
     "summary_status": "not_requested",
     "first_seen": "2026-11-25",
-    "collected_at": "2026-11-26"
+    "collected_at": "2026-11-27"
   },
   {
     "title": "Development of Web-Based Learning Media for Teaching Trigonometric Ratios to Grade X Students",
@@ -674,7 +1347,7 @@
     "summary": "",
     "summary_status": "not_requested",
     "first_seen": "2026-11-25",
-    "collected_at": "2026-11-26"
+    "collected_at": "2026-11-27"
   },
   {
     "title": "Design of a Personalized Learning System for Higher Education Using Artificial Intelligence and Interactive Mobile Technologies",
@@ -698,7 +1371,7 @@
     "summary": "",
     "summary_status": "not_requested",
     "first_seen": "2026-11-25",
-    "collected_at": "2026-11-26"
+    "collected_at": "2026-11-27"
   },
   {
     "title": "Anwar urges schools to assign holiday reading, launches three education AI initiatives - The Star",
@@ -722,7 +1395,7 @@
     "summary": "",
     "summary_status": "not_requested",
     "first_seen": "2026-11-25",
-    "collected_at": "2026-11-26"
+    "collected_at": "2026-11-27"
   },
   {
     "title": "Karnataka govt schools to introduce AI education from class 3: Madhu Bangarappa - Deccan Herald",
@@ -746,7 +1419,7 @@
     "summary": "",
     "summary_status": "not_requested",
     "first_seen": "2026-11-26",
-    "collected_at": "2026-11-26"
+    "collected_at": "2026-11-27"
   },
   {
     "title": "AI, Politics and School Funding Dominate Annual Gathering of State Education Leaders - CT Examiner",
@@ -770,7 +1443,7 @@
     "summary": "",
     "summary_status": "not_requested",
     "first_seen": "2026-11-26",
-    "collected_at": "2026-11-26"
+    "collected_at": "2026-11-27"
   },
   {
     "title": "AI could undermine learning if schools chase tech over thinking, educators warn - The Guardian Nigeria News",
@@ -794,7 +1467,7 @@
     "summary": "",
     "summary_status": "not_requested",
     "first_seen": "2026-11-26",
-    "collected_at": "2026-11-26"
+    "collected_at": "2026-11-27"
   },
   {
     "title": "A COMPARATIVE ANALYSIS OF EUROPEAN AND UKRAINIAN FRAMEWORKS GOVERNING THE USE OF ARTIFICIAL INTELLIGENCE IN RESEARCH AND EDUCATION",
@@ -818,31 +1491,7 @@
     "summary": "",
     "summary_status": "not_requested",
     "first_seen": "2026-11-25",
-    "collected_at": "2026-11-26"
-  },
-  {
-    "title": "AI-Powered Attention Monitoring with Live Computer Vision Processing",
-    "url": "https://doi.org/10.21203/rs.3.rs-8947136/v1",
-    "rss_url": "https://doi.org/10.21203/rs.3.rs-8947136/v1",
-    "publisher": "Springer Science and Business Media LLC",
-    "author": "Kishor Wagh, Prajwal Dalvi",
-    "published": "2026-11-25",
-    "year": "2026",
-    "description": "Abstract In fields like driver safety, remote work, online education, and cognitive evaluation, real-time attention monitoring is becoming more and more necessary. Existing solutions typically rely on cloud-based APIs, specialized sensors, or heavyweight native applications, which restrict accessibility, scalability, and privacy. Using MediaPipe Face Landmarker and TensorFlow.js for real-time computer vision processing, this paper introduces a fully browser-based, AI-powered attention monitoring system. Using JavaScript and Web APIs, the suggested system operates fully on the client side. It processes offline and live webcam footage, extracts facial landmarks, eye aspect ratio (EAR), head pose proxies, and gaze direction, and calculates an interpretable attention score for each frame.\nReal-time charts, blink-rate estimation, head-movement indicators, configurable thresholds, distraction alerts, and comprehensive post-session analytics are all included in the application's rich dashboard. Uploading and analyzing offline videos frame-by-frame can produce detailed statistics, attention-level distributions, temporal attention timelines, and exportable CSV, JSON, and PDF reports. Experi",
-    "affiliations": "AISSMS Institute of Information Technology AISSMS Institute of Information Technology AISSMS Institute of Information Technology AISSMS Institute of Information Technology",
-    "score": 6,
-    "categories": [
-      "AI in Education"
-    ],
-    "region": "Global",
-    "country": "",
-    "location_basis": "unknown",
-    "source": "Crossref",
-    "content_type": "Research paper",
-    "summary": "",
-    "summary_status": "not_requested",
-    "first_seen": "2026-11-25",
-    "collected_at": "2026-11-26"
+    "collected_at": "2026-11-27"
   },
   {
     "title": "New York Bill Would Curb Screens, AI, Social Media in Schools - GovTech",
@@ -864,9 +1513,57 @@
     "source": "Google News",
     "content_type": "Web article",
     "summary": "",
-    "summary_status": "pending",
+    "summary_status": "not_requested",
     "first_seen": "2026-11-26",
-    "collected_at": "2026-11-26"
+    "collected_at": "2026-11-27"
+  },
+  {
+    "title": "Should Musicians Use AI? A Recent Music School Grad Asks Our Columnist - Boston Magazine",
+    "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPd1lkYXJNVkNPYmtOY2tPQktDSDYwRkNEUTlSaW1XSkl3eDJnNk9CS1FxeV9TbkxwUkJDM256X2cyeTYyQzM3bTAwZ1VCOEhMbE5uMG5UVHQ1dlpyQ1pZc1MzVFBHNzVFSGR6TXdTb2UxX1lpVG16ZDFYUEFjYjBwUDNfdExYZw?oc=5",
+    "rss_url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPd1lkYXJNVkNPYmtOY2tPQktDSDYwRkNEUTlSaW1XSkl3eDJnNk9CS1FxeV9TbkxwUkJDM256X2cyeTYyQzM3bTAwZ1VCOEhMbE5uMG5UVHQ1dlpyQ1pZc1MzVFBHNzVFSGR6TXdTb2UxX1lpVG16ZDFYUEFjYjBwUDNfdExYZw?oc=5",
+    "publisher": "Boston Magazine",
+    "publisher_url": "https://www.bostonmagazine.com",
+    "author": "Not listed",
+    "published": "2026-11-25",
+    "year": "2026",
+    "description": "Should Musicians Use AI? A Recent Music School Grad Asks Our Columnist Boston Magazine",
+    "score": 6,
+    "categories": [
+      "AI in Education"
+    ],
+    "region": "USA",
+    "country": "USA",
+    "location_basis": "article text",
+    "source": "Google News",
+    "content_type": "Web article",
+    "summary": "",
+    "summary_status": "not_requested",
+    "first_seen": "2026-11-27",
+    "collected_at": "2026-11-27"
+  },
+  {
+    "title": "‘AI must not control us’ – Anwar calls for human-centred education - Newswav",
+    "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPN0pMQUNGMzktNC0wMVFZTUlYTFpfSHlOWkV4SHB6eG1zNkVXRk9LbVdUWUl4MFo1MVNXcVlqd0tha2FSaURlV2drMmxpZFJDMTM5dUtvMEU2ZGRnVjBqMDgzUUpzMm1aRi1fRzNodUZTWlBDVVJmR3MzMEt1SzR6bFp4NHVYT1BMaExpMmJiU25Edjd4YVg1T1BpeGZRekNoVENuZl9B?oc=5",
+    "rss_url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPN0pMQUNGMzktNC0wMVFZTUlYTFpfSHlOWkV4SHB6eG1zNkVXRk9LbVdUWUl4MFo1MVNXcVlqd0tha2FSaURlV2drMmxpZFJDMTM5dUtvMEU2ZGRnVjBqMDgzUUpzMm1aRi1fRzNodUZTWlBDVVJmR3MzMEt1SzR6bFp4NHVYT1BMaExpMmJiU25Edjd4YVg1T1BpeGZRekNoVENuZl9B?oc=5",
+    "publisher": "Newswav",
+    "publisher_url": "https://newswav.com",
+    "author": "Not listed",
+    "published": "2026-11-25",
+    "year": "2026",
+    "description": "‘AI must not control us’ – Anwar calls for human-centred education Newswav",
+    "score": 6,
+    "categories": [
+      "AI in Education"
+    ],
+    "region": "USA",
+    "country": "USA",
+    "location_basis": "news edition",
+    "source": "Google News",
+    "content_type": "Web article",
+    "summary": "",
+    "summary_status": "not_requested",
+    "first_seen": "2026-11-27",
+    "collected_at": "2026-11-27"
   },
   {
     "title": "CITE26: Rethinking Schools’ Reliance on Cloud AI - GovTech",
@@ -890,176 +1587,7 @@
     "summary": "",
     "summary_status": "not_requested",
     "first_seen": "2026-11-25",
-    "collected_at": "2026-11-26"
-  },
-  {
-    "title": "‘AI must not control us’ – Anwar calls for human-centred education - The Sun Malaysia",
-    "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOQUgtWGx2bHBNMmdkd1A5Ynl4MHpIWGo3N2tucE45Ui1pSW5IRTFQZ1hnSWRpSXc2ZnZoeXhFWTV2LWZCMGFFSGdVUXZBTU12UEVDRFdCd1Bxc08xeUt3SVAtanhTZHhLX2xFV1UwdXQ0M3hQZHZtMk9HSlFCcThNcmpJaFluOTd0blN0ZDljWQ?oc=5",
-    "rss_url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOQUgtWGx2bHBNMmdkd1A5Ynl4MHpIWGo3N2tucE45Ui1pSW5IRTFQZ1hnSWRpSXc2ZnZoeXhFWTV2LWZCMGFFSGdVUXZBTU12UEVDRFdCd1Bxc08xeUt3SVAtanhTZHhLX2xFV1UwdXQ0M3hQZHZtMk9HSlFCcThNcmpJaFluOTd0blN0ZDljWQ?oc=5",
-    "publisher": "The Sun Malaysia",
-    "publisher_url": "https://thesun.my",
-    "author": "Not listed",
-    "published": "2026-11-25",
-    "year": "2026",
-    "description": "‘AI must not control us’ – Anwar calls for human-centred education The Sun Malaysia",
-    "score": 6,
-    "categories": [
-      "AI in Education"
-    ],
-    "region": "India",
-    "country": "India",
-    "location_basis": "news edition",
-    "source": "Google News",
-    "content_type": "Web article",
-    "summary": "",
-    "summary_status": "not_requested",
-    "first_seen": "2026-11-25",
-    "collected_at": "2026-11-26"
-  },
-  {
-    "title": "Educate students to use AI ethically, basic skills remain priority, says Fadhlina - Newswav",
-    "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQMEx1S01oN3gtY3ZKQXRETmRrd1ZzbFJnTktGMTBDNGp3SjB5NjZtWlpZUGNuTWJEak41emhmMEkzZHV6QXZFQ0NVcFVaX25ITE1kZFZ4LXRWek5SVnZhazR0V3lOQVpqSEZQRVFBRk5XQm4xd1NDNlo3Y19Rb1R5dEIyZmthdjV2dWVwY3J4dUVwS3dTLUpmRlRGQmw5dlpjeDlkLWQxRG4yYjhkeDhsU0lzT3FkYTQ?oc=5",
-    "rss_url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQMEx1S01oN3gtY3ZKQXRETmRrd1ZzbFJnTktGMTBDNGp3SjB5NjZtWlpZUGNuTWJEak41emhmMEkzZHV6QXZFQ0NVcFVaX25ITE1kZFZ4LXRWek5SVnZhazR0V3lOQVpqSEZQRVFBRk5XQm4xd1NDNlo3Y19Rb1R5dEIyZmthdjV2dWVwY3J4dUVwS3dTLUpmRlRGQmw5dlpjeDlkLWQxRG4yYjhkeDhsU0lzT3FkYTQ?oc=5",
-    "publisher": "Newswav",
-    "publisher_url": "https://newswav.com",
-    "author": "Not listed",
-    "published": "2026-11-25",
-    "year": "2026",
-    "description": "Educate students to use AI ethically, basic skills remain priority, says Fadhlina Newswav",
-    "score": 6,
-    "categories": [
-      "AI in Education"
-    ],
-    "region": "India",
-    "country": "India",
-    "location_basis": "news edition",
-    "source": "Google News",
-    "content_type": "Web article",
-    "summary": "",
-    "summary_status": "not_requested",
-    "first_seen": "2026-11-25",
-    "collected_at": "2026-11-26"
-  },
-  {
-    "title": "University of Birmingham Dubai invites applications for BSc in AI and Computer Science - India Education Diary",
-    "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPTTV1TzFwa1V0cml1Y2NHZEZZeUxYdGc4UGI3TFQtejY2N1BQalk0QlVGVnkteGdkQ2NJTk9JaVZYbXd4ckNxeFFlZ18tTTVRMUw0VzBWamc5eEQta24xT3FIaFQ4NEdlZ1NHUGVRelVseHV5NjY0VW9PZGs1UnVMU0NoQm5IR3lZNXdpcTByd1FtZHEtUjVhdU1OWDNyUWVLUzQ3em9Nb1FMUHNnZzZOYzBibUF0NTF1WHc?oc=5",
-    "rss_url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPTTV1TzFwa1V0cml1Y2NHZEZZeUxYdGc4UGI3TFQtejY2N1BQalk0QlVGVnkteGdkQ2NJTk9JaVZYbXd4ckNxeFFlZ18tTTVRMUw0VzBWamc5eEQta24xT3FIaFQ4NEdlZ1NHUGVRelVseHV5NjY0VW9PZGs1UnVMU0NoQm5IR3lZNXdpcTByd1FtZHEtUjVhdU1OWDNyUWVLUzQ3em9Nb1FMUHNnZzZOYzBibUF0NTF1WHc?oc=5",
-    "publisher": "India Education Diary",
-    "publisher_url": "https://indiaeducationdiary.in",
-    "author": "Not listed",
-    "published": "2026-11-25",
-    "year": "2026",
-    "description": "University of Birmingham Dubai invites applications for BSc in AI and Computer Science India Education Diary",
-    "score": 6,
-    "categories": [
-      "AI in Education"
-    ],
-    "region": "India",
-    "country": "India",
-    "location_basis": "article text",
-    "source": "Google News",
-    "content_type": "Web article",
-    "summary": "",
-    "summary_status": "not_requested",
-    "first_seen": "2026-11-26",
-    "collected_at": "2026-11-26"
-  },
-  {
-    "title": "What Happens When AI Outruns Title I Schools? - EdSurge",
-    "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE9qeFN6MDJoMG1iS3pHdElqbDhCUlI0MVY0MnpxTUNZRnZYZkRuOEs3LXpFYkRTU1RaXzFVTkg4Rk5pcUFpekY3TFM1ekJqS1pEVExVUUlHTEVMbTdEVFFFU0g2cW9weHVyenA5aEZHRlg4V2xMaVFBQVY1TERfQQ?oc=5",
-    "rss_url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE9qeFN6MDJoMG1iS3pHdElqbDhCUlI0MVY0MnpxTUNZRnZYZkRuOEs3LXpFYkRTU1RaXzFVTkg4Rk5pcUFpekY3TFM1ekJqS1pEVExVUUlHTEVMbTdEVFFFU0g2cW9weHVyenA5aEZHRlg4V2xMaVFBQVY1TERfQQ?oc=5",
-    "publisher": "EdSurge",
-    "publisher_url": "https://www.edsurge.com",
-    "author": "Not listed",
-    "published": "2026-11-25",
-    "year": "2026",
-    "description": "What Happens When AI Outruns Title I Schools? EdSurge",
-    "score": 6,
-    "categories": [
-      "AI in Education"
-    ],
-    "region": "India",
-    "country": "India",
-    "location_basis": "news edition",
-    "source": "Google News",
-    "content_type": "Web article",
-    "summary": "",
-    "summary_status": "not_requested",
-    "first_seen": "2026-11-26",
-    "collected_at": "2026-11-26"
-  },
-  {
-    "title": "Parents fought off an AI high school in Lower Manhattan. Now their middle school is expanding instead. - Chalkbeat",
-    "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOeDJCU3Fxdl9yTVczOVk1Q1NRcHdHd25wdklPcXo1WVg2NU1aMkZOOUJXWEExMHFOYjNUVURNNVhoa2FwdXZjeHdlZVRlM1lGRTVaVTMyZTFaY2M1LTJBUkNLY0Nra3RrcF90UGtzT1I0ZHh0VFF4T3laVmhBdTQwSFhqSXJxQWxMbWJQQmR2LXR0V1gxRk9VcEFORUx5LVd2MnhqN3plUExaNXVyckE?oc=5",
-    "rss_url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOeDJCU3Fxdl9yTVczOVk1Q1NRcHdHd25wdklPcXo1WVg2NU1aMkZOOUJXWEExMHFOYjNUVURNNVhoa2FwdXZjeHdlZVRlM1lGRTVaVTMyZTFaY2M1LTJBUkNLY0Nra3RrcF90UGtzT1I0ZHh0VFF4T3laVmhBdTQwSFhqSXJxQWxMbWJQQmR2LXR0V1gxRk9VcEFORUx5LVd2MnhqN3plUExaNXVyckE?oc=5",
-    "publisher": "Chalkbeat",
-    "publisher_url": "https://www.chalkbeat.org",
-    "author": "Not listed",
-    "published": "2026-11-25",
-    "year": "2026",
-    "description": "Parents fought off an AI high school in Lower Manhattan. Now their middle school is expanding instead. Chalkbeat",
-    "score": 6,
-    "categories": [
-      "AI in Education"
-    ],
-    "region": "India",
-    "country": "India",
-    "location_basis": "news edition",
-    "source": "Google News",
-    "content_type": "Web article",
-    "summary": "",
-    "summary_status": "not_requested",
-    "first_seen": "2026-11-26",
-    "collected_at": "2026-11-26"
-  },
-  {
-    "title": "Columbia High School Students Urge District to Teach Responsible AI Use Rather Than Ban It - TAPinto",
-    "url": "https://news.google.com/rss/articles/CBMihgJBVV95cUxNOHl2dzBmd0MzZ0RqZ2pHdlVnX1pIQi1XR1V5QTM5VTVMWmpJcUI5cWRwZ3hnaXFVMWpUT2taN002ZzBVaHdKVW9FcXpvcXRvNlhYUkMydXFmRWo3YnpQMng5aDdja1J4cF8ybE5Mc2N5bGt2b3pOUk9QVVdQdVNIZnRPRUdHcl9WdVNnWEdwY2RrWnFIU0hBc3ZxbTBBMW9oOVVHLUYtb0ZIZjNfcjJSSGVQemdtWGFReXFnc3YxTXlnQ0ZZYjhYNmVEU0IxLTE4OWt0aXNhLW81MXJwdkloT0hUZEp6bTRuSndzZktqX2h5amhOa1ZkLTRyV1hoWkk0Tmota0Rn?oc=5",
-    "rss_url": "https://news.google.com/rss/articles/CBMihgJBVV95cUxNOHl2dzBmd0MzZ0RqZ2pHdlVnX1pIQi1XR1V5QTM5VTVMWmpJcUI5cWRwZ3hnaXFVMWpUT2taN002ZzBVaHdKVW9FcXpvcXRvNlhYUkMydXFmRWo3YnpQMng5aDdja1J4cF8ybE5Mc2N5bGt2b3pOUk9QVVdQdVNIZnRPRUdHcl9WdVNnWEdwY2RrWnFIU0hBc3ZxbTBBMW9oOVVHLUYtb0ZIZjNfcjJSSGVQemdtWGFReXFnc3YxTXlnQ0ZZYjhYNmVEU0IxLTE4OWt0aXNhLW81MXJwdkloT0hUZEp6bTRuSndzZktqX2h5amhOa1ZkLTRyV1hoWkk0Tmota0Rn?oc=5",
-    "publisher": "TAPinto",
-    "publisher_url": "https://www.tapinto.net",
-    "author": "Not listed",
-    "published": "2026-11-24",
-    "year": "2026",
-    "description": "Columbia High School Students Urge District to Teach Responsible AI Use Rather Than Ban It TAPinto",
-    "score": 18,
-    "categories": [
-      "AI in Education",
-      "Student Activities and Assessment"
-    ],
-    "region": "India",
-    "country": "India",
-    "location_basis": "news edition",
-    "source": "Google News",
-    "content_type": "Web article",
-    "summary": "",
-    "summary_status": "not_requested",
-    "first_seen": "2026-11-25",
-    "collected_at": "2026-11-26"
-  },
-  {
-    "title": "School district’s draft regulations would give teachers autonomy on if, how AI tools are used in class - Bethesda Magazine",
-    "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTFBHdjUta3puUng4STNvQWRYYy1IdXE0SGtOUl9qSDhNVVBvdWFXQ1BzQmZpYlZEMlNkdlMzenZLcUhSRzFkamxjUlZpVWJYeDhLdGFmQXpqYlNrRThKUEl3UVZCV0VITEptNGdN?oc=5",
-    "rss_url": "https://news.google.com/rss/articles/CBMia0FVX3lxTFBHdjUta3puUng4STNvQWRYYy1IdXE0SGtOUl9qSDhNVVBvdWFXQ1BzQmZpYlZEMlNkdlMzenZLcUhSRzFkamxjUlZpVWJYeDhLdGFmQXpqYlNrRThKUEl3UVZCV0VITEptNGdN?oc=5",
-    "publisher": "Bethesda Magazine",
-    "publisher_url": "https://bethesdamagazine.com",
-    "author": "Not listed",
-    "published": "2026-11-24",
-    "year": "2026",
-    "description": "School district’s draft regulations would give teachers autonomy on if, how AI tools are used in class Bethesda Magazine",
-    "score": 12,
-    "categories": [
-      "AI in Education"
-    ],
-    "region": "India",
-    "country": "India",
-    "location_basis": "news edition",
-    "source": "Google News",
-    "content_type": "Web article",
-    "summary": "",
-    "summary_status": "not_requested",
-    "first_seen": "2026-11-25",
-    "collected_at": "2026-11-26"
+    "collected_at": "2026-11-27"
   },
   {
     "title": "FF EAI Robotics Ecosystem (FFR) Announces K-12 Robotics Education Partnerships and Sales Across Top Public School Districts, Advancing a Scalable Physical AI Education Ecosystem in the U.S. - StreetInsider",
@@ -1084,7 +1612,7 @@
     "summary": "",
     "summary_status": "not_requested",
     "first_seen": "2026-11-25",
-    "collected_at": "2026-11-26"
+    "collected_at": "2026-11-27"
   },
   {
     "title": "FF EAI Robotics Ecosystem (FFR) Announces K-12 Robotics Education Partnerships and Sales Across Top Public School Districts, Advancing a Scalable Physical AI Education Ecosystem in the U.S. - PR Newswire",
@@ -1109,32 +1637,7 @@
     "summary": "",
     "summary_status": "not_requested",
     "first_seen": "2026-11-25",
-    "collected_at": "2026-11-26"
-  },
-  {
-    "title": "TU Darmstadt \"Computer and AI Science\" Paper: Generative Computing and CS Education - explainx.ai",
-    "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNQXhZYkx2WXhfNmR1U2J2T0RRTk5lOE44ZkQzNlVjanh3clhaY1pSOWpOalY0cnhIQWJmRmY5ZmtjcjZKNmVDcExJMEZVOXo2aU9kWEFGd3FxZDZfS0lEUm1HZGY0Q0hITTVVN1h6ak03NjIzWnVEem1iV0RMU3RIVnRoRmkwUFc3cTdiWXB2dkVfeGhlNDBzVkZEVlk?oc=5",
-    "rss_url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNQXhZYkx2WXhfNmR1U2J2T0RRTk5lOE44ZkQzNlVjanh3clhaY1pSOWpOalY0cnhIQWJmRmY5ZmtjcjZKNmVDcExJMEZVOXo2aU9kWEFGd3FxZDZfS0lEUm1HZGY0Q0hITTVVN1h6ak03NjIzWnVEem1iV0RMU3RIVnRoRmkwUFc3cTdiWXB2dkVfeGhlNDBzVkZEVlk?oc=5",
-    "publisher": "explainx.ai",
-    "publisher_url": "https://explainx.ai",
-    "author": "Not listed",
-    "published": "2026-11-24",
-    "year": "2026",
-    "description": "TU Darmstadt \"Computer and AI Science\" Paper: Generative Computing and CS Education explainx.ai",
-    "score": 9,
-    "categories": [
-      "AI in Education",
-      "CS Education"
-    ],
-    "region": "Global",
-    "country": "",
-    "location_basis": "unknown",
-    "source": "Google News",
-    "content_type": "Web article",
-    "summary": "",
-    "summary_status": "not_requested",
-    "first_seen": "2026-11-25",
-    "collected_at": "2026-11-26"
+    "collected_at": "2026-11-27"
   },
   {
     "title": "No teachers, just AI: Inside the $75,000-a-year grade schools changing education in L.A. - Los Angeles Times",
@@ -1158,7 +1661,7 @@
     "summary": "",
     "summary_status": "not_requested",
     "first_seen": "2026-11-25",
-    "collected_at": "2026-11-26"
+    "collected_at": "2026-11-27"
   },
   {
     "title": "No teachers, just AI: Inside the $75,000-a-year grade schools changing education in L.A. - Los Angeles Times",
@@ -1182,440 +1685,7 @@
     "summary": "",
     "summary_status": "not_requested",
     "first_seen": "2026-11-25",
-    "collected_at": "2026-11-26"
-  },
-  {
-    "title": "How Aspiring Teachers View AI for Instruction: We Asked Teacher Educators - Education Week",
-    "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQdjQ3OFhwZExzTl9MZktZQ2IteTRsY3BwSFpUaG1NcWJmU0VvbGNmYXJJY2lyaUVhTkRuZGtwSDlNVEZLUG5XTmROQk5fYS04SkdCUlRFZHJNdnhDbGlsbERNdmZKRUQ5dDg2eEZ4RjR4UTExQmtEMmlrOWlnNHk0RVYzMHZueXFJeGpvUUdZNzlEOVBhSmctQjBBRVpEaGJrTFZ5NDVxMA?oc=5",
-    "rss_url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQdjQ3OFhwZExzTl9MZktZQ2IteTRsY3BwSFpUaG1NcWJmU0VvbGNmYXJJY2lyaUVhTkRuZGtwSDlNVEZLUG5XTmROQk5fYS04SkdCUlRFZHJNdnhDbGlsbERNdmZKRUQ5dDg2eEZ4RjR4UTExQmtEMmlrOWlnNHk0RVYzMHZueXFJeGpvUUdZNzlEOVBhSmctQjBBRVpEaGJrTFZ5NDVxMA?oc=5",
-    "publisher": "Education Week",
-    "publisher_url": "https://www.edweek.org",
-    "author": "Not listed",
-    "published": "2026-11-24",
-    "year": "2026",
-    "description": "How Aspiring Teachers View AI for Instruction: We Asked Teacher Educators Education Week",
-    "score": 7,
-    "categories": [
-      "AI in Education"
-    ],
-    "region": "USA",
-    "country": "USA",
-    "location_basis": "news edition",
-    "source": "Google News",
-    "content_type": "Web article",
-    "summary": "",
-    "summary_status": "not_requested",
-    "first_seen": "2026-11-25",
-    "collected_at": "2026-11-26"
-  },
-  {
-    "title": "Ghana to introduce AI, robotics and coding in basic school curriculum - Adomonline.com",
-    "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPcmhjN3JEUTRCSjQzX3NRdFNrQ1NoNUlvY0FjTVN1dWtsUElaT3QwbkM3SXRNbnIyTFFHdHp0cEpwcXd0XzBLdmlleG9YTmtxM2NUd2xXQnNTdWFuUzJ6dHlWcmswb1FQRF9wR2ViSUd4YXdicy10SVZheHpLQW9HWlNuRmpmZWFLeUNuem5VWk1VcmtST0ZvZ3kzdDg?oc=5&hl=en-US&gl=US&ceid=US%3Aen",
-    "rss_url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPcmhjN3JEUTRCSjQzX3NRdFNrQ1NoNUlvY0FjTVN1dWtsUElaT3QwbkM3SXRNbnIyTFFHdHp0cEpwcXd0XzBLdmlleG9YTmtxM2NUd2xXQnNTdWFuUzJ6dHlWcmswb1FQRF9wR2ViSUd4YXdicy10SVZheHpLQW9HWlNuRmpmZWFLeUNuem5VWk1VcmtST0ZvZ3kzdDg?oc=5",
-    "publisher": "Google News",
-    "publisher_url": "https://www.adomonline.com",
-    "author": "Not listed",
-    "published": "2026-11-24",
-    "year": "2026",
-    "description": "Ghana to introduce AI, robotics and coding in basic school curriculum Adomonline.com",
-    "score": 7,
-    "categories": [
-      "AI in Education"
-    ],
-    "region": "USA",
-    "country": "USA",
-    "location_basis": "news edition",
-    "source": "Google News",
-    "content_type": "Web article",
-    "summary": "",
-    "summary_status": "not_requested",
-    "first_seen": "2026-11-25",
-    "collected_at": "2026-11-26"
-  },
-  {
-    "title": "Basic schools will teach coding, robotics and AI, but Cabinet has not signed off - 3News",
-    "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQcXlIZ0dvb3lubFhTQjJsdjVpQnEzM21hcEFHN19INzlEUlg1M2lkbGNueTBuVFBhbnc0S0JYUlc1YWY0NnJnbVRuRUVoYnE3RGRyaUplbTRyMkRFOXZvRmtGa3lHbVhRTXE2OWtYc1B2ckQyeTItcTduckZaMFd5bEhXckx5Smla?oc=5",
-    "rss_url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQcXlIZ0dvb3lubFhTQjJsdjVpQnEzM21hcEFHN19INzlEUlg1M2lkbGNueTBuVFBhbnc0S0JYUlc1YWY0NnJnbVRuRUVoYnE3RGRyaUplbTRyMkRFOXZvRmtGa3lHbVhRTXE2OWtYc1B2ckQyeTItcTduckZaMFd5bEhXckx5Smla?oc=5",
-    "publisher": "3News",
-    "publisher_url": "https://3news.com",
-    "author": "Not listed",
-    "published": "2026-11-24",
-    "year": "2026",
-    "description": "Basic schools will teach coding, robotics and AI, but Cabinet has not signed off 3News",
-    "score": 6,
-    "categories": [
-      "AI in Education"
-    ],
-    "region": "Global",
-    "country": "",
-    "location_basis": "multiple editions",
-    "source": "Google News",
-    "content_type": "Web article",
-    "summary": "",
-    "summary_status": "not_requested",
-    "first_seen": "2026-11-25",
-    "collected_at": "2026-11-26"
-  },
-  {
-    "title": "Robotics, coding, AI to be introduced in basic schools – Haruna Iddrisu - Adomonline.com",
-    "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQNzZmNWpvZUtpc0tGd0pkeC1kb2JyZDlxci1zQ2k0OE1Xdk1NUGUtdnhYX0pvYURxdGNEZjJCVTBhMXZFN3MtRVNDUVMyRGpqYUJuLVVMcVBPaGlEYjJ5MXo5M3FZXzZvUUdUV3RSV0FsakJnSl9sVVk4X2RiLVd2dFl6QkRyVllDUEZsS0FhVVQ3dVp2S19Pb050UQ?oc=5",
-    "rss_url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQNzZmNWpvZUtpc0tGd0pkeC1kb2JyZDlxci1zQ2k0OE1Xdk1NUGUtdnhYX0pvYURxdGNEZjJCVTBhMXZFN3MtRVNDUVMyRGpqYUJuLVVMcVBPaGlEYjJ5MXo5M3FZXzZvUUdUV3RSV0FsakJnSl9sVVk4X2RiLVd2dFl6QkRyVllDUEZsS0FhVVQ3dVp2S19Pb050UQ?oc=5",
-    "publisher": "Adomonline.com",
-    "publisher_url": "https://www.adomonline.com",
-    "author": "Not listed",
-    "published": "2026-11-24",
-    "year": "2026",
-    "description": "Robotics, coding, AI to be introduced in basic schools – Haruna Iddrisu Adomonline.com",
-    "score": 6,
-    "categories": [
-      "AI in Education"
-    ],
-    "region": "Global",
-    "country": "",
-    "location_basis": "multiple editions",
-    "source": "Google News",
-    "content_type": "Web article",
-    "summary": "",
-    "summary_status": "not_requested",
-    "first_seen": "2026-11-25",
-    "collected_at": "2026-11-26"
-  },
-  {
-    "title": "US schools are moving away from AI in Google searches. Should Australia do the same? - inkl",
-    "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOeHQ3aktjd185blpISnZIMm5NZnVNaE1xSmxEZWlMNFVVRS1CRG5DcVhvVmhFSDNwRHlyYTA4ajBaV29GVFVLQzdJdmg1MEU2bWJ3Q2hwSVk3TjRMQW9SZW1NLWswUVhidE55ZkQ4SmFNTTFQWmZUMTBMbGxiNnpENkJibTd6MXBuTm1WLUlFei0xZHVXOEFZYkNSTXBkd2k3Szh5R1VqVUdJaVJE?oc=5",
-    "rss_url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOeHQ3aktjd185blpISnZIMm5NZnVNaE1xSmxEZWlMNFVVRS1CRG5DcVhvVmhFSDNwRHlyYTA4ajBaV29GVFVLQzdJdmg1MEU2bWJ3Q2hwSVk3TjRMQW9SZW1NLWswUVhidE55ZkQ4SmFNTTFQWmZUMTBMbGxiNnpENkJibTd6MXBuTm1WLUlFei0xZHVXOEFZYkNSTXBkd2k3Szh5R1VqVUdJaVJE?oc=5",
-    "publisher": "inkl",
-    "publisher_url": "https://www.inkl.com",
-    "author": "Not listed",
-    "published": "2026-11-24",
-    "year": "2026",
-    "description": "US schools are moving away from AI in Google searches. Should Australia do the same? inkl",
-    "score": 6,
-    "categories": [
-      "AI in Education"
-    ],
-    "region": "Global",
-    "country": "Australia",
-    "location_basis": "article text",
-    "source": "Google News",
-    "content_type": "Web article",
-    "summary": "",
-    "summary_status": "not_requested",
-    "first_seen": "2026-11-25",
-    "collected_at": "2026-11-26"
-  },
-  {
-    "title": "US schools are moving away from AI in Google searches. Should Australia do the same? - The Conversation",
-    "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPSjd5VmhCSFJQTHAtTjVGcS1XRnU4VVJ5T05hYmJrMzR0Q2c0ZmVnVW9jdkczVjVrNDJyV3U1VkVqWlBFdnkyVmRRX2JxRV84dVk0LUdqU3J5WGh3WFlDam1EN1BwcnJlR1ZYWnRIQTlkdmIzRjJudGRqbTdSZkxJeHdlTW11MWlVeUZFQ2JhejNrTmZSTGxGdlBsYktrLUxFQUxZNzBNM1JKVHo0bXEweGdpdjNZSTVB?oc=5",
-    "rss_url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPSjd5VmhCSFJQTHAtTjVGcS1XRnU4VVJ5T05hYmJrMzR0Q2c0ZmVnVW9jdkczVjVrNDJyV3U1VkVqWlBFdnkyVmRRX2JxRV84dVk0LUdqU3J5WGh3WFlDam1EN1BwcnJlR1ZYWnRIQTlkdmIzRjJudGRqbTdSZkxJeHdlTW11MWlVeUZFQ2JhejNrTmZSTGxGdlBsYktrLUxFQUxZNzBNM1JKVHo0bXEweGdpdjNZSTVB?oc=5",
-    "publisher": "The Conversation",
-    "publisher_url": "https://theconversation.com",
-    "author": "Not listed",
-    "published": "2026-11-24",
-    "year": "2026",
-    "description": "US schools are moving away from AI in Google searches. Should Australia do the same? The Conversation",
-    "score": 6,
-    "categories": [
-      "AI in Education"
-    ],
-    "region": "Global",
-    "country": "Australia",
-    "location_basis": "article text",
-    "source": "Google News",
-    "content_type": "Web article",
-    "summary": "",
-    "summary_status": "not_requested",
-    "first_seen": "2026-11-25",
-    "collected_at": "2026-11-26"
-  },
-  {
-    "title": "Framework Outlines Vertical Artificial Intelligence Integration Across Entire Engineering Education Pipeline - Bioengineer.org",
-    "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxQRkEwM01LNDNRMTR4aEdUeVJjb2ZORW1qMTVYeGlzZTdIRGo2bkFuQ1FnSEsxMEZ0anFXTl81UlYxQWFKMjQyODFQWDJGTnFPT0FPYWlxSS1RWnFTWmZNM0FLcm1LODdjZVpSUDhXYWYxaXRKcjZIMmNCZVpQcVlrcmJ1dURGRlVzN3FCWDhVWnQ5NW1nSlU2RnFSV1dmRjBYRFVMT1ZsbE9JWTBhc3hveDUxZC1XeXJJNHJLakNnRURnMmE3TlF4SGNBN19NZw?oc=5",
-    "rss_url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxQRkEwM01LNDNRMTR4aEdUeVJjb2ZORW1qMTVYeGlzZTdIRGo2bkFuQ1FnSEsxMEZ0anFXTl81UlYxQWFKMjQyODFQWDJGTnFPT0FPYWlxSS1RWnFTWmZNM0FLcm1LODdjZVpSUDhXYWYxaXRKcjZIMmNCZVpQcVlrcmJ1dURGRlVzN3FCWDhVWnQ5NW1nSlU2RnFSV1dmRjBYRFVMT1ZsbE9JWTBhc3hveDUxZC1XeXJJNHJLakNnRURnMmE3TlF4SGNBN19NZw?oc=5",
-    "publisher": "Bioengineer.org",
-    "publisher_url": "https://bioengineer.org",
-    "author": "Not listed",
-    "published": "2026-11-24",
-    "year": "2026",
-    "description": "Framework Outlines Vertical Artificial Intelligence Integration Across Entire Engineering Education Pipeline Bioengineer.org",
-    "score": 6,
-    "categories": [
-      "AI in Education"
-    ],
-    "region": "USA",
-    "country": "USA",
-    "location_basis": "news edition",
-    "source": "Google News",
-    "content_type": "Web article",
-    "summary": "",
-    "summary_status": "not_requested",
-    "first_seen": "2026-11-25",
-    "collected_at": "2026-11-26"
-  },
-  {
-    "title": "Gov’t set to introduce AI, robotics and coding at basic school level - MyJoyOnline",
-    "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOVm02UlA0SWotbXBYRlpQMzRYN2U3TktCRjJPZ1FMMW5LQVRYT2VLd3ByYS0tbi1tNGtMWldwYWNkbVJ5czZTdVNNNVp6eWpUUEdtLWdqQjhSTS0yQ0tYSVh0NTIxUjBpQ25XdkUxNWFsSm1iM3BQSi1RMW9YZUR1LWhaX0RSQVY1VGp4eWMxY3lMbVBTVkxleXJWYw?oc=5",
-    "rss_url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOVm02UlA0SWotbXBYRlpQMzRYN2U3TktCRjJPZ1FMMW5LQVRYT2VLd3ByYS0tbi1tNGtMWldwYWNkbVJ5czZTdVNNNVp6eWpUUEdtLWdqQjhSTS0yQ0tYSVh0NTIxUjBpQ25XdkUxNWFsSm1iM3BQSi1RMW9YZUR1LWhaX0RSQVY1VGp4eWMxY3lMbVBTVkxleXJWYw?oc=5",
-    "publisher": "MyJoyOnline",
-    "publisher_url": "https://www.myjoyonline.com",
-    "author": "Not listed",
-    "published": "2026-11-24",
-    "year": "2026",
-    "description": "Gov’t set to introduce AI, robotics and coding at basic school level MyJoyOnline",
-    "score": 6,
-    "categories": [
-      "AI in Education"
-    ],
-    "region": "USA",
-    "country": "USA",
-    "location_basis": "news edition",
-    "source": "Google News",
-    "content_type": "Web article",
-    "summary": "",
-    "summary_status": "not_requested",
-    "first_seen": "2026-11-25",
-    "collected_at": "2026-11-26"
-  },
-  {
-    "title": "Access to AI answers ends for Los Angeles student searches - https://latination.com/",
-    "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE16UEhldGxfZGwwT3hJaktId01hSHRsQXJnX2N0VFRwcjAtNHJaQi1uZWZ2TmFRdG1wU1dQRW5BV3J3NF96WHpodXpxVmhpcEk0WjY4a2tyVXYzMExHQjZpZ0ZwbDJxekl5U1JCY284VnpIOWNFYy1MUm9mbw?oc=5",
-    "rss_url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE16UEhldGxfZGwwT3hJaktId01hSHRsQXJnX2N0VFRwcjAtNHJaQi1uZWZ2TmFRdG1wU1dQRW5BV3J3NF96WHpodXpxVmhpcEk0WjY4a2tyVXYzMExHQjZpZ0ZwbDJxekl5U1JCY284VnpIOWNFYy1MUm9mbw?oc=5",
-    "publisher": "https://latination.com/",
-    "publisher_url": "https://latination.com",
-    "author": "Not listed",
-    "published": "2026-11-24",
-    "year": "2026",
-    "description": "Access to AI answers ends for Los Angeles student searches https://latination.com/",
-    "score": 6,
-    "categories": [
-      "AI in Education"
-    ],
-    "region": "USA",
-    "country": "USA",
-    "location_basis": "article text",
-    "source": "Google News",
-    "content_type": "Web article",
-    "summary": "",
-    "summary_status": "not_requested",
-    "first_seen": "2026-11-25",
-    "collected_at": "2026-11-26"
-  },
-  {
-    "title": "Tulare County students at Mt. Whitney High School students build robots and career skills through computer science academy - ABC30 Fresno",
-    "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxPQWUxVlpRZ1V3MGRoTmpJRGxUQUU1YWdDb0pSbmY0RlVva3l0LURpV1hyUE0tMDM2el96Q1BfWGtZdjdiTElVc0tNMXVfNzZMcUNlMGRhY3ZoMzZnR01CNlplb1I5VWFkRXFDYUlhTi12VDQwaHp1RUdwaWlYdDBUNTFCaGdfdUN2M0hPWXFNc3czd3R5dHhLamZVVU1UOG9idi1VeTJWdC1lWEJWNS1heUpQTzZhUEh4d2ZEZ0RNTGFUcU4zUFlWOG1n0gHPAUFVX3lxTE0tM3F5N3N6N1NfdjdVQV91NjAtUVpmTy1FTWlrcWV0OTlKcmh0LXpTWUV6aWJMSExmSGVYNk5wMjg4Wk1rcmpGZnRvLUROYklnTWtMd1VQUU5UU2tUT3NSbTlaT3dFU044MWE0Sk81b0UxNkx4elFRTnRsRURva2ZIOE1TeXd6NkRBVFNFRmlSdjN4VE9VUlpFTmEzazhCSExjdlRZY3FPSUpoWl81UE03b3p6Y0lSN1VkaFUxaVkwWVZScm13RHFfY1FpVUR1VQ?oc=5",
-    "rss_url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxPQWUxVlpRZ1V3MGRoTmpJRGxUQUU1YWdDb0pSbmY0RlVva3l0LURpV1hyUE0tMDM2el96Q1BfWGtZdjdiTElVc0tNMXVfNzZMcUNlMGRhY3ZoMzZnR01CNlplb1I5VWFkRXFDYUlhTi12VDQwaHp1RUdwaWlYdDBUNTFCaGdfdUN2M0hPWXFNc3czd3R5dHhLamZVVU1UOG9idi1VeTJWdC1lWEJWNS1heUpQTzZhUEh4d2ZEZ0RNTGFUcU4zUFlWOG1n0gHPAUFVX3lxTE0tM3F5N3N6N1NfdjdVQV91NjAtUVpmTy1FTWlrcWV0OTlKcmh0LXpTWUV6aWJMSExmSGVYNk5wMjg4Wk1rcmpGZnRvLUROYklnTWtMd1VQUU5UU2tUT3NSbTlaT3dFU044MWE0Sk81b0UxNkx4elFRTnRsRURva2ZIOE1TeXd6NkRBVFNFRmlSdjN4VE9VUlpFTmEzazhCSExjdlRZY3FPSUpoWl81UE03b3p6Y0lSN1VkaFUxaVkwWVZScm13RHFfY1FpVUR1VQ?oc=5",
-    "publisher": "ABC30 Fresno",
-    "publisher_url": "https://abc30.com",
-    "author": "Not listed",
-    "published": "2026-11-23",
-    "year": "2026",
-    "description": "Tulare County students at Mt. Whitney High School students build robots and career skills through computer science academy ABC30 Fresno",
-    "score": 10,
-    "categories": [
-      "Student Activities and Assessment"
-    ],
-    "region": "USA",
-    "country": "USA",
-    "location_basis": "news edition",
-    "source": "Google News",
-    "content_type": "Web article",
-    "summary": "",
-    "summary_status": "not_requested",
-    "first_seen": "2026-11-25",
-    "collected_at": "2026-11-26"
-  },
-  {
-    "title": "AI’s Growing Impact on Computer Science Education - The Watchdog",
-    "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQbmlWaVp6Ulc4QUVEVVYzeUxrOEJRMDhXX1pUcEx1Z1ZlVFZfSldHU3ZIYWEtRm9FeEsza0dGcVp5V0pXZWdfQlJBVmEwaFNvSTNDRWg4aW9JX3MzTl9HSkJWZ0ZOMUVva0YxdExsZ0ExWms3X3ZXMGQ5VzFNR1hMNjdZUnZZYnBhUng5Xw?oc=5",
-    "rss_url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQbmlWaVp6Ulc4QUVEVVYzeUxrOEJRMDhXX1pUcEx1Z1ZlVFZfSldHU3ZIYWEtRm9FeEsza0dGcVp5V0pXZWdfQlJBVmEwaFNvSTNDRWg4aW9JX3MzTl9HSkJWZ0ZOMUVva0YxdExsZ0ExWms3X3ZXMGQ5VzFNR1hMNjdZUnZZYnBhUng5Xw?oc=5",
-    "publisher": "The Watchdog",
-    "publisher_url": "https://thewatchdogonline.com",
-    "author": "Not listed",
-    "published": "2026-11-23",
-    "year": "2026",
-    "description": "AI’s Growing Impact on Computer Science Education The Watchdog",
-    "score": 9,
-    "categories": [
-      "AI in Education",
-      "CS Education"
-    ],
-    "region": "Global",
-    "country": "",
-    "location_basis": "multiple editions",
-    "source": "Google News",
-    "content_type": "Web article",
-    "summary": "",
-    "summary_status": "not_requested",
-    "first_seen": "2026-11-25",
-    "collected_at": "2026-11-26"
-  },
-  {
-    "title": "China makes AI education mandatory for students, eyes technology dominance by 2030 - 디지털투데이",
-    "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPZDNkQ01fTHRmanZhSnR5S2FkZkdXNnoyRFFWdDFfX2cyMV9fUk1qSXJJUVVBVmxmX2Mxc2k3TVFLejQtVnB2c3lxOUNIV095Z01qSFFiVlRtQ1Y3UUxManY3TDNZS0V4eF9kanVRMTZLUFNqSFRMWDZLNmdha205TlRnaXFudXZ1dzVkUDhfZXg4NXE5VWl4aHd6aTluN0ZuRm5OWVdFSGxFS285bVdBbWVINjdZUXdFSGpYdlpzdi1XOXRxdHc?oc=5",
-    "rss_url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPZDNkQ01fTHRmanZhSnR5S2FkZkdXNnoyRFFWdDFfX2cyMV9fUk1qSXJJUVVBVmxmX2Mxc2k3TVFLejQtVnB2c3lxOUNIV095Z01qSFFiVlRtQ1Y3UUxManY3TDNZS0V4eF9kanVRMTZLUFNqSFRMWDZLNmdha205TlRnaXFudXZ1dzVkUDhfZXg4NXE5VWl4aHd6aTluN0ZuRm5OWVdFSGxFS285bVdBbWVINjdZUXdFSGpYdlpzdi1XOXRxdHc?oc=5",
-    "publisher": "디지털투데이",
-    "publisher_url": "https://www.digitaltoday.co.kr",
-    "author": "Not listed",
-    "published": "2026-11-23",
-    "year": "2026",
-    "description": "China makes AI education mandatory for students, eyes technology dominance by 2030 디지털투데이",
-    "score": 7,
-    "categories": [
-      "AI in Education"
-    ],
-    "region": "Global",
-    "country": "China",
-    "location_basis": "article text",
-    "source": "Google News",
-    "content_type": "Web article",
-    "summary": "",
-    "summary_status": "not_requested",
-    "first_seen": "2026-11-25",
-    "collected_at": "2026-11-26"
-  },
-  {
-    "title": "AI Education Policy: 3 Lessons frsniom Japan on Inclusion - World Economic Forum",
-    "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQUDN2NXhwZXRYZTRyNEdUd1B6a01PUnd6QnJJWThORTViZHQ5dmExZ0t1WVlUbDh3cS1Eb0NLVTN2UGRFbnBJRnB2UTJtbUMzOUhTRU1xWFU5ZjR5X1ZRS3ozcllEeUlCLXpnYUx0Y2NfbV9RUFUzcURLRi1OSzhmVXk2UFFJcWloTF9RQ1pEbnhNX0Q3d0xZSTRneDBRVTd0MFdKWVl2UUxSdw?oc=5",
-    "rss_url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQUDN2NXhwZXRYZTRyNEdUd1B6a01PUnd6QnJJWThORTViZHQ5dmExZ0t1WVlUbDh3cS1Eb0NLVTN2UGRFbnBJRnB2UTJtbUMzOUhTRU1xWFU5ZjR5X1ZRS3ozcllEeUlCLXpnYUx0Y2NfbV9RUFUzcURLRi1OSzhmVXk2UFFJcWloTF9RQ1pEbnhNX0Q3d0xZSTRneDBRVTd0MFdKWVl2UUxSdw?oc=5",
-    "publisher": "World Economic Forum",
-    "publisher_url": "https://www.weforum.org",
-    "author": "Not listed",
-    "published": "2026-11-23",
-    "year": "2026",
-    "description": "AI Education Policy: 3 Lessons frsniom Japan on Inclusion World Economic Forum",
-    "score": 6,
-    "categories": [
-      "AI in Education"
-    ],
-    "region": "Global",
-    "country": "Japan",
-    "location_basis": "article text",
-    "source": "Google News",
-    "content_type": "Web article",
-    "summary": "",
-    "summary_status": "not_requested",
-    "first_seen": "2026-11-25",
-    "collected_at": "2026-11-26"
-  },
-  {
-    "title": "Daniel Anello: Chicago Board of Education should wait before adopting a far-reaching AI policy - Chicago Tribune",
-    "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPNUJrX3E0TDhSUkktTGJGa3F6OFh2MUoyZDNiRlBJcXFmNG1hdTBoV2ROSmlMeDRYWnlqTEJORXJTdWZHVUdNNFF5eWxxWmhTQW9VcDRMRV9oY0RzeEhhcTNLX25sZmRaUHFsZHBkQmpmMmpycW10cEt0TU5saVJzQ2FPbmI?oc=5",
-    "rss_url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPNUJrX3E0TDhSUkktTGJGa3F6OFh2MUoyZDNiRlBJcXFmNG1hdTBoV2ROSmlMeDRYWnlqTEJORXJTdWZHVUdNNFF5eWxxWmhTQW9VcDRMRV9oY0RzeEhhcTNLX25sZmRaUHFsZHBkQmpmMmpycW10cEt0TU5saVJzQ2FPbmI?oc=5",
-    "publisher": "Chicago Tribune",
-    "publisher_url": "https://www.chicagotribune.com",
-    "author": "Not listed",
-    "published": "2026-11-23",
-    "year": "2026",
-    "description": "Daniel Anello: Chicago Board of Education should wait before adopting a far-reaching AI policy Chicago Tribune",
-    "score": 6,
-    "categories": [
-      "AI in Education"
-    ],
-    "region": "USA",
-    "country": "USA",
-    "location_basis": "article text",
-    "source": "Google News",
-    "content_type": "Web article",
-    "summary": "",
-    "summary_status": "not_requested",
-    "first_seen": "2026-11-25",
-    "collected_at": "2026-11-26"
-  },
-  {
-    "title": "Atturra marks Scholarion milestone with robust AI in education discussion - IT Brief Australia",
-    "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQR1FLV2ktakFJZ19NbjY0YUhaSFA1dS14eWRhSmFXRVcyZlJsX1pLY2VZbm9ablU2TkRNVTRKV2h3WkNqSnBNYXp6WjNPVlRSSTJGVkdFbGM5ckhaa3l4cHF5T2lUV2o0aWthN0RySjFLdkk2SUt3ZlVEeDNJbzhFZ1ZPbU1YXzJIbnRUUXNyZ3c2elUyS0U5TE1NSnk5NTROaG1BYw?oc=5",
-    "rss_url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQR1FLV2ktakFJZ19NbjY0YUhaSFA1dS14eWRhSmFXRVcyZlJsX1pLY2VZbm9ablU2TkRNVTRKV2h3WkNqSnBNYXp6WjNPVlRSSTJGVkdFbGM5ckhaa3l4cHF5T2lUV2o0aWthN0RySjFLdkk2SUt3ZlVEeDNJbzhFZ1ZPbU1YXzJIbnRUUXNyZ3c2elUyS0U5TE1NSnk5NTROaG1BYw?oc=5",
-    "publisher": "IT Brief Australia",
-    "publisher_url": "https://itbrief.com.au",
-    "author": "Not listed",
-    "published": "2026-11-22",
-    "year": "2026",
-    "description": "Atturra marks Scholarion milestone with robust AI in education discussion IT Brief Australia",
-    "score": 9,
-    "categories": [
-      "AI in Education"
-    ],
-    "region": "Global",
-    "country": "Australia",
-    "location_basis": "article text",
-    "source": "Google News",
-    "content_type": "Web article",
-    "summary": "",
-    "summary_status": "not_requested",
-    "first_seen": "2026-11-26",
-    "collected_at": "2026-11-26"
-  },
-  {
-    "title": "Texas Sports Academy, tied to AI-driven Alpha School, is Texas’ biggest voucher recipient so far - Texas Public Radio | TPR",
-    "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxQR2duMlkwazFqcFlnYmxuYUJFM194U3BCOUNEbXZXRVN1RDRTdlk3cS1MY05ZMEJuMk9Sanl4bDl5aFREX0ltQkk5VU1YTEUyT3BsVnEyTnJGZ2g0b3JmQ2lpQXgtVEZtdVpZV2wyT0lTU2JHbTluS1BBWjBOdEhFVHJ6c2ZhZFctUU1oQlc2ZEFFclVfeGJIVV9udEJQeml1b2lZVjBzWVYxSUdnWDhQZFdVS3Y0NVJiUmhVcFdkTGloNlpIX3RrVmpIU0tGZzA?oc=5",
-    "rss_url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxQR2duMlkwazFqcFlnYmxuYUJFM194U3BCOUNEbXZXRVN1RDRTdlk3cS1MY05ZMEJuMk9Sanl4bDl5aFREX0ltQkk5VU1YTEUyT3BsVnEyTnJGZ2g0b3JmQ2lpQXgtVEZtdVpZV2wyT0lTU2JHbTluS1BBWjBOdEhFVHJ6c2ZhZFctUU1oQlc2ZEFFclVfeGJIVV9udEJQeml1b2lZVjBzWVYxSUdnWDhQZFdVS3Y0NVJiUmhVcFdkTGloNlpIX3RrVmpIU0tGZzA?oc=5",
-    "publisher": "Texas Public Radio | TPR",
-    "publisher_url": "https://www.tpr.org",
-    "author": "Not listed",
-    "published": "2026-11-22",
-    "year": "2026",
-    "description": "Texas Sports Academy, tied to AI-driven Alpha School, is Texas’ biggest voucher recipient so far Texas Public Radio | TPR",
-    "score": 6,
-    "categories": [
-      "AI in Education"
-    ],
-    "region": "USA",
-    "country": "USA",
-    "location_basis": "article text",
-    "source": "Google News",
-    "content_type": "Web article",
-    "summary": "",
-    "summary_status": "not_requested",
-    "first_seen": "2026-11-26",
-    "collected_at": "2026-11-26"
-  },
-  {
-    "title": "Syrian students take on 2026 Bebras computational thinking challenge - سانا",
-    "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE1iOUQzd1RsRFB5T081TVNkRGR1SmdITEdBNUxfU09sSEFtRWlRaEowYzVGaW1ySmpKVmdnZ29qYTM5V0d3bHI3cFhEN1JzQQ?oc=5",
-    "rss_url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE1iOUQzd1RsRFB5T081TVNkRGR1SmdITEdBNUxfU09sSEFtRWlRaEowYzVGaW1ySmpKVmdnZ29qYTM5V0d3bHI3cFhEN1JzQQ?oc=5",
-    "publisher": "سانا",
-    "publisher_url": "https://sana.sy",
-    "author": "Not listed",
-    "published": "2026-11-21",
-    "year": "2026",
-    "description": "Syrian students take on 2026 Bebras computational thinking challenge سانا",
-    "score": 7,
-    "categories": [
-      "Computational Thinking"
-    ],
-    "region": "USA",
-    "country": "USA",
-    "location_basis": "news edition",
-    "source": "Google News",
-    "content_type": "Web article",
-    "summary": "",
-    "summary_status": "not_requested",
-    "first_seen": "2026-11-25",
-    "collected_at": "2026-11-26"
-  },
-  {
-    "title": "Dartmouth to Pilot New Approaches to AI in Education - Dartmouth",
-    "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPbi1yZ1YyQ3dGblVWMEVmaWM0ZG1NNFMxQnlNYjNYU2FhRWdyaUpudEVQdEZvZUxZbEdPX2JWNGlDR3NHTW40NGZTMHdNRF9jUHVCVnJhaHdLX015VU1LUnBILXRGRDZHZk5ZY25GSkFQdHMyOU9BMWxpRE1uNENNaTNsc29hZk5tQ0dr?oc=5",
-    "rss_url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPbi1yZ1YyQ3dGblVWMEVmaWM0ZG1NNFMxQnlNYjNYU2FhRWdyaUpudEVQdEZvZUxZbEdPX2JWNGlDR3NHTW40NGZTMHdNRF9jUHVCVnJhaHdLX015VU1LUnBILXRGRDZHZk5ZY25GSkFQdHMyOU9BMWxpRE1uNENNaTNsc29hZk5tQ0dr?oc=5",
-    "publisher": "Dartmouth",
-    "publisher_url": "https://home.dartmouth.edu",
-    "author": "Not listed",
-    "published": "2026-11-20",
-    "year": "2026",
-    "description": "Dartmouth to Pilot New Approaches to AI in Education Dartmouth",
-    "score": 9,
-    "categories": [
-      "AI in Education"
-    ],
-    "region": "Global",
-    "country": "",
-    "location_basis": "multiple editions",
-    "source": "Google News",
-    "content_type": "Web article",
-    "summary": "",
-    "summary_status": "not_requested",
-    "first_seen": "2026-11-26",
-    "collected_at": "2026-11-26"
+    "collected_at": "2026-11-27"
   },
   {
     "title": "WhalesBot Advances Creativity-Driven AI and Coding Education Through Pubbo AI - Big News Network.com",
@@ -1640,7 +1710,7 @@
     "summary": "Main idea: WhalesBot is advancing creativity-driven artificial intelligence and coding education using Pubbo AI. \nClassroom use: Educators can incorporate these tools to teach students coding and artificial intelligence concepts. \nWhy it is useful: It promotes creativity-focused learning in computer science education through modern AI technologies.",
     "summary_status": "ok",
     "first_seen": "2026-11-25",
-    "collected_at": "2026-11-26",
+    "collected_at": "2026-11-27",
     "summarised_at": "2026-11-25T08:09:47.025434+00:00"
   },
   {
@@ -1666,79 +1736,7 @@
     "summary": "",
     "summary_status": "pending",
     "first_seen": "2026-11-25",
-    "collected_at": "2026-11-26"
-  },
-  {
-    "title": "Education unions condemn Google's attempt to force AI into schools - Education International",
-    "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNbUZLSDBlaGp4YVZuZTBYT1l0VFNMS2ZTUzI5WjBCaEpFWEQybl9zYWhFU3lJS0JfY2Vkc3JRQlY5emlHZXRyZ1lKc0dOUFRwV3VrLWpyMEtteWp1UWFnbG96MFItX1Z1OEFPbGVWV2tFWWp0d200OExzT3hiRzRnSXdCdFNRVjNXMWo5amFpUTlIRndXeXYxc0l3Vl9XckZGaS1R?oc=5",
-    "rss_url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNbUZLSDBlaGp4YVZuZTBYT1l0VFNMS2ZTUzI5WjBCaEpFWEQybl9zYWhFU3lJS0JfY2Vkc3JRQlY5emlHZXRyZ1lKc0dOUFRwV3VrLWpyMEtteWp1UWFnbG96MFItX1Z1OEFPbGVWV2tFWWp0d200OExzT3hiRzRnSXdCdFNRVjNXMWo5amFpUTlIRndXeXYxc0l3Vl9XckZGaS1R?oc=5",
-    "publisher": "Education International",
-    "publisher_url": "https://www.ei-ie.org",
-    "author": "Not listed",
-    "published": "2026-11-20",
-    "year": "2026",
-    "description": "Education unions condemn Google's attempt to force AI into schools Education International",
-    "score": 7,
-    "categories": [
-      "AI in Education"
-    ],
-    "region": "Global",
-    "country": "",
-    "location_basis": "multiple editions",
-    "source": "Google News",
-    "content_type": "Web article",
-    "summary": "",
-    "summary_status": "not_requested",
-    "first_seen": "2026-11-26",
-    "collected_at": "2026-11-26"
-  },
-  {
-    "title": "AI in African education: Benefits, risks & policy solutions - World Economic Forum",
-    "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPSzExREw1MmNuYTl4OWEtMVJXbVM1dXBoRU5LVXo0UjNsWVFCb1pPdGZfM3NYYlREYzFSLVd2Wnl4dDJmMFlMOExUV2hwZlRNV3NiazFzZ0RfVWpTRjRWdzZ0NWtiS2V1OW5waU9McTZlamFNNlgyY2NoM3V4MGNEajZkd2ZyUjJpZHBfeVFaSGwxUmZLWHUzWmExeUZGN3M?oc=5",
-    "rss_url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPSzExREw1MmNuYTl4OWEtMVJXbVM1dXBoRU5LVXo0UjNsWVFCb1pPdGZfM3NYYlREYzFSLVd2Wnl4dDJmMFlMOExUV2hwZlRNV3NiazFzZ0RfVWpTRjRWdzZ0NWtiS2V1OW5waU9McTZlamFNNlgyY2NoM3V4MGNEajZkd2ZyUjJpZHBfeVFaSGwxUmZLWHUzWmExeUZGN3M?oc=5",
-    "publisher": "World Economic Forum",
-    "publisher_url": "https://www.weforum.org",
-    "author": "Not listed",
-    "published": "2026-11-19",
-    "year": "2026",
-    "description": "AI in African education: Benefits, risks & policy solutions World Economic Forum",
-    "score": 6,
-    "categories": [
-      "AI in Education"
-    ],
-    "region": "Global",
-    "country": "",
-    "location_basis": "multiple editions",
-    "source": "Google News",
-    "content_type": "Web article",
-    "summary": "",
-    "summary_status": "not_requested",
-    "first_seen": "2026-11-26",
-    "collected_at": "2026-11-26"
-  },
-  {
-    "title": "How to prepare computer science students for the AI era - University of North Dakota",
-    "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQZW9XWjc4Z0dYYzgtZF9XakQ2VFpDVGFvRnBTbkh2TUhGQ1ZkQ3U5S0cybmp6UmEtdXRLajhrQ25uVm5XTFlfbm9YdDdLcmQ0R0UtUkw2SEIwS0Y4OV80aGNJYzFTWnhtWklHYVpKWGJ5NS1mYWFUZ0RzWUh5bmtaYkdjYjVWZG44UFVLU0ZJNm1VcFBo?oc=5",
-    "rss_url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQZW9XWjc4Z0dYYzgtZF9XakQ2VFpDVGFvRnBTbkh2TUhGQ1ZkQ3U5S0cybmp6UmEtdXRLajhrQ25uVm5XTFlfbm9YdDdLcmQ0R0UtUkw2SEIwS0Y4OV80aGNJYzFTWnhtWklHYVpKWGJ5NS1mYWFUZ0RzWUh5bmtaYkdjYjVWZG44UFVLU0ZJNm1VcFBo?oc=5",
-    "publisher": "University of North Dakota",
-    "publisher_url": "https://blogs.und.edu",
-    "author": "Not listed",
-    "published": "2026-11-18",
-    "year": "2026",
-    "description": "How to prepare computer science students for the AI era University of North Dakota",
-    "score": 6,
-    "categories": [
-      "AI in Education"
-    ],
-    "region": "Global",
-    "country": "",
-    "location_basis": "multiple editions",
-    "source": "Google News",
-    "content_type": "Web article",
-    "summary": "",
-    "summary_status": "not_requested",
-    "first_seen": "2026-11-26",
-    "collected_at": "2026-11-26"
+    "collected_at": "2026-11-27"
   },
   {
     "title": "Nursing education in the AI era: What student data reveals - Wolters Kluwer",
@@ -1763,7 +1761,32 @@
     "summary": "",
     "summary_status": "not_requested",
     "first_seen": "2026-11-25",
-    "collected_at": "2026-11-26"
+    "collected_at": "2026-11-27"
+  },
+  {
+    "title": "Nursing education in the AI era: What student data reveals - Wolters Kluwer",
+    "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNVDQyWUlTRmRfUmVuTXR5YVk1WG40UGFBYzBFWlpSc0w4bGxib3NaaFZjeVFSelFXZ1BLNDhRLUc5N1pPc3VvOUxEeC1NaVloSG1tN2JOQnhpczhidU1KWTE4QzlLV0ZWQlF6cnBoSWlpVVhwS243S0xwU0JpakdrOFk3V3kyNHFOU0lFUjMtbWhyQ21KOHhVcUVsbkwyVS0wTEp6MjhHZFlRQQ?oc=5",
+    "rss_url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNVDQyWUlTRmRfUmVuTXR5YVk1WG40UGFBYzBFWlpSc0w4bGxib3NaaFZjeVFSelFXZ1BLNDhRLUc5N1pPc3VvOUxEeC1NaVloSG1tN2JOQnhpczhidU1KWTE4QzlLV0ZWQlF6cnBoSWlpVVhwS243S0xwU0JpakdrOFk3V3kyNHFOU0lFUjMtbWhyQ21KOHhVcUVsbkwyVS0wTEp6MjhHZFlRQQ?oc=5",
+    "publisher": "Wolters Kluwer",
+    "publisher_url": "https://www.wolterskluwer.com",
+    "author": "Not listed",
+    "published": "2026-11-06",
+    "year": "2026",
+    "description": "Nursing education in the AI era: What student data reveals Wolters Kluwer",
+    "score": 10,
+    "categories": [
+      "Teaching and Learning Analytics",
+      "AI in Education"
+    ],
+    "region": "Nepal",
+    "country": "Nepal",
+    "location_basis": "news edition",
+    "source": "Google News",
+    "content_type": "Web article",
+    "summary": "",
+    "summary_status": "not_requested",
+    "first_seen": "2026-11-27",
+    "collected_at": "2026-11-27"
   },
   {
     "title": "Beyond textbooks: Transforming Nepal’s education system with AI - Khabarhub",
@@ -1787,7 +1810,7 @@
     "summary": "",
     "summary_status": "not_requested",
     "first_seen": "2026-11-25",
-    "collected_at": "2026-11-26"
+    "collected_at": "2026-11-27"
   },
   {
     "title": "Meghalaya Signs MoU with Airtel Foundation to Strengthen Teacher Training, Digital Learning - Jagran Josh",
@@ -1811,7 +1834,7 @@
     "summary": "",
     "summary_status": "not_requested",
     "first_seen": "2026-11-25",
-    "collected_at": "2026-11-26"
+    "collected_at": "2026-11-27"
   },
   {
     "title": "Trump has promoted AI in education. His FCC may end school internet subsidies. - Caledonian Record",
@@ -1835,7 +1858,7 @@
     "summary": "",
     "summary_status": "not_requested",
     "first_seen": "2026-11-25",
-    "collected_at": "2026-11-26"
+    "collected_at": "2026-11-27"
   },
   {
     "title": "Opinion | Are Nepali schools ready for the AI takeover? - The Kathmandu Post",
@@ -1859,7 +1882,7 @@
     "summary": "",
     "summary_status": "not_requested",
     "first_seen": "2026-11-25",
-    "collected_at": "2026-11-26"
+    "collected_at": "2026-11-27"
   },
   {
     "title": "SUNY Poly, Whitesboro partner on AI education project | News - Rome Sentinel",
@@ -1883,7 +1906,7 @@
     "summary": "",
     "summary_status": "not_requested",
     "first_seen": "2026-11-25",
-    "collected_at": "2026-11-26"
+    "collected_at": "2026-11-27"
   },
   {
     "title": "Curriculum will be revised based on student feedback, says Education Minister Pokharel - Nepalnews.com",
@@ -1907,7 +1930,31 @@
     "summary": "",
     "summary_status": "not_requested",
     "first_seen": "2026-11-25",
-    "collected_at": "2026-11-26"
+    "collected_at": "2026-11-27"
+  },
+  {
+    "title": "Vietnam’s education ministry to develop AI education framework - Asia News Network",
+    "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOZGVsOGFyRG5iZHhMc20xeFRjdnZFN3cycnVYVzdBVW8yS2hsUDltbVRMa3ZTeGRZUm5ycTVCQUdvWUIyX2dDLVRINjBZeHladXo0bndXU1VkOFRwcE40UFp3ZGIzRkhIazVpTEdjYmFvbHdiS0VsQVltbmlScjNKM2RfMlQ5UmlETTl2OFRyRzA?oc=5",
+    "rss_url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOZGVsOGFyRG5iZHhMc20xeFRjdnZFN3cycnVYVzdBVW8yS2hsUDltbVRMa3ZTeGRZUm5ycTVCQUdvWUIyX2dDLVRINjBZeHladXo0bndXU1VkOFRwcE40UFp3ZGIzRkhIazVpTEdjYmFvbHdiS0VsQVltbmlScjNKM2RfMlQ5UmlETTl2OFRyRzA?oc=5",
+    "publisher": "Asia News Network",
+    "publisher_url": "https://asianews.network",
+    "author": "Not listed",
+    "published": "2026-09-10",
+    "year": "2026",
+    "description": "Vietnam’s education ministry to develop AI education framework Asia News Network",
+    "score": 6,
+    "categories": [
+      "AI in Education"
+    ],
+    "region": "Nepal",
+    "country": "Nepal",
+    "location_basis": "news edition",
+    "source": "Google News",
+    "content_type": "Web article",
+    "summary": "",
+    "summary_status": "not_requested",
+    "first_seen": "2026-11-27",
+    "collected_at": "2026-11-27"
   },
   {
     "title": "JanAI Report 2026: 26% Government School Teachers Use AI as Teaching Aid - Jagran Josh",
@@ -1931,7 +1978,7 @@
     "summary": "",
     "summary_status": "not_requested",
     "first_seen": "2026-11-25",
-    "collected_at": "2026-11-26"
+    "collected_at": "2026-11-27"
   },
   {
     "title": "KOICA-funded INSPIRE project marks one year of advancing digital learning in Madhesh - The Himalayan Times",
@@ -1955,7 +2002,7 @@
     "summary": "",
     "summary_status": "not_requested",
     "first_seen": "2026-11-25",
-    "collected_at": "2026-11-26"
+    "collected_at": "2026-11-27"
   },
   {
     "title": "Ronda Zelezny-Green on how Nepal’s teachers are using AI ‘almost blindly’ - The Kathmandu Post",
@@ -1979,7 +2026,7 @@
     "summary": "",
     "summary_status": "not_requested",
     "first_seen": "2026-11-25",
-    "collected_at": "2026-11-26"
+    "collected_at": "2026-11-27"
   },
   {
     "title": "‘AI should augment teachers, not replace them’ - myRepublica",
@@ -2003,54 +2050,6 @@
     "summary": "",
     "summary_status": "not_requested",
     "first_seen": "2026-11-25",
-    "collected_at": "2026-11-26"
-  },
-  {
-    "title": "Meghalaya launches digital learning programme for Anganwadis - EastMojo",
-    "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPWHg0a0VzQnVPZjdQbU5oenFlUlBYSVVycF9Lb0N5RHhOUVJtcnplcGREOEFTSXRNMlctbUxWZ1dKNUlWQ0prOUdsZG5uN2c1a2hhSko5bllPUHNpSmZFOHViOUVMR0pKMFNjTFVyRjJRdzhreWdaazhEZFI0X3NfNlF5bG95UGIyX1lTLUpRVzVFZFh4enMtM1l1RE5ZcFQzVGVUMDlsT3FkdjNOX0hCSw?oc=5",
-    "rss_url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPWHg0a0VzQnVPZjdQbU5oenFlUlBYSVVycF9Lb0N5RHhOUVJtcnplcGREOEFTSXRNMlctbUxWZ1dKNUlWQ0prOUdsZG5uN2c1a2hhSko5bllPUHNpSmZFOHViOUVMR0pKMFNjTFVyRjJRdzhreWdaazhEZFI0X3NfNlF5bG95UGIyX1lTLUpRVzVFZFh4enMtM1l1RE5ZcFQzVGVUMDlsT3FkdjNOX0hCSw?oc=5",
-    "publisher": "EastMojo",
-    "publisher_url": "https://eastmojo.com",
-    "author": "Not listed",
-    "published": "2026-08-13",
-    "year": "2026",
-    "description": "Meghalaya launches digital learning programme for Anganwadis EastMojo",
-    "score": 4,
-    "categories": [
-      "Digital Pedagogy"
-    ],
-    "region": "Nepal",
-    "country": "Nepal",
-    "location_basis": "news edition",
-    "source": "Google News",
-    "content_type": "Web article",
-    "summary": "",
-    "summary_status": "not_requested",
-    "first_seen": "2026-11-25",
-    "collected_at": "2026-11-26"
-  },
-  {
-    "title": "6 ways to guide responsible AI prompts for learning - Turnitin",
-    "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOUmZGTGpnZjIwVm5UaERySExMd3J4YVBDajVKVnFTSlVaLXFCemRsOU5FZDUyeE9wNnpuajVtd29rX3l2RUkyVDVwcXRuYW8tdVY5aG5YYTVRY3JJU1o5Nm90ZnZOYV9vTDlYSXFKVmJRRndzaWZJNFlvSUc5ek5NcDlyY0FiaEVp?oc=5",
-    "rss_url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOUmZGTGpnZjIwVm5UaERySExMd3J4YVBDajVKVnFTSlVaLXFCemRsOU5FZDUyeE9wNnpuajVtd29rX3l2RUkyVDVwcXRuYW8tdVY5aG5YYTVRY3JJU1o5Nm90ZnZOYV9vTDlYSXFKVmJRRndzaWZJNFlvSUc5ek5NcDlyY0FiaEVp?oc=5",
-    "publisher": "Turnitin",
-    "publisher_url": "https://www.turnitin.com",
-    "author": "Not listed",
-    "published": "2026-07-30",
-    "year": "2026",
-    "description": "6 ways to guide responsible AI prompts for learning Turnitin",
-    "score": 4,
-    "categories": [
-      "AI in Education"
-    ],
-    "region": "Nepal",
-    "country": "Nepal",
-    "location_basis": "news edition",
-    "source": "Google News",
-    "content_type": "Web article",
-    "summary": "",
-    "summary_status": "not_requested",
-    "first_seen": "2026-11-25",
-    "collected_at": "2026-11-26"
+    "collected_at": "2026-11-27"
   }
 ]
